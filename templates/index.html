@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Size Recommendation AI - Menswear</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .main-container {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+            margin: 2rem auto;
+            max-width: 900px;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            padding: 2rem;
+            border-radius: 20px 20px 0 0;
+            text-align: center;
+        }
+        
+        .header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+        
+        .header p {
+            margin: 1rem 0 0 0;
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        
+        .form-container {
+            padding: 2rem;
+        }
+        
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        
+        .form-label {
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+        }
+        
+        .form-control {
+            border: 2px solid #e9ecef;
+            border-radius: 10px;
+            padding: 0.75rem;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+        }
+        
+        .form-control:focus {
+            border-color: #667eea;
+            box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border: none;
+            border-radius: 10px;
+            padding: 0.75rem 2rem;
+            font-size: 1.1rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+        }
+        
+        /* Visual Body Type Selector */
+        .body-type-selector {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .body-type-options {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 1rem;
+        }
+        
+        .body-type-option {
+            text-align: center;
+            cursor: pointer;
+            padding: 1rem;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+        
+        .body-type-option:hover {
+            background: #e9ecef;
+            transform: translateY(-2px);
+        }
+        
+        .body-type-option.selected {
+            border-color: #667eea;
+            background: #e8f4fd;
+        }
+        
+        .body-type-icon {
+            width: 60px;
+            height: 60px;
+            margin: 0 auto 0.5rem;
+            background: #667eea;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.5rem;
+            transition: all 0.3s ease;
+        }
+        
+        .body-type-option.selected .body-type-icon {
+            background: #2c3e50;
+            transform: scale(1.1);
+        }
+        
+        .body-type-label {
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 0.25rem;
+        }
+        
+        .body-type-desc {
+            font-size: 0.8rem;
+            color: #6c757d;
+        }
+        
+        /* Minimal Input Mode */
+        .input-mode-toggle {
+            background: #e8f4fd;
+            border-radius: 10px;
+            padding: 1rem;
+            margin-bottom: 1.5rem;
+            border-left: 4px solid #667eea;
+        }
+        
+        .toggle-switch {
+            position: relative;
+            display: inline-block;
+            width: 60px;
+            height: 34px;
+            margin-left: 1rem;
+        }
+        
+        .toggle-switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+        
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            transition: .4s;
+            border-radius: 34px;
+        }
+        
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 26px;
+            width: 26px;
+            left: 4px;
+            bottom: 4px;
+            background-color: white;
+            transition: .4s;
+            border-radius: 50%;
+        }
+        
+        input:checked + .slider {
+            background-color: #667eea;
+        }
+        
+        input:checked + .slider:before {
+            transform: translateX(26px);
+        }
+        
+        .confidence-warning {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-radius: 10px;
+            padding: 1rem;
+            margin-top: 1rem;
+            display: none;
+        }
+        
+        /* Advanced Input Fields */
+        .advanced-inputs {
+            display: none;
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 1.5rem;
+            margin-top: 1rem;
+        }
+        
+        .results-container {
+            display: none;
+            padding: 2rem;
+            background: #f8f9fa;
+            border-radius: 0 0 20px 20px;
+        }
+        
+        .size-card {
+            background: white;
+            border-radius: 15px;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            border-left: 5px solid #667eea;
+        }
+        
+        .size-category {
+            font-weight: 700;
+            color: #2c3e50;
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .size-value {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #667eea;
+            margin-bottom: 0.5rem;
+        }
+        
+        .confidence-badge {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+        
+        .confidence-high {
+            background: #d4edda;
+            color: #155724;
+        }
+        
+        .confidence-medium {
+            background: #fff3cd;
+            color: #856404;
+        }
+        
+        .confidence-low {
+            background: #f8d7da;
+            color: #721c24;
+        }
+        
+        /* Explainability */
+        .rationale-section {
+            background: #e8f4fd;
+            border-radius: 10px;
+            padding: 1rem;
+            margin-top: 1rem;
+            border-left: 4px solid #667eea;
+        }
+        
+        .rationale-toggle {
+            background: none;
+            border: none;
+            color: #667eea;
+            font-weight: 600;
+            cursor: pointer;
+            padding: 0;
+            margin-bottom: 0.5rem;
+        }
+        
+        .rationale-details {
+            display: none;
+            font-size: 0.9rem;
+            color: #495057;
+            line-height: 1.5;
+        }
+        
+        .measurements-display {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 0.75rem;
+            margin-top: 0.5rem;
+            font-family: monospace;
+            font-size: 0.85rem;
+        }
+        
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 2rem;
+        }
+        
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 1rem;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .advice-section {
+            background: #e8f4fd;
+            border-radius: 15px;
+            padding: 1.5rem;
+            margin-top: 2rem;
+        }
+        
+        .advice-title {
+            font-weight: 700;
+            color: #2c3e50;
+            margin-bottom: 1rem;
+        }
+        
+        .advice-list {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .advice-list li {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #dee2e6;
+        }
+        
+        .advice-list li:last-child {
+            border-bottom: none;
+        }
+        
+        .advice-list li:before {
+            content: "✓";
+            color: #28a745;
+            font-weight: bold;
+            margin-right: 0.5rem;
+        }
+        
+        .error-message {
+            background: #f8d7da;
+            color: #721c24;
+            padding: 1rem;
+            border-radius: 10px;
+            margin: 1rem 0;
+            display: none;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 1rem;
+            color: #6c757d;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="main-container">
+            <!-- Header -->
+            <div class="header">
+                <h1><i class="fas fa-robot"></i> Enhanced Size AI</h1>
+                <p>Get personalized suit size recommendations powered by advanced body type analysis</p>
+            </div>
+            
+            <!-- Form Container -->
+            <div class="form-container">
+                <!-- Input Mode Toggle -->
+                <div class="input-mode-toggle">
+                    <div class="d-flex align-items-center justify-content-between">
+                        <div>
+                            <strong>Input Mode:</strong>
+                            <span id="modeLabel">Quick Estimate</span>
+                        </div>
+                        <label class="toggle-switch">
+                            <input type="checkbox" id="advancedMode">
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                    <div class="confidence-warning" id="confidenceWarning">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <strong>Note:</strong> Quick estimates provide lower confidence. For best results, use advanced mode with additional measurements.
+                    </div>
+                </div>
+                
+                <form id="sizeForm">
+                    <!-- Basic Inputs (Always Visible) -->
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="height_feet" class="form-label">
+                                    <i class="fas fa-ruler-vertical"></i> Height
+                                </label>
+                                <select class="form-control" id="height_feet" name="height_feet" required>
+                                    <option value="">Select height</option>
+                                    <option value="64">5'4"</option>
+                                    <option value="65">5'5"</option>
+                                    <option value="66">5'6"</option>
+                                    <option value="67">5'7"</option>
+                                    <option value="68">5'8"</option>
+                                    <option value="69">5'9"</option>
+                                    <option value="70">5'10"</option>
+                                    <option value="71">5'11"</option>
+                                    <option value="72">6'0"</option>
+                                    <option value="73">6'1"</option>
+                                    <option value="74">6'2"</option>
+                                    <option value="75">6'3"</option>
+                                    <option value="76">6'4"</option>
+                                    <option value="77">6'5"</option>
+                                    <option value="78">6'6"</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="weight" class="form-label">
+                                    <i class="fas fa-weight"></i> Weight (lbs)
+                                </label>
+                                <input type="number" class="form-control" id="weight" name="weight" 
+                                       placeholder="e.g., 180" min="80" max="400" required>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Visual Body Type Selector -->
+                    <div class="body-type-selector">
+                        <label class="form-label">
+                            <i class="fas fa-user"></i> Select Your Body Type
+                        </label>
+                        <div class="body-type-options">
+                            <div class="body-type-option" data-type="slim">
+                                <div class="body-type-icon">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                                <div class="body-type-label">Slim</div>
+                                <div class="body-type-desc">Narrow shoulders & chest</div>
+                            </div>
+                            <div class="body-type-option" data-type="athletic">
+                                <div class="body-type-icon">
+                                    <i class="fas fa-dumbbell"></i>
+                                </div>
+                                <div class="body-type-label">Athletic</div>
+                                <div class="body-type-desc">V-shaped, broad shoulders</div>
+                            </div>
+                            <div class="body-type-option" data-type="regular">
+                                <div class="body-type-icon">
+                                    <i class="fas fa-user-friends"></i>
+                                </div>
+                                <div class="body-type-label">Regular</div>
+                                <div class="body-type-desc">Balanced proportions</div>
+                            </div>
+                            <div class="body-type-option" data-type="broad">
+                                <div class="body-type-icon">
+                                    <i class="fas fa-user-tie"></i>
+                                </div>
+                                <div class="body-type-label">Broad</div>
+                                <div class="body-type-desc">Wide shoulders & chest</div>
+                            </div>
+                        </div>
+                        <input type="hidden" id="body_type" name="body_type" required>
+                    </div>
+                    
+                    <!-- Advanced Inputs (Hidden by default) -->
+                    <div class="advanced-inputs" id="advancedInputs">
+                        <h5><i class="fas fa-cog"></i> Additional Measurements (Optional)</h5>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="chest" class="form-label">
+                                        <i class="fas fa-ruler"></i> Chest (inches)
+                                    </label>
+                                    <input type="number" class="form-control" id="chest" name="chest" 
+                                           placeholder="e.g., 42" min="28" max="60" step="0.5">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="waist" class="form-label">
+                                        <i class="fas fa-ruler"></i> Waist (inches)
+                                    </label>
+                                    <input type="number" class="form-control" id="waist" name="waist" 
+                                           placeholder="e.g., 36" min="24" max="54" step="0.5">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="shoulder_width" class="form-label">
+                                        <i class="fas fa-ruler"></i> Shoulder Width (inches)
+                                    </label>
+                                    <input type="number" class="form-control" id="shoulder_width" name="shoulder_width" 
+                                           placeholder="e.g., 18" min="14" max="24" step="0.5">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="fit_preference"><b>How do you like your fit?</b></label>
+                        <div id="fit_preference_group" style="display: flex; gap: 1rem; margin-top: 0.5rem;">
+                            <label class="fit-option">
+                                <input type="radio" name="fit_preference" value="slim" required>
+                                <span><b>Slim / Trendy</b><br><small>Closer to the body</small></span>
+                            </label>
+                            <label class="fit-option">
+                                <input type="radio" name="fit_preference" value="regular">
+                                <span><b>Regular / Classic</b><br><small>Standard, comfortable fit</small></span>
+                            </label>
+                            <label class="fit-option">
+                                <input type="radio" name="fit_preference" value="relaxed">
+                                <span><b>Relaxed / Roomy</b><br><small>More space, extra comfort</small></span>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary btn-lg">
+                            <i class="fas fa-magic"></i> Get Size Recommendations
+                        </button>
+                    </div>
+                </form>
+                
+                <!-- Loading Spinner -->
+                <div class="loading" id="loading">
+                    <div class="spinner"></div>
+                    <p>Analyzing your measurements and generating personalized recommendations...</p>
+                </div>
+                
+                <!-- Error Message -->
+                <div class="error-message" id="errorMessage"></div>
+            </div>
+            
+            <!-- Results Container -->
+            <div class="results-container" id="resultsContainer">
+                <h3 class="text-center mb-4">
+                    <i class="fas fa-chart-line"></i> Your Personalized Size Recommendations
+                </h3>
+                
+                <div id="recommendationsList"></div>
+                
+                <div class="advice-section">
+                    <h5 class="advice-title">
+                        <i class="fas fa-lightbulb"></i> General Tips
+                    </h5>
+                    <ul class="advice-list" id="generalTips"></ul>
+                    
+                    <h5 class="advice-title mt-4">
+                        <i class="fas fa-arrow-right"></i> Next Steps
+                    </h5>
+                    <ul class="advice-list" id="nextSteps"></ul>
+                </div>
+                
+                <div class="text-center mt-4">
+                    <button class="btn btn-outline-primary" onclick="resetForm()">
+                        <i class="fas fa-redo"></i> Get New Recommendations
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Footer -->
+        <div class="footer">
+            <p>Powered by advanced body type analysis and customer data</p>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Body Type Selection
+        document.querySelectorAll('.body-type-option').forEach(option => {
+            option.addEventListener('click', function() {
+                // Remove previous selection
+                document.querySelectorAll('.body-type-option').forEach(opt => {
+                    opt.classList.remove('selected');
+                });
+                
+                // Add selection to clicked option
+                this.classList.add('selected');
+                
+                // Update hidden input
+                document.getElementById('body_type').value = this.dataset.type;
+            });
+        });
+        
+        // Input Mode Toggle
+        document.getElementById('advancedMode').addEventListener('change', function() {
+            const advancedInputs = document.getElementById('advancedInputs');
+            const modeLabel = document.getElementById('modeLabel');
+            const confidenceWarning = document.getElementById('confidenceWarning');
+            
+            if (this.checked) {
+                advancedInputs.style.display = 'block';
+                modeLabel.textContent = 'Advanced Mode';
+                confidenceWarning.style.display = 'none';
+            } else {
+                advancedInputs.style.display = 'none';
+                modeLabel.textContent = 'Quick Estimate';
+                confidenceWarning.style.display = 'block';
+            }
+        });
+        
+        // Form Submission
+        document.getElementById('sizeForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            // Validate body type selection
+            const bodyType = document.getElementById('body_type').value;
+            if (!bodyType) {
+                showError('Please select your body type');
+                return;
+            }
+            // Get height in inches from dropdown
+            const height = parseInt(document.getElementById('height_feet').value);
+            // Show loading
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('errorMessage').style.display = 'none';
+            document.getElementById('resultsContainer').style.display = 'none';
+            // Collect form data
+            const formData = {
+                height: height,
+                weight: parseInt(document.getElementById('weight').value),
+                body_type: bodyType,
+                chest: document.getElementById('chest').value ? parseFloat(document.getElementById('chest').value) : null,
+                waist: document.getElementById('waist').value ? parseFloat(document.getElementById('waist').value) : null,
+                shoulder_width: document.getElementById('shoulder_width').value ? parseFloat(document.getElementById('shoulder_width').value) : null,
+                fit_preference: document.querySelector('input[name="fit_preference"]:checked').value
+            };
+            
+            try {
+                const response = await fetch('/api/recommend', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(formData)
+                });
+                
+                const data = await response.json();
+                
+                if (data.success) {
+                    displayResults(data);
+                } else {
+                    showError(data.error || 'An error occurred');
+                }
+            } catch (error) {
+                showError('Network error. Please try again.');
+            } finally {
+                document.getElementById('loading').style.display = 'none';
+            }
+        });
+        
+        function displayResults(data) {
+            const recommendationsList = document.getElementById('recommendationsList');
+            const generalTips = document.getElementById('generalTips');
+            const nextSteps = document.getElementById('nextSteps');
+            
+            // Display recommendations
+            recommendationsList.innerHTML = '';
+            
+            // Primary recommendation
+            const primaryRec = data.recommendation;
+            const confidenceClass = primaryRec.confidence > 0.8 ? 'confidence-high' : 
+                                  primaryRec.confidence > 0.6 ? 'confidence-medium' : 'confidence-low';
+            const confidenceText = primaryRec.confidence > 0.8 ? 'High' : 
+                                 primaryRec.confidence > 0.6 ? 'Medium' : 'Low';
+            
+            const primaryCard = `
+                <div class="size-card">
+                    <div class="size-category">Primary Recommendation</div>
+                    <div class="size-value">${primaryRec.primary_size}</div>
+                    <span class="confidence-badge ${confidenceClass}">${confidenceText} Confidence (${Math.round(primaryRec.confidence * 100)}%)</span>
+                    <p class="mb-2">${primaryRec.rationale}</p>
+                    
+                    <!-- Explainability Section -->
+                    <div class="rationale-section">
+                        <button class="rationale-toggle" onclick="toggleRationale(this)">
+                            <i class="fas fa-info-circle"></i> Why this size? <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="rationale-details">
+                            <p><strong>Body Type:</strong> ${primaryRec.body_type}</p>
+                            <p><strong>Fit Preferences:</strong> ${primaryRec.fit_preferences.jacket_fit} jacket, ${primaryRec.fit_preferences.waist_fit} waist</p>
+                            <p><strong>Recommended Alterations:</strong> ${primaryRec.alterations.join(', ')}</p>
+                            ${primaryRec.edge_cases.length > 0 ? `<p><strong>Special Considerations:</strong> ${primaryRec.edge_cases.join(', ')}</p>` : ''}
+                            
+                            <div class="measurements-display">
+                                <strong>Calculated Measurements:</strong><br>
+                                Chest: ${primaryRec.measurements.chest}" | Waist: ${primaryRec.measurements.waist}" | Drop: ${primaryRec.measurements.drop}"<br>
+                                BMI: ${primaryRec.measurements.bmi.toFixed(1)} | Shoulder Width: ${primaryRec.measurements.shoulder_width}"
+                            </div>
+                        </div>
+                    </div>
+                    
+                    ${primaryRec.alternative_size ? `
+                        <div class="mt-3">
+                            <strong>Alternative Size:</strong> ${primaryRec.alternative_size}
+                        </div>
+                    ` : ''}
+                </div>
+            `;
+            recommendationsList.innerHTML = primaryCard;
+            
+            // Display tips
+            generalTips.innerHTML = `
+                <li>Try the primary size first, but keep the alternative in mind</li>
+                <li>Focus on shoulder fit - this is the most important measurement</li>
+                <li>Consider professional alterations for the perfect fit</li>
+                <li>Remember that suit sizing can vary between brands</li>
+            `;
+            
+            // Display next steps
+            nextSteps.innerHTML = `
+                <li>Order the recommended size and try it on</li>
+                <li>If needed, try the alternative size</li>
+                <li>Schedule alterations for any adjustments</li>
+                <li>Provide feedback to help improve our recommendations</li>
+            `;
+            
+            // Show results
+            document.getElementById('resultsContainer').style.display = 'block';
+            
+            // Smooth scroll to results
+            document.getElementById('resultsContainer').scrollIntoView({ 
+                behavior: 'smooth' 
+            });
+        }
+        
+        function toggleRationale(button) {
+            const details = button.nextElementSibling;
+            const icon = button.querySelector('.fa-chevron-down');
+            
+            if (details.style.display === 'block') {
+                details.style.display = 'none';
+                icon.className = 'fas fa-chevron-down';
+            } else {
+                details.style.display = 'block';
+                icon.className = 'fas fa-chevron-up';
+            }
+        }
+        
+        function showError(message) {
+            const errorDiv = document.getElementById('errorMessage');
+            errorDiv.textContent = message;
+            errorDiv.style.display = 'block';
+        }
+        
+        function resetForm() {
+            document.getElementById('sizeForm').reset();
+            document.getElementById('resultsContainer').style.display = 'none';
+            document.getElementById('errorMessage').style.display = 'none';
+            document.querySelectorAll('.body-type-option').forEach(opt => {
+                opt.classList.remove('selected');
+            });
+            document.getElementById('body_type').value = '';
+            document.getElementById('advancedMode').checked = false;
+            document.getElementById('advancedInputs').style.display = 'none';
+            document.getElementById('modeLabel').textContent = 'Quick Estimate';
+            document.getElementById('confidenceWarning').style.display = 'block';
+        }
+    </script>
+</body>
+</html> 

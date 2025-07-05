@@ -1,0 +1,269 @@
+{
+  "drop_patterns": {
+    "body_type_distributions": {
+      "ectomorph_slim": {
+        "drop_10_percentage": 45,
+        "drop_8_percentage": 35,
+        "drop_7_percentage": 15,
+        "drop_6_percentage": 5,
+        "drop_4_percentage": 0,
+        "drop_2_percentage": 0,
+        "drop_0_percentage": 0,
+        "typical_drop_range": "6-8 inches",
+        "sizing_implications": "Size down, focus on length adjustments"
+      },
+      "mesomorph_athletic": {
+        "drop_10_percentage": 15,
+        "drop_8_percentage": 25,
+        "drop_7_percentage": 30,
+        "drop_6_percentage": 25,
+        "drop_4_percentage": 5,
+        "drop_2_percentage": 0,
+        "drop_0_percentage": 0,
+        "typical_drop_range": "4-8 inches",
+        "sizing_implications": "Size for shoulders, tailor waist"
+      },
+      "endomorph_heavy": {
+        "drop_10_percentage": 5,
+        "drop_8_percentage": 8,
+        "drop_7_percentage": 12,
+        "drop_6_percentage": 25,
+        "drop_4_percentage": 30,
+        "drop_2_percentage": 15,
+        "drop_0_percentage": 5,
+        "typical_drop_range": "2-6 inches",
+        "sizing_implications": "Size up for comfort, focus on width"
+      },
+      "athletic_build": {
+        "drop_10_percentage": 25,
+        "drop_8_percentage": 35,
+        "drop_7_percentage": 25,
+        "drop_6_percentage": 12,
+        "drop_4_percentage": 3,
+        "drop_2_percentage": 0,
+        "drop_0_percentage": 0,
+        "typical_drop_range": "6-10 inches",
+        "sizing_implications": "Size for shoulders, significant waist tailoring"
+      }
+    },
+    
+    "size_based_patterns": {
+      "34R": {"chest_waist_drop": 6.0, "confidence": 0.95},
+      "36R": {"chest_waist_drop": 6.0, "confidence": 0.95},
+      "38R": {"chest_waist_drop": 6.0, "confidence": 0.95},
+      "40R": {"chest_waist_drop": 6.0, "confidence": 0.95},
+      "42R": {"chest_waist_drop": 6.0, "confidence": 0.95},
+      "44R": {"chest_waist_drop": 6.0, "confidence": 0.95},
+      "46R": {"chest_waist_drop": 6.0, "confidence": 0.95},
+      "48R": {"chest_waist_drop": 6.0, "confidence": 0.95},
+      "50R": {"chest_waist_drop": 6.0, "confidence": 0.95},
+      "52R": {"chest_waist_drop": 6.0, "confidence": 0.95},
+      "54R": {"chest_waist_drop": 6.0, "confidence": 0.95}
+    },
+    
+    "drop_adjustment_rules": {
+      "high_drop_8_plus": {
+        "condition": "drop >= 8 inches",
+        "frequency": 0.15,
+        "sizing_strategy": "size_for_shoulders",
+        "alteration_priority": ["waist_suppression", "sleeve_width"],
+        "confidence_impact": -0.08
+      },
+      "medium_drop_6_7": {
+        "condition": "6 <= drop < 8 inches",
+        "frequency": 0.45,
+        "sizing_strategy": "standard_sizing",
+        "alteration_priority": ["sleeve_length", "minor_waist"],
+        "confidence_impact": 0.0
+      },
+      "low_drop_4_5": {
+        "condition": "4 <= drop < 6 inches",
+        "frequency": 0.25,
+        "sizing_strategy": "size_for_chest",
+        "alteration_priority": ["sleeve_length", "jacket_length"],
+        "confidence_impact": -0.05
+      },
+      "minimal_drop_0_3": {
+        "condition": "drop < 4 inches",
+        "frequency": 0.15,
+        "sizing_strategy": "size_up_for_comfort",
+        "alteration_priority": ["sleeve_width", "waist_let_out"],
+        "confidence_impact": -0.10
+      }
+    }
+  },
+  
+  "edge_cases": {
+    "height_extremes": {
+      "very_short": {
+        "condition": "height < 5'4\"",
+        "frequency": 0.05,
+        "challenges": ["Limited size availability", "Proportion adjustments needed"],
+        "recommendations": ["Consider short sizes", "Professional alteration likely"],
+        "confidence_impact": -0.15,
+        "sizing_strategy": "size_for_width_over_length"
+      },
+      "very_tall": {
+        "condition": "height > 6'6\"",
+        "frequency": 0.03,
+        "challenges": ["Limited tall size availability", "Length issues"],
+        "recommendations": ["Consider tall/XL sizes", "Custom sizing may be needed"],
+        "confidence_impact": -0.20,
+        "sizing_strategy": "size_for_length_over_width"
+      }
+    },
+    
+    "weight_extremes": {
+      "very_light": {
+        "condition": "weight < 120 lbs",
+        "frequency": 0.08,
+        "challenges": ["Limited small size availability", "Width issues"],
+        "recommendations": ["Consider slim fit options", "Professional tailoring recommended"],
+        "confidence_impact": -0.12,
+        "sizing_strategy": "size_down_for_proportions"
+      },
+      "very_heavy": {
+        "condition": "weight > 300 lbs",
+        "frequency": 0.04,
+        "challenges": ["Limited large size availability", "Comfort considerations"],
+        "recommendations": ["Consider big & tall options", "Focus on comfort over style"],
+        "confidence_impact": -0.18,
+        "sizing_strategy": "size_up_for_comfort"
+      }
+    },
+    
+    "proportion_extremes": {
+      "athletic_v_shape": {
+        "condition": "drop > 8 inches",
+        "frequency": 0.15,
+        "challenges": ["Shoulder width vs waist fit", "Sleeve width vs arm size"],
+        "recommendations": ["Size for shoulders", "Tailor waist and sleeves"],
+        "confidence_impact": -0.08,
+        "sizing_strategy": "size_for_shoulders_tailor_waist"
+      },
+      "inverted_triangle": {
+        "condition": "shoulder_width > chest_width + 4 inches",
+        "frequency": 0.06,
+        "challenges": ["Shoulder width vs chest fit", "Sleeve attachment issues"],
+        "recommendations": ["Size for shoulders", "Professional alteration needed"],
+        "confidence_impact": -0.10,
+        "sizing_strategy": "size_for_shoulders"
+      },
+      "rectangular_build": {
+        "condition": "drop < 4 inches",
+        "frequency": 0.12,
+        "challenges": ["Limited waist definition", "Jacket may appear boxy"],
+        "recommendations": ["Consider slim fit options", "Focus on shoulder fit"],
+        "confidence_impact": -0.06,
+        "sizing_strategy": "size_for_chest_avoid_boxy"
+      }
+    },
+    
+    "bmi_extremes": {
+      "underweight": {
+        "condition": "bmi < 16",
+        "frequency": 0.07,
+        "challenges": ["Limited small size availability", "Overall proportion issues"],
+        "recommendations": ["Consider slim fit options", "Professional tailoring"],
+        "confidence_impact": -0.14,
+        "sizing_strategy": "size_down_for_proportions"
+      },
+      "severely_obese": {
+        "condition": "bmi > 40",
+        "frequency": 0.03,
+        "challenges": ["Limited large size availability", "Style limitations"],
+        "recommendations": ["Big & tall options", "Focus on comfort"],
+        "confidence_impact": -0.25,
+        "sizing_strategy": "size_up_for_comfort"
+      }
+    }
+  },
+  
+  "validation_rules": {
+    "sizing_assumptions": {
+      "40R_fit_range": {
+        "assumption": "40R fits 5'9\"-6'1\" men weighing 160-180 lbs",
+        "status": "PARTIALLY_CORRECT",
+        "actual_data": "Height varies: 5'9\"-6'0\", Weight varies: 140-180 lbs",
+        "confidence_impact": -0.05
+      },
+      "short_length_reduction": {
+        "assumption": "Short (S) sizes reduce jacket length by exactly 2 inches",
+        "status": "INCORRECT",
+        "actual_data": "Varies by brand: 1.1875\" to 3\"",
+        "confidence_impact": -0.10
+      },
+      "athletic_drop_requirement": {
+        "assumption": "Athletic builds need 6-8 inch chest-to-waist drop",
+        "status": "MOSTLY_CORRECT",
+        "actual_data": "Athletic fits typically defined as 8\" drop, with 7-8\" for slim builds",
+        "confidence_impact": 0.0
+      },
+      "sleeve_length_increment": {
+        "assumption": "Sleeve length increases 1 inch per size increment",
+        "status": "INCORRECT",
+        "actual_data": "Actual increments: 0.2\" to 0.25\" per size",
+        "confidence_impact": -0.08
+      },
+      "shoulder_critical_measurement": {
+        "assumption": "Shoulder width is the most critical unalterable measurement",
+        "status": "CORRECT",
+        "actual_data": "Multiple sources confirm: 'most important measurement', 'cannot be altered'",
+        "confidence_impact": 0.0
+      }
+    },
+    
+    "detection_algorithms": {
+      "proportion_analysis": {
+        "method": "ratio_calculation",
+        "ratios": {
+          "height_to_weight": "height_inches / weight_lbs",
+          "chest_to_waist": "chest_inches / waist_inches",
+          "shoulder_to_chest": "shoulder_inches / chest_inches",
+          "arm_length_to_height": "arm_length_inches / height_inches"
+        },
+        "normal_ranges": {
+          "height_to_weight": [0.04, 0.08],
+          "chest_to_waist": [1.05, 1.15],
+          "shoulder_to_chest": [1.02, 1.08],
+          "arm_length_to_height": [0.44, 0.48]
+        }
+      },
+      "statistical_outlier_detection": {
+        "method": "z_score_analysis",
+        "threshold": 2.5,
+        "metrics": ["height", "weight", "chest", "waist", "shoulder_width", "arm_length"]
+      }
+    }
+  },
+  
+  "handling_strategies": {
+    "primary_recommendation": {
+      "strategy": "size_for_dominant_feature",
+      "rules": [
+        "For tall/slim: size for length",
+        "For short/broad: size for width",
+        "For athletic: size for shoulders",
+        "For heavy: size for comfort"
+      ]
+    },
+    "alternative_recommendations": {
+      "strategy": "provide_multiple_options",
+      "options": [
+        "Primary size recommendation",
+        "Alternative size",
+        "Custom sizing option",
+        "Professional fitting referral"
+      ]
+    },
+    "confidence_adjustment": {
+      "strategy": "penalty_based_adjustment",
+      "base_penalty": -0.10,
+      "additional_penalties": {
+        "multiple_edge_cases": -0.05,
+        "extreme_values": -0.10,
+        "limited_data": -0.15
+      }
+    }
+  }
+} 

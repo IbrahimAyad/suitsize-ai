@@ -1,0 +1,201 @@
+{
+  "algorithm_version": "2.0",
+  "last_updated": "2024-07-04",
+  "description": "Enhanced size calculation combining legacy rules with customer data patterns",
+  
+  "base_calculation": {
+    "method": "hybrid_ml_rules",
+    "components": [
+      "legacy_height_weight_matrix",
+      "customer_data_patterns", 
+      "body_type_classification",
+      "confidence_scoring"
+    ]
+  },
+  
+  "height_weight_matrix": {
+    "34R": {
+      "height_range": ["5'4\"", "6'0\""],
+      "weight_range": [105, 125],
+      "chest_range": [32, 34],
+      "waist_range": [26, 28],
+      "bmi_range": [14.2, 21.5],
+      "customer_success_rate": 0.87
+    },
+    "36R": {
+      "height_range": ["5'4\"", "6'0\""],
+      "weight_range": [120, 140],
+      "chest_range": [34, 36],
+      "waist_range": [28, 30],
+      "bmi_range": [16.3, 24.0],
+      "customer_success_rate": 0.89
+    },
+    "38R": {
+      "height_range": ["5'5\"", "6'1\""],
+      "weight_range": [130, 155],
+      "chest_range": [36, 38],
+      "waist_range": [30, 32],
+      "bmi_range": [17.1, 25.8],
+      "customer_success_rate": 0.91
+    },
+    "40R": {
+      "height_range": ["5'6\"", "6'2\""],
+      "weight_range": [155, 175],
+      "chest_range": [38, 40],
+      "waist_range": [32, 34],
+      "bmi_range": [19.7, 27.2],
+      "customer_success_rate": 0.93
+    },
+    "42R": {
+      "height_range": ["5'7\"", "6'3\""],
+      "weight_range": [170, 195],
+      "chest_range": [40, 42],
+      "waist_range": [34, 36],
+      "bmi_range": [20.9, 28.8],
+      "customer_success_rate": 0.94
+    },
+    "44R": {
+      "height_range": ["5'8\"", "6'4\""],
+      "weight_range": [190, 215],
+      "chest_range": [42, 44],
+      "waist_range": [36, 38],
+      "bmi_range": [22.7, 30.2],
+      "customer_success_rate": 0.92
+    },
+    "46R": {
+      "height_range": ["5'8\"", "6'4\""],
+      "weight_range": [210, 235],
+      "chest_range": [44, 46],
+      "waist_range": [38, 40],
+      "bmi_range": [25.1, 33.0],
+      "customer_success_rate": 0.90
+    },
+    "48R": {
+      "height_range": ["5'8\"", "6'4\""],
+      "weight_range": [230, 255],
+      "chest_range": [46, 48],
+      "waist_range": [40, 42],
+      "bmi_range": [27.5, 35.8],
+      "customer_success_rate": 0.88
+    },
+    "50R": {
+      "height_range": ["5'8\"", "6'4\""],
+      "weight_range": [250, 275],
+      "chest_range": [48, 50],
+      "waist_range": [42, 44],
+      "bmi_range": [29.9, 38.6],
+      "customer_success_rate": 0.85
+    },
+    "52R": {
+      "height_range": ["5'8\"", "6'4\""],
+      "weight_range": [270, 295],
+      "chest_range": [50, 52],
+      "waist_range": [44, 46],
+      "bmi_range": [32.3, 41.4],
+      "customer_success_rate": 0.82
+    },
+    "54R": {
+      "height_range": ["5'8\"", "6'4\""],
+      "weight_range": [290, 315],
+      "chest_range": [52, 54],
+      "waist_range": [46, 48],
+      "bmi_range": [34.7, 44.2],
+      "customer_success_rate": 0.80
+    }
+  },
+  
+  "length_adjustments": {
+    "S": {
+      "height_range": ["5'3\"", "5'8\""],
+      "sleeve_adjustment": -1.5,
+      "jacket_adjustment": -3,
+      "trouser_inseam": [29, 30],
+      "customer_success_rate": 0.89
+    },
+    "R": {
+      "height_range": ["5'8\"", "6'0\""],
+      "sleeve_adjustment": 0,
+      "jacket_adjustment": 0,
+      "trouser_inseam": [31, 32],
+      "customer_success_rate": 0.94
+    },
+    "L": {
+      "height_range": ["6'0\"", "6'4\""],
+      "sleeve_adjustment": 1.5,
+      "jacket_adjustment": 3,
+      "trouser_inseam": [33, 34],
+      "customer_success_rate": 0.91
+    },
+    "XL": {
+      "height_range": ["6'4\"", "6'8\""],
+      "sleeve_adjustment": 3,
+      "jacket_adjustment": 4.5,
+      "trouser_inseam": [35, 36],
+      "customer_success_rate": 0.87
+    }
+  },
+  
+  "ml_enhancements": {
+    "customer_data_weight": 0.7,
+    "legacy_rules_weight": 0.3,
+    "minimum_customer_samples": 10,
+    "confidence_threshold": 0.75,
+    "learning_rate": 0.01
+  },
+  
+  "calculation_steps": [
+    {
+      "step": 1,
+      "name": "base_size_calculation",
+      "method": "height_weight_lookup",
+      "description": "Find base size from height-weight matrix"
+    },
+    {
+      "step": 2,
+      "name": "body_type_adjustment",
+      "method": "body_type_classification",
+      "description": "Adjust based on athletic/slim/regular/broad build"
+    },
+    {
+      "step": 3,
+      "name": "customer_pattern_adjustment",
+      "method": "ml_customer_analysis",
+      "description": "Apply customer data patterns and preferences"
+    },
+    {
+      "step": 4,
+      "name": "length_determination",
+      "method": "height_based_length",
+      "description": "Determine S/R/L/XL based on height"
+    },
+    {
+      "step": 5,
+      "name": "confidence_calculation",
+      "method": "multi_factor_confidence",
+      "description": "Calculate confidence based on data quality and patterns"
+    }
+  ],
+  
+  "edge_case_handlers": {
+    "tall_slim": {
+      "condition": "height > 6'3\" AND weight < 170",
+      "adjustment": "size_up_for_length",
+      "confidence_penalty": 0.15
+    },
+    "short_broad": {
+      "condition": "height < 5'8\" AND weight > 200",
+      "adjustment": "size_up_for_width",
+      "confidence_penalty": 0.12
+    },
+    "athletic_v_shape": {
+      "condition": "drop > 8 inches",
+      "adjustment": "size_for_shoulders_tailor_waist",
+      "confidence_penalty": 0.08
+    },
+    "extreme_bmi": {
+      "condition": "bmi < 16 OR bmi > 40",
+      "adjustment": "custom_recommendation",
+      "confidence_penalty": 0.20
+    }
+  }
+} 

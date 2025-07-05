@@ -1,0 +1,316 @@
+{
+  "body_type": "regular",
+  "version": "2.0",
+  "last_updated": "2024-07-04",
+  "description": "Regular build with balanced proportions, moderate shoulders, chest, and waist, typically with a straight torso",
+  
+  "characteristics": {
+    "primary_features": [
+      "Balanced shoulders",
+      "Moderate chest",
+      "Proportional waist",
+      "Straight torso",
+      "Standard arm proportions"
+    ],
+    
+    "measurement_patterns": {
+      "shoulder_width": "Proportional to chest",
+      "chest_measurement": "Moderate",
+      "waist_measurement": "Proportional to chest",
+      "arm_circumference": "Standard",
+      "drop": "4-8 inches (chest to waist)"
+    },
+    
+    "proportion_ratios": {
+      "shoulder_to_chest": "1.00-1.05",
+      "chest_to_waist": "1.08-1.15",
+      "arm_length_to_height": "0.44-0.48",
+      "torso_length": "Proportional to height"
+    },
+    
+    "bmi_range": [18.5, 26.0],
+    "typical_age_range": [25, 55],
+    "activity_level": "Moderate",
+    "frequency_in_population": 0.35
+  },
+  
+  "sizing_challenges": {
+    "primary_issues": [
+      "Finding the right balance",
+      "Length adjustments",
+      "Minor proportion tweaks",
+      "Style preferences"
+    ],
+    
+    "common_problems": {
+      "jacket_slightly_loose": "Standard fit may be slightly loose",
+      "sleeve_length": "Standard sleeves may need adjustment",
+      "jacket_length": "Standard length may need adjustment",
+      "minor_waist_adjustment": "Slight waist suppression may be desired"
+    }
+  },
+  
+  "sizing_strategy": {
+    "primary_approach": "Standard sizing with minor adjustments",
+    
+    "size_selection": {
+      "method": "chest_based_sizing",
+      "priority_order": [
+        "Chest circumference",
+        "Shoulder width",
+        "Arm length",
+        "Jacket length",
+        "Waist circumference"
+      ]
+    },
+    
+    "fit_preferences": {
+      "jacket_fit": "Regular to slim",
+      "sleeve_fit": "Standard",
+      "waist_fit": "Slightly fitted",
+      "length_preference": "Standard"
+    }
+  },
+  
+  "recommended_sizes": {
+    "size_mapping": {
+      "36R": {
+        "height_range": ["5'5\"", "5'9\""],
+        "weight_range": [140, 160],
+        "chest_range": [36, 38],
+        "waist_range": [30, 32],
+        "shoulder_range": [16.5, 17.5],
+        "confidence": 0.95
+      },
+      "38R": {
+        "height_range": ["5'6\"", "6'0\""],
+        "weight_range": [155, 175],
+        "chest_range": [38, 40],
+        "waist_range": [32, 34],
+        "shoulder_range": [17.0, 18.0],
+        "confidence": 0.96
+      },
+      "40R": {
+        "height_range": ["5'7\"", "6'1\""],
+        "weight_range": [170, 190],
+        "chest_range": [40, 42],
+        "waist_range": [34, 36],
+        "shoulder_range": [17.5, 18.5],
+        "confidence": 0.95
+      },
+      "42R": {
+        "height_range": ["5'8\"", "6'2\""],
+        "weight_range": [185, 205],
+        "chest_range": [42, 44],
+        "waist_range": [36, 38],
+        "shoulder_range": [18.0, 19.0],
+        "confidence": 0.94
+      },
+      "44R": {
+        "height_range": ["5'9\"", "6'3\""],
+        "weight_range": [200, 220],
+        "chest_range": [44, 46],
+        "waist_range": [38, 40],
+        "shoulder_range": [18.5, 19.5],
+        "confidence": 0.93
+      },
+      "46R": {
+        "height_range": ["5'10\"", "6'4\""],
+        "weight_range": [215, 235],
+        "chest_range": [46, 48],
+        "waist_range": [40, 42],
+        "shoulder_range": [19.0, 20.0],
+        "confidence": 0.92
+      }
+    },
+    
+    "length_adjustments": {
+      "S": {
+        "height_range": ["5'4\"", "5'8\""],
+        "sleeve_adjustment": -1.5,
+        "jacket_adjustment": -3.0,
+        "confidence": 0.94
+      },
+      "R": {
+        "height_range": ["5'8\"", "6'0\""],
+        "sleeve_adjustment": 0,
+        "jacket_adjustment": 0,
+        "confidence": 0.96
+      },
+      "L": {
+        "height_range": ["6'0\"", "6'4\""],
+        "sleeve_adjustment": 1.5,
+        "jacket_adjustment": 3.0,
+        "confidence": 0.94
+      }
+    }
+  },
+  
+  "alteration_recommendations": {
+    "common_alterations": [
+      {
+        "type": "sleeve_length",
+        "frequency": 0.70,
+        "description": "Adjust sleeve length",
+        "typical_adjustment": "±0.5 inches"
+      },
+      {
+        "type": "waist_suppression",
+        "frequency": 0.60,
+        "description": "Slight waist suppression",
+        "typical_adjustment": "0.5-1 inch"
+      },
+      {
+        "type": "jacket_length",
+        "frequency": 0.50,
+        "description": "Adjust jacket length",
+        "typical_adjustment": "±1 inch"
+      },
+      {
+        "type": "sleeve_width",
+        "frequency": 0.30,
+        "description": "Minor sleeve width adjustment",
+        "typical_adjustment": "±0.25 inches"
+      }
+    ],
+    
+    "alteration_priorities": [
+      "Sleeve length adjustment (most common)",
+      "Waist suppression",
+      "Jacket length adjustment",
+      "Minor sleeve width adjustment"
+    ]
+  },
+  
+  "style_recommendations": {
+    "jacket_styles": [
+      "Regular fit suits",
+      "Slim fit options",
+      "Single-breasted jackets",
+      "Notch lapels",
+      "Side or center vents"
+    ],
+    
+    "avoid_styles": [
+      "Very boxy cuts",
+      "Extremely slim fits",
+      "Very wide lapels"
+    ],
+    
+    "fabric_recommendations": [
+      "Wool",
+      "Wool blends",
+      "Cotton blends",
+      "Lightweight options"
+    ]
+  },
+  
+  "customer_communication": {
+    "key_messages": [
+      "Your regular build works well with most standard fits",
+      "Minor alterations may be needed for the perfect fit",
+      "You have good flexibility in style choices",
+      "Standard sizing should work well for you"
+    ],
+    
+    "common_questions": [
+      "What fit works best for me?",
+      "Do I need alterations?",
+      "What styles should I avoid?",
+      "How much will alterations cost?"
+    ],
+    
+    "answers": {
+      "fit_recommendation": "Regular to slim fit options work well for your build.",
+      "alterations_explanation": "Minor alterations are common for the perfect fit.",
+      "style_advice": "You can wear most styles - avoid extremes.",
+      "alteration_cost": "Typical alterations range from $30-100."
+    }
+  },
+  
+  "success_metrics": {
+    "customer_satisfaction": 0.92,
+    "return_rate": 0.06,
+    "alteration_rate": 0.65,
+    "repeat_purchase_rate": 0.80
+  },
+  
+  "learning_data": {
+    "customer_feedback": {
+      "positive_feedback": [
+        "Perfect fit",
+        "Great proportions",
+        "Comfortable",
+        "Professional appearance",
+        "Good value"
+      ],
+      "negative_feedback": [
+        "Slightly loose",
+        "Sleeves too long/short",
+        "Minor fit issues",
+        "Needed small adjustments"
+      ]
+    },
+    
+    "improvement_areas": [
+      "Better length options",
+      "More accurate sleeve sizing",
+      "Improved fit consistency",
+      "Better style guidance"
+    ]
+  },
+  
+  "style_variations": {
+    "classic_regular": {
+      "description": "Traditional proportions, conservative style",
+      "recommendations": [
+        "Regular fit suits",
+        "Classic lapels",
+        "Conservative colors",
+        "Side vents"
+      ]
+    },
+    
+    "modern_regular": {
+      "description": "Contemporary proportions, updated style",
+      "recommendations": [
+        "Slim fit options",
+        "Narrow lapels",
+        "Modern colors",
+        "Side vents"
+      ]
+    },
+    
+    "comfort_regular": {
+      "description": "Emphasis on comfort and ease",
+      "recommendations": [
+        "Comfort fit options",
+        "Lightweight fabrics",
+        "Easy-care materials",
+        "Unlined options"
+      ]
+    }
+  },
+  
+  "age_considerations": {
+    "younger_regular": {
+      "age_range": [25, 35],
+      "preferences": [
+        "Slimmer fits",
+        "Modern styles",
+        "Contemporary colors",
+        "Performance fabrics"
+      ]
+    },
+    
+    "mature_regular": {
+      "age_range": [45, 65],
+      "preferences": [
+        "Classic fits",
+        "Traditional styles",
+        "Conservative colors",
+        "Comfort considerations"
+      ]
+    }
+  }
+} 

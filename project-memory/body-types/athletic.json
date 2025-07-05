@@ -1,0 +1,262 @@
+{
+  "body_type": "athletic",
+  "version": "2.0",
+  "last_updated": "2024-07-04",
+  "description": "Athletic build with developed shoulders, chest, and arms, typically with a V-shaped torso",
+  
+  "characteristics": {
+    "primary_features": [
+      "Developed shoulders",
+      "Broad chest",
+      "Defined arms",
+      "V-shaped torso",
+      "Narrow waist relative to chest"
+    ],
+    
+    "measurement_patterns": {
+      "shoulder_width": "Wider than chest",
+      "chest_measurement": "Well-developed",
+      "waist_measurement": "Narrow relative to chest",
+      "arm_circumference": "Larger than average",
+      "drop": "6-10 inches (chest to waist)"
+    },
+    
+    "proportion_ratios": {
+      "shoulder_to_chest": "1.02-1.08",
+      "chest_to_waist": "1.10-1.20",
+      "arm_length_to_height": "0.44-0.48",
+      "torso_length": "Proportional to height"
+    },
+    
+    "bmi_range": [20.0, 28.0],
+    "typical_age_range": [18, 45],
+    "activity_level": "High",
+    "frequency_in_population": 0.25
+  },
+  
+  "sizing_challenges": {
+    "primary_issues": [
+      "Shoulder width vs chest fit",
+      "Sleeve width vs arm size",
+      "Jacket length vs torso",
+      "Waist suppression needed"
+    ],
+    
+    "common_problems": {
+      "jacket_too_tight_shoulders": "Sizing down for waist makes shoulders tight",
+      "sleeve_too_narrow": "Standard sleeves too tight on arms",
+      "jacket_too_short": "Standard length may be too short",
+      "waist_too_loose": "Standard fit too loose at waist"
+    }
+  },
+  
+  "sizing_strategy": {
+    "primary_approach": "Size for shoulders, tailor waist and sleeves",
+    
+    "size_selection": {
+      "method": "shoulder_based_sizing",
+      "priority_order": [
+        "Shoulder width",
+        "Chest circumference",
+        "Arm length",
+        "Jacket length",
+        "Waist circumference"
+      ]
+    },
+    
+    "fit_preferences": {
+      "jacket_fit": "Slim to regular",
+      "sleeve_fit": "Comfortable around biceps",
+      "waist_fit": "Slightly suppressed",
+      "length_preference": "Standard to slightly longer"
+    }
+  },
+  
+  "recommended_sizes": {
+    "size_mapping": {
+      "34R": {
+        "height_range": ["5'4\"", "5'8\""],
+        "weight_range": [130, 150],
+        "chest_range": [34, 36],
+        "waist_range": [28, 30],
+        "shoulder_range": [16.5, 17.5],
+        "confidence": 0.92
+      },
+      "36R": {
+        "height_range": ["5'5\"", "5'9\""],
+        "weight_range": [145, 165],
+        "chest_range": [36, 38],
+        "waist_range": [30, 32],
+        "shoulder_range": [17.0, 18.0],
+        "confidence": 0.94
+      },
+      "38R": {
+        "height_range": ["5'6\"", "6'0\""],
+        "weight_range": [160, 180],
+        "chest_range": [38, 40],
+        "waist_range": [32, 34],
+        "shoulder_range": [17.5, 18.5],
+        "confidence": 0.95
+      },
+      "40R": {
+        "height_range": ["5'7\"", "6'1\""],
+        "weight_range": [175, 195],
+        "chest_range": [40, 42],
+        "waist_range": [34, 36],
+        "shoulder_range": [18.0, 19.0],
+        "confidence": 0.93
+      },
+      "42R": {
+        "height_range": ["5'8\"", "6'2\""],
+        "weight_range": [190, 210],
+        "chest_range": [42, 44],
+        "waist_range": [36, 38],
+        "shoulder_range": [18.5, 19.5],
+        "confidence": 0.91
+      },
+      "44R": {
+        "height_range": ["5'9\"", "6'3\""],
+        "weight_range": [205, 225],
+        "chest_range": [44, 46],
+        "waist_range": [38, 40],
+        "shoulder_range": [19.0, 20.0],
+        "confidence": 0.89
+      }
+    },
+    
+    "length_adjustments": {
+      "S": {
+        "height_range": ["5'4\"", "5'8\""],
+        "sleeve_adjustment": -1.0,
+        "jacket_adjustment": -2.5,
+        "confidence": 0.90
+      },
+      "R": {
+        "height_range": ["5'8\"", "6'0\""],
+        "sleeve_adjustment": 0,
+        "jacket_adjustment": 0,
+        "confidence": 0.95
+      },
+      "L": {
+        "height_range": ["6'0\"", "6'4\""],
+        "sleeve_adjustment": 1.0,
+        "jacket_adjustment": 2.5,
+        "confidence": 0.92
+      }
+    }
+  },
+  
+  "alteration_recommendations": {
+    "common_alterations": [
+      {
+        "type": "waist_suppression",
+        "frequency": 0.85,
+        "description": "Take in waist for better fit",
+        "typical_adjustment": "1-2 inches"
+      },
+      {
+        "type": "sleeve_width",
+        "frequency": 0.70,
+        "description": "Let out sleeve width for arm comfort",
+        "typical_adjustment": "0.5-1 inch"
+      },
+      {
+        "type": "sleeve_length",
+        "frequency": 0.60,
+        "description": "Adjust sleeve length",
+        "typical_adjustment": "±0.5 inches"
+      },
+      {
+        "type": "jacket_length",
+        "frequency": 0.40,
+        "description": "Adjust jacket length",
+        "typical_adjustment": "±1 inch"
+      }
+    ],
+    
+    "alteration_priorities": [
+      "Waist suppression (most common)",
+      "Sleeve width adjustment",
+      "Sleeve length adjustment",
+      "Jacket length adjustment"
+    ]
+  },
+  
+  "style_recommendations": {
+    "jacket_styles": [
+      "Slim fit suits",
+      "Athletic fit options",
+      "Single-breasted jackets",
+      "Notch lapels",
+      "Side vents"
+    ],
+    
+    "avoid_styles": [
+      "Boxy cuts",
+      "Double-breasted (unless very slim)",
+      "Wide lapels",
+      "Center vents (may emphasize waist)"
+    ],
+    
+    "fabric_recommendations": [
+      "Wool with stretch",
+      "Lightweight wool",
+      "Cotton blends",
+      "Performance fabrics"
+    ]
+  },
+  
+  "customer_communication": {
+    "key_messages": [
+      "Your athletic build may require sizing for shoulders with waist adjustments",
+      "Consider our athletic fit options for better proportions",
+      "Professional alterations are recommended for the perfect fit",
+      "Focus on shoulder fit - waist can be tailored"
+    ],
+    
+    "common_questions": [
+      "Why do I need alterations?",
+      "Should I size up or down?",
+      "What's the best fit for my build?",
+      "How much will alterations cost?"
+    ],
+    
+    "answers": {
+      "alterations_explanation": "Athletic builds often need waist suppression and sleeve adjustments for the perfect fit.",
+      "sizing_advice": "Size for your shoulders - we can tailor the waist and sleeves.",
+      "fit_recommendation": "Slim or athletic fit options work best for your build.",
+      "alteration_cost": "Typical alterations range from $50-150 depending on complexity."
+    }
+  },
+  
+  "success_metrics": {
+    "customer_satisfaction": 0.88,
+    "return_rate": 0.08,
+    "alteration_rate": 0.85,
+    "repeat_purchase_rate": 0.75
+  },
+  
+  "learning_data": {
+    "customer_feedback": {
+      "positive_feedback": [
+        "Great shoulder fit",
+        "Comfortable arm movement",
+        "Professional appearance",
+        "Good value after alterations"
+      ],
+      "negative_feedback": [
+        "Waist too loose",
+        "Sleeves too tight",
+        "Needed more alterations than expected",
+        "Jacket too short"
+      ]
+    },
+    
+    "improvement_areas": [
+      "Better athletic fit options",
+      "More accurate size recommendations",
+      "Clearer alteration expectations",
+      "Improved sleeve sizing"
+    ]
+  }
+} 

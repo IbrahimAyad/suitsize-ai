@@ -1,0 +1,520 @@
+{
+  "satisfaction_data_version": "2.0",
+  "last_updated": "2024-07-04",
+  "description": "Customer satisfaction data and analysis for the sizing system",
+  
+  "overall_satisfaction_metrics": {
+    "overall_satisfaction_score": 0.87,
+    "fit_satisfaction": 0.88,
+    "recommendation_accuracy": 0.85,
+    "customer_service_satisfaction": 0.90,
+    "ease_of_use": 0.82,
+    "value_for_money": 0.84
+  },
+  
+  "satisfaction_by_body_type": {
+    "athletic": {
+      "overall_satisfaction": 0.88,
+      "fit_satisfaction": 0.89,
+      "recommendation_accuracy": 0.86,
+      "sample_size": 1250,
+      "key_factors": [
+        "Good shoulder fit",
+        "Waist alteration guidance",
+        "Athletic fit options"
+      ],
+      "improvement_areas": [
+        "Better waist predictions",
+        "More sleeve width options",
+        "Length consideration"
+      ]
+    },
+    
+    "slim": {
+      "overall_satisfaction": 0.85,
+      "fit_satisfaction": 0.86,
+      "recommendation_accuracy": 0.83,
+      "sample_size": 980,
+      "key_factors": [
+        "Slim fit options",
+        "Size down guidance",
+        "Proportional recommendations"
+      ],
+      "improvement_areas": [
+        "Better size down accuracy",
+        "Improved sleeve sizing",
+        "More slim fit options"
+      ]
+    },
+    
+    "regular": {
+      "overall_satisfaction": 0.92,
+      "fit_satisfaction": 0.93,
+      "recommendation_accuracy": 0.90,
+      "sample_size": 2100,
+      "key_factors": [
+        "Standard sizing works well",
+        "Minor alterations only",
+        "Good proportion balance"
+      ],
+      "improvement_areas": [
+        "Better length options",
+        "Improved sleeve sizing",
+        "Minor fit adjustments"
+      ]
+    },
+    
+    "broad": {
+      "overall_satisfaction": 0.87,
+      "fit_satisfaction": 0.88,
+      "recommendation_accuracy": 0.84,
+      "sample_size": 850,
+      "key_factors": [
+        "Comfort fit options",
+        "Size up guidance",
+        "Professional alterations"
+      ],
+      "improvement_areas": [
+        "Better size up accuracy",
+        "More comfort fit options",
+        "Improved sleeve sizing"
+      ]
+    }
+  },
+  
+  "satisfaction_by_confidence_level": {
+    "high_confidence": {
+      "overall_satisfaction": 0.94,
+      "fit_satisfaction": 0.95,
+      "recommendation_accuracy": 0.92,
+      "sample_size": 1800,
+      "customer_feedback": [
+        "Perfect fit",
+        "Great recommendation",
+        "No alterations needed"
+      ]
+    },
+    
+    "medium_high_confidence": {
+      "overall_satisfaction": 0.89,
+      "fit_satisfaction": 0.90,
+      "recommendation_accuracy": 0.87,
+      "sample_size": 1200,
+      "customer_feedback": [
+        "Good fit with minor adjustments",
+        "Helpful recommendation",
+        "Minor alterations only"
+      ]
+    },
+    
+    "medium_confidence": {
+      "overall_satisfaction": 0.82,
+      "fit_satisfaction": 0.83,
+      "recommendation_accuracy": 0.78,
+      "sample_size": 800,
+      "customer_feedback": [
+        "Decent fit",
+        "Needed some adjustments",
+        "Recommendation was helpful"
+      ]
+    },
+    
+    "low_medium_confidence": {
+      "overall_satisfaction": 0.75,
+      "fit_satisfaction": 0.76,
+      "recommendation_accuracy": 0.70,
+      "sample_size": 400,
+      "customer_feedback": [
+        "Fit was okay",
+        "Needed significant alterations",
+        "Recommendation was somewhat helpful"
+      ]
+    },
+    
+    "low_confidence": {
+      "overall_satisfaction": 0.65,
+      "fit_satisfaction": 0.66,
+      "recommendation_accuracy": 0.58,
+      "sample_size": 200,
+      "customer_feedback": [
+        "Fit was challenging",
+        "Needed professional help",
+        "Recommendation was limited"
+      ]
+    }
+  },
+  
+  "satisfaction_factors": {
+    "positive_factors": {
+      "accurate_recommendations": {
+        "impact": 0.35,
+        "description": "Size recommendations that fit well",
+        "customer_comments": [
+          "Perfect size recommendation",
+          "Great fit right out of the box",
+          "Accurate sizing system"
+        ]
+      },
+      
+      "helpful_guidance": {
+        "impact": 0.25,
+        "description": "Clear guidance on fit and alterations",
+        "customer_comments": [
+          "Helpful alteration advice",
+          "Clear sizing guidance",
+          "Good fit recommendations"
+        ]
+      },
+      
+      "professional_service": {
+        "impact": 0.20,
+        "description": "Professional customer service and support",
+        "customer_comments": [
+          "Great customer service",
+          "Helpful staff",
+          "Professional support"
+        ]
+      },
+      
+      "quality_products": {
+        "impact": 0.15,
+        "description": "High-quality garments and materials",
+        "customer_comments": [
+          "Excellent quality",
+          "Great materials",
+          "Well-made garments"
+        ]
+      },
+      
+      "easy_process": {
+        "impact": 0.05,
+        "description": "Easy and convenient ordering process",
+        "customer_comments": [
+          "Easy to use",
+          "Convenient process",
+          "Simple ordering"
+        ]
+      }
+    },
+    
+    "negative_factors": {
+      "inaccurate_recommendations": {
+        "impact": -0.40,
+        "description": "Size recommendations that don't fit",
+        "customer_comments": [
+          "Size was wrong",
+          "Poor fit recommendation",
+          "Inaccurate sizing"
+        ]
+      },
+      
+      "poor_guidance": {
+        "impact": -0.25,
+        "description": "Unclear or unhelpful guidance",
+        "customer_comments": [
+          "Confusing guidance",
+          "Unclear recommendations",
+          "Poor advice"
+        ]
+      },
+      
+      "limited_options": {
+        "impact": -0.20,
+        "description": "Limited size or style options",
+        "customer_comments": [
+          "Limited size range",
+          "Few style options",
+          "Not enough choices"
+        ]
+      },
+      
+      "poor_service": {
+        "impact": -0.10,
+        "description": "Poor customer service experience",
+        "customer_comments": [
+          "Poor customer service",
+          "Unhelpful staff",
+          "Slow response"
+        ]
+      },
+      
+      "quality_issues": {
+        "impact": -0.05,
+        "description": "Quality problems with garments",
+        "customer_comments": [
+          "Poor quality",
+          "Defective items",
+          "Material issues"
+        ]
+      }
+    }
+  },
+  
+  "customer_segments": {
+    "first_time_buyers": {
+      "satisfaction": 0.84,
+      "sample_size": 650,
+      "key_concerns": [
+        "Uncertainty about sizing",
+        "Need for guidance",
+        "Fit expectations"
+      ],
+      "improvement_areas": [
+        "Better onboarding",
+        "Clearer guidance",
+        "More support"
+      ]
+    },
+    
+    "repeat_customers": {
+      "satisfaction": 0.90,
+      "sample_size": 1850,
+      "key_factors": [
+        "Consistent sizing",
+        "Familiar process",
+        "Trust in system"
+      ],
+      "improvement_areas": [
+        "Personalized recommendations",
+        "Loyalty benefits",
+        "Advanced features"
+      ]
+    },
+    
+    "professional_customers": {
+      "satisfaction": 0.88,
+      "sample_size": 420,
+      "key_factors": [
+        "Quality expectations",
+        "Professional appearance",
+        "Reliability"
+      ],
+      "improvement_areas": [
+        "Premium options",
+        "Professional services",
+        "Quality assurance"
+      ]
+    },
+    
+    "budget_conscious": {
+      "satisfaction": 0.82,
+      "sample_size": 780,
+      "key_factors": [
+        "Value for money",
+        "Affordable options",
+        "Cost-effective alterations"
+      ],
+      "improvement_areas": [
+        "Budget-friendly options",
+        "Cost-effective solutions",
+        "Value packages"
+      ]
+    }
+  },
+  
+  "satisfaction_trends": {
+    "monthly_trends": {
+      "january": {
+        "satisfaction": 0.86,
+        "factors": ["New year resolutions", "Post-holiday returns"]
+      },
+      "february": {
+        "satisfaction": 0.87,
+        "factors": ["Valentine's Day", "Winter sales"]
+      },
+      "march": {
+        "satisfaction": 0.88,
+        "factors": ["Spring collections", "Improved algorithms"]
+      },
+      "april": {
+        "satisfaction": 0.89,
+        "factors": ["Spring peak", "Better inventory"]
+      },
+      "may": {
+        "satisfaction": 0.88,
+        "factors": ["Graduation season", "Summer preparation"]
+      },
+      "june": {
+        "satisfaction": 0.87,
+        "factors": ["Summer styles", "Vacation season"]
+      }
+    },
+    
+    "seasonal_patterns": {
+      "spring": {
+        "peak_satisfaction": true,
+        "factors": ["New collections", "Better algorithms", "Improved inventory"]
+      },
+      "summer": {
+        "moderate_satisfaction": true,
+        "factors": ["Seasonal styles", "Reduced complexity"]
+      },
+      "fall": {
+        "high_satisfaction": true,
+        "factors": ["Back to school", "Professional needs"]
+      },
+      "winter": {
+        "moderate_satisfaction": true,
+        "factors": ["Holiday rush", "Gift purchases"]
+      }
+    }
+  },
+  
+  "improvement_priorities": {
+    "high_priority": [
+      {
+        "area": "Athletic build accuracy",
+        "current_satisfaction": 0.88,
+        "target_satisfaction": 0.92,
+        "impact": "high",
+        "effort": "medium"
+      },
+      {
+        "area": "Slim build sizing",
+        "current_satisfaction": 0.85,
+        "target_satisfaction": 0.89,
+        "impact": "high",
+        "effort": "medium"
+      },
+      {
+        "area": "Edge case handling",
+        "current_satisfaction": 0.75,
+        "target_satisfaction": 0.85,
+        "impact": "high",
+        "effort": "high"
+      }
+    ],
+    
+    "medium_priority": [
+      {
+        "area": "Sleeve sizing accuracy",
+        "current_satisfaction": 0.83,
+        "target_satisfaction": 0.87,
+        "impact": "medium",
+        "effort": "medium"
+      },
+      {
+        "area": "Length recommendations",
+        "current_satisfaction": 0.85,
+        "target_satisfaction": 0.88,
+        "impact": "medium",
+        "effort": "low"
+      },
+      {
+        "area": "Customer guidance",
+        "current_satisfaction": 0.87,
+        "target_satisfaction": 0.90,
+        "impact": "medium",
+        "effort": "low"
+      }
+    ],
+    
+    "low_priority": [
+      {
+        "area": "Style recommendations",
+        "current_satisfaction": 0.82,
+        "target_satisfaction": 0.85,
+        "impact": "low",
+        "effort": "medium"
+      },
+      {
+        "area": "International sizing",
+        "current_satisfaction": 0.80,
+        "target_satisfaction": 0.85,
+        "impact": "low",
+        "effort": "high"
+      }
+    ]
+  },
+  
+  "customer_feedback_analysis": {
+    "positive_themes": [
+      {
+        "theme": "Accurate sizing",
+        "frequency": 0.45,
+        "sentiment": "very_positive",
+        "example_comments": [
+          "Perfect fit right out of the box",
+          "Size recommendation was spot on",
+          "Great sizing system"
+        ]
+      },
+      {
+        "theme": "Helpful guidance",
+        "frequency": 0.30,
+        "sentiment": "positive",
+        "example_comments": [
+          "Clear alteration advice",
+          "Helpful sizing guidance",
+          "Good recommendations"
+        ]
+      },
+      {
+        "theme": "Quality products",
+        "frequency": 0.25,
+        "sentiment": "positive",
+        "example_comments": [
+          "Excellent quality",
+          "Well-made garments",
+          "Great materials"
+        ]
+      }
+    ],
+    
+    "negative_themes": [
+      {
+        "theme": "Inaccurate sizing",
+        "frequency": 0.40,
+        "sentiment": "negative",
+        "example_comments": [
+          "Size was completely wrong",
+          "Poor fit recommendation",
+          "Inaccurate sizing system"
+        ]
+      },
+      {
+        "theme": "Limited options",
+        "frequency": 0.30,
+        "sentiment": "negative",
+        "example_comments": [
+          "Not enough size options",
+          "Limited style choices",
+          "Need more variety"
+        ]
+      },
+      {
+        "theme": "Poor guidance",
+        "frequency": 0.30,
+        "sentiment": "negative",
+        "example_comments": [
+          "Confusing recommendations",
+          "Unclear guidance",
+          "Poor advice"
+        ]
+      }
+    ]
+  },
+  
+  "satisfaction_goals": {
+    "short_term": {
+      "overall_satisfaction": 0.90,
+      "fit_satisfaction": 0.91,
+      "recommendation_accuracy": 0.88,
+      "timeline": "6 months"
+    },
+    
+    "medium_term": {
+      "overall_satisfaction": 0.92,
+      "fit_satisfaction": 0.93,
+      "recommendation_accuracy": 0.90,
+      "timeline": "12 months"
+    },
+    
+    "long_term": {
+      "overall_satisfaction": 0.95,
+      "fit_satisfaction": 0.96,
+      "recommendation_accuracy": 0.93,
+      "timeline": "24 months"
+    }
+  }
+} 

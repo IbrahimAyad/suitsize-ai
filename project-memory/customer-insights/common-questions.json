@@ -1,0 +1,288 @@
+{
+  "questions_version": "2.0",
+  "last_updated": "2024-07-04",
+  "description": "Common customer questions and answers for the sizing system",
+  
+  "sizing_questions": {
+    "how_to_measure": {
+      "question": "How do I take my measurements accurately?",
+      "answer": "For the most accurate fit, we recommend professional measurements. However, you can measure yourself using a flexible tape measure. For chest: measure around the fullest part of your chest, keeping the tape horizontal. For waist: measure around your natural waistline. For height: stand straight against a wall and measure from floor to top of head.",
+      "category": "measurement",
+      "frequency": "high",
+      "confidence_impact": "high"
+    },
+    
+    "size_differences": {
+      "question": "What's the difference between S, R, and L sizes?",
+      "answer": "S (Short), R (Regular), and L (Long) refer to the length of the jacket and sleeves. S is for heights 5'3\"-5'8\", R is for 5'8\"-6'0\", and L is for 6'0\"-6'4\". The chest size (34, 36, 38, etc.) remains the same within each length category.",
+      "category": "sizing",
+      "frequency": "high",
+      "confidence_impact": "medium"
+    },
+    
+    "athletic_build": {
+      "question": "I have an athletic build - what size should I choose?",
+      "answer": "For athletic builds, we recommend sizing for your shoulders and chest, then having the waist tailored. Athletic builds typically need waist suppression and sometimes sleeve width adjustments. Our athletic fit options are designed specifically for this body type.",
+      "category": "body_type",
+      "frequency": "medium",
+      "confidence_impact": "high"
+    },
+    
+    "slim_build": {
+      "question": "I'm slim - should I size down?",
+      "answer": "Yes, slim builds often benefit from sizing down one size for better proportions. You may need sleeve width and waist adjustments for the perfect fit. Our slim fit options are designed to work well with your body type.",
+      "category": "body_type",
+      "frequency": "medium",
+      "confidence_impact": "high"
+    },
+    
+    "broad_build": {
+      "question": "I have broad shoulders - what should I consider?",
+      "answer": "For broad builds, size for your shoulders and chest, then have the waist let out if needed. You may need sleeve width adjustments for comfortable arm movement. Regular to comfort fit options work best for your build.",
+      "category": "body_type",
+      "frequency": "medium",
+      "confidence_impact": "high"
+    }
+  },
+  
+  "fit_questions": {
+    "jacket_length": {
+      "question": "How long should my suit jacket be?",
+      "answer": "A well-fitted jacket should cover your seat and end at the middle of your hand when your arms are at your sides. The length should be proportional to your height and body type.",
+      "category": "fit",
+      "frequency": "medium",
+      "confidence_impact": "medium"
+    },
+    
+    "sleeve_length": {
+      "question": "How long should my jacket sleeves be?",
+      "answer": "Jacket sleeves should end at the base of your thumb, showing about 1/4 to 1/2 inch of your shirt cuff. This creates a balanced, professional appearance.",
+      "category": "fit",
+      "frequency": "medium",
+      "confidence_impact": "medium"
+    },
+    
+    "shoulder_fit": {
+      "question": "How should the shoulders fit?",
+      "answer": "The shoulder seam should sit at the edge of your shoulder, not hanging down your arm or cutting into your neck. The shoulders are the foundation of a good fit and are difficult to alter.",
+      "category": "fit",
+      "frequency": "low",
+      "confidence_impact": "high"
+    },
+    
+    "waist_fit": {
+      "question": "How fitted should the waist be?",
+      "answer": "The waist should have a slight suppression for a modern look, but not be so tight that it creates wrinkles or restricts movement. You should be able to button the jacket comfortably.",
+      "category": "fit",
+      "frequency": "medium",
+      "confidence_impact": "medium"
+    }
+  },
+  
+  "alteration_questions": {
+    "alteration_cost": {
+      "question": "How much do alterations typically cost?",
+      "answer": "Alteration costs vary by complexity: sleeve length ($20-40), waist suppression ($30-60), sleeve width ($25-50), and jacket length ($40-80). Total alterations typically range from $50-200 depending on your needs.",
+      "category": "alterations",
+      "frequency": "high",
+      "confidence_impact": "medium"
+    },
+    
+    "alteration_time": {
+      "question": "How long do alterations take?",
+      "answer": "Most alterations take 3-7 business days. Rush alterations (1-2 days) are available for an additional fee. Complex alterations may take up to 10 days.",
+      "category": "alterations",
+      "frequency": "medium",
+      "confidence_impact": "low"
+    },
+    
+    "common_alterations": {
+      "question": "What alterations are most common?",
+      "answer": "The most common alterations are sleeve length adjustments, waist suppression (for athletic builds), sleeve width adjustments (for broad builds), and jacket length adjustments. These are normal and expected for a perfect fit.",
+      "category": "alterations",
+      "frequency": "medium",
+      "confidence_impact": "medium"
+    },
+    
+    "alteration_limits": {
+      "question": "What can't be altered?",
+      "answer": "Shoulder width is very difficult and expensive to alter. Chest circumference can only be let out by 1-2 inches. Sleeve width can only be let out by 1-1.5 inches. It's best to size correctly for these areas.",
+      "category": "alterations",
+      "frequency": "low",
+      "confidence_impact": "high"
+    }
+  },
+  
+  "style_questions": {
+    "fit_types": {
+      "question": "What's the difference between slim, regular, and comfort fit?",
+      "answer": "Slim fit is more fitted through the chest and waist. Regular fit offers a balanced, traditional silhouette. Comfort fit provides more room for movement and is ideal for broader builds or those who prefer a relaxed fit.",
+      "category": "style",
+      "frequency": "high",
+      "confidence_impact": "medium"
+    },
+    
+    "lapel_choice": {
+      "question": "Which lapel width should I choose?",
+      "answer": "Narrow lapels (2-2.5 inches) are modern and work well with slim fits. Standard lapels (2.5-3 inches) are classic and versatile. Wide lapels (3+ inches) are traditional and work well with broader builds.",
+      "category": "style",
+      "frequency": "low",
+      "confidence_impact": "low"
+    },
+    
+    "vent_choice": {
+      "question": "What's the difference between side vents and center vent?",
+      "answer": "Side vents (two vents on the sides) are modern and provide good movement. Center vent (single vent in back) is traditional and classic. No vent is very traditional but restricts movement. Side vents are most popular for modern suits.",
+      "category": "style",
+      "frequency": "low",
+      "confidence_impact": "low"
+    }
+  },
+  
+  "confidence_questions": {
+    "confidence_meaning": {
+      "question": "What does the confidence score mean?",
+      "answer": "The confidence score indicates how reliable our size recommendation is based on your measurements and our customer data. High confidence (85%+) means we're very sure about the recommendation. Lower confidence suggests trying multiple sizes or professional fitting.",
+      "category": "confidence",
+      "frequency": "medium",
+      "confidence_impact": "high"
+    },
+    
+    "low_confidence": {
+      "question": "Why is my confidence score low?",
+      "answer": "Low confidence can occur with unusual proportions, limited measurement data, or edge cases (very tall/short, extreme weights). We recommend trying multiple sizes or professional fitting for the best results.",
+      "category": "confidence",
+      "frequency": "medium",
+      "confidence_impact": "high"
+    },
+    
+    "improving_confidence": {
+      "question": "How can I improve my confidence score?",
+      "answer": "Provide more accurate measurements, especially chest, waist, and shoulder width. Professional measurements typically result in higher confidence scores. More complete data helps our algorithm make better recommendations.",
+      "category": "confidence",
+      "frequency": "low",
+      "confidence_impact": "medium"
+    }
+  },
+  
+  "return_questions": {
+    "return_policy": {
+      "question": "What if the size doesn't fit?",
+      "answer": "We offer a 30-day return policy for unworn items with original tags. If the size doesn't fit, you can return it for a full refund or exchange. We also offer free exchanges for different sizes.",
+      "category": "returns",
+      "frequency": "high",
+      "confidence_impact": "low"
+    },
+    
+    "exchange_process": {
+      "question": "How do I exchange for a different size?",
+      "answer": "You can exchange online through your account or contact customer service. We'll send the new size and provide a prepaid return label for the original item. Exchanges are free and typically ship within 1-2 business days.",
+      "category": "returns",
+      "frequency": "medium",
+      "confidence_impact": "low"
+    },
+    
+    "return_reasons": {
+      "question": "What are the most common return reasons?",
+      "answer": "The most common return reasons are sleeve length (too long/short), waist fit (too tight/loose), and overall size (too big/small). This is why we recommend professional alterations for the perfect fit.",
+      "category": "returns",
+      "frequency": "low",
+      "confidence_impact": "medium"
+    }
+  },
+  
+  "professional_questions": {
+    "professional_fitting": {
+      "question": "When should I get professional fitting?",
+      "answer": "Consider professional fitting if you have unusual proportions, are between sizes, have low confidence scores, or want the perfect fit. Professional fitting ensures the best possible outcome and can save money on alterations.",
+      "category": "professional",
+      "frequency": "medium",
+      "confidence_impact": "high"
+    },
+    
+    "custom_sizing": {
+      "question": "Do you offer custom sizing?",
+      "answer": "Yes, we offer custom sizing for customers with unique proportions or those who want the perfect fit. Custom sizing includes detailed measurements and is made to your specifications. Contact customer service for details.",
+      "category": "professional",
+      "frequency": "low",
+      "confidence_impact": "high"
+    },
+    
+    "tailor_recommendations": {
+      "question": "Can you recommend a tailor?",
+      "answer": "We can recommend tailors in your area based on customer reviews and our experience. Many customers find local tailors through our network or we can suggest alterations specialists who work with our garments.",
+      "category": "professional",
+      "frequency": "low",
+      "confidence_impact": "medium"
+    }
+  },
+  
+  "question_categories": {
+    "measurement": {
+      "description": "Questions about taking measurements",
+      "priority": "high",
+      "automated_response": true
+    },
+    "sizing": {
+      "description": "Questions about size selection",
+      "priority": "high",
+      "automated_response": true
+    },
+    "body_type": {
+      "description": "Questions about specific body types",
+      "priority": "high",
+      "automated_response": true
+    },
+    "fit": {
+      "description": "Questions about fit standards",
+      "priority": "medium",
+      "automated_response": true
+    },
+    "alterations": {
+      "description": "Questions about alterations",
+      "priority": "medium",
+      "automated_response": true
+    },
+    "style": {
+      "description": "Questions about style choices",
+      "priority": "low",
+      "automated_response": true
+    },
+    "confidence": {
+      "description": "Questions about confidence scores",
+      "priority": "medium",
+      "automated_response": true
+    },
+    "returns": {
+      "description": "Questions about returns and exchanges",
+      "priority": "high",
+      "automated_response": true
+    },
+    "professional": {
+      "description": "Questions about professional services",
+      "priority": "medium",
+      "automated_response": false
+    }
+  },
+  
+  "response_strategies": {
+    "automated_responses": {
+      "enabled": true,
+      "confidence_threshold": 0.85,
+      "fallback_to_human": true
+    },
+    
+    "personalization": {
+      "body_type_specific": true,
+      "confidence_level_specific": true,
+      "customer_history_specific": true
+    },
+    
+    "escalation_triggers": {
+      "low_confidence_cases": true,
+      "edge_cases": true,
+      "complex_alterations": true,
+      "professional_fitting_requests": true
+    }
+  }
+} 

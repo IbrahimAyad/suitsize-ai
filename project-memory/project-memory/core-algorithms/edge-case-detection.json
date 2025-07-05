@@ -1,0 +1,286 @@
+{
+  "algorithm_version": "2.0",
+  "last_updated": "2024-07-04",
+  "description": "Advanced edge case detection and handling for unusual body proportions",
+  
+  "edge_case_categories": {
+    "height_extremes": {
+      "very_short": {
+        "condition": "height < 5'4\"",
+        "frequency": 0.05,
+        "challenges": [
+          "Limited size availability",
+          "Proportion adjustments needed",
+          "Sleeve length issues"
+        ],
+        "recommendations": [
+          "Consider short sizes",
+          "Professional alteration likely",
+          "Focus on fit over style"
+        ],
+        "confidence_impact": -0.15
+      },
+      "very_tall": {
+        "condition": "height > 6'6\"",
+        "frequency": 0.03,
+        "challenges": [
+          "Limited tall size availability",
+          "Sleeve length too short",
+          "Jacket length too short"
+        ],
+        "recommendations": [
+          "Consider tall/XL sizes",
+          "Custom sizing may be needed",
+          "Focus on length over width"
+        ],
+        "confidence_impact": -0.20
+      }
+    },
+    
+    "weight_extremes": {
+      "very_light": {
+        "condition": "weight < 120 lbs",
+        "frequency": 0.08,
+        "challenges": [
+          "Limited small size availability",
+          "Jacket may be too wide",
+          "Sleeve width issues"
+        ],
+        "recommendations": [
+          "Consider slim fit options",
+          "Professional tailoring recommended",
+          "Focus on shoulder fit"
+        ],
+        "confidence_impact": -0.12
+      },
+      "very_heavy": {
+        "condition": "weight > 300 lbs",
+        "frequency": 0.04,
+        "challenges": [
+          "Limited large size availability",
+          "Proportion adjustments needed",
+          "Comfort considerations"
+        ],
+        "recommendations": [
+          "Consider big & tall options",
+          "Focus on comfort over style",
+          "Professional fitting essential"
+        ],
+        "confidence_impact": -0.18
+      }
+    },
+    
+    "proportion_extremes": {
+      "athletic_v_shape": {
+        "condition": "drop > 8 inches",
+        "frequency": 0.15,
+        "challenges": [
+          "Shoulder width vs waist fit",
+          "Sleeve width vs arm size",
+          "Jacket length vs torso"
+        ],
+        "recommendations": [
+          "Size for shoulders",
+          "Tailor waist and sleeves",
+          "Consider athletic fit options"
+        ],
+        "confidence_impact": -0.08
+      },
+      "inverted_triangle": {
+        "condition": "shoulder_width > chest_width + 4 inches",
+        "frequency": 0.06,
+        "challenges": [
+          "Shoulder width vs chest fit",
+          "Sleeve attachment issues",
+          "Overall proportion balance"
+        ],
+        "recommendations": [
+          "Size for shoulders",
+          "Professional alteration needed",
+          "Consider custom options"
+        ],
+        "confidence_impact": -0.10
+      },
+      "rectangular_build": {
+        "condition": "drop < 4 inches",
+        "frequency": 0.12,
+        "challenges": [
+          "Limited waist definition",
+          "Jacket may appear boxy",
+          "Style limitations"
+        ],
+        "recommendations": [
+          "Consider slim fit options",
+          "Focus on shoulder fit",
+          "Avoid boxy styles"
+        ],
+        "confidence_impact": -0.06
+      }
+    },
+    
+    "bmi_extremes": {
+      "underweight": {
+        "condition": "bmi < 16",
+        "frequency": 0.07,
+        "challenges": [
+          "Limited small size availability",
+          "Jacket may be too wide",
+          "Overall proportion issues"
+        ],
+        "recommendations": [
+          "Consider slim fit options",
+          "Professional tailoring",
+          "Focus on shoulder fit"
+        ],
+        "confidence_impact": -0.14
+      },
+      "severely_obese": {
+        "condition": "bmi > 40",
+        "frequency": 0.03,
+        "challenges": [
+          "Limited large size availability",
+          "Comfort considerations",
+          "Style limitations"
+        ],
+        "recommendations": [
+          "Big & tall options",
+          "Focus on comfort",
+          "Professional fitting essential"
+        ],
+        "confidence_impact": -0.25
+      }
+    },
+    
+    "age_related": {
+      "senior_posture": {
+        "condition": "age > 65 AND posture_issues",
+        "frequency": 0.20,
+        "challenges": [
+          "Forward shoulder posture",
+          "Reduced range of motion",
+          "Comfort requirements"
+        ],
+        "recommendations": [
+          "Consider comfort fit",
+          "Professional alteration",
+          "Focus on ease of movement"
+        ],
+        "confidence_impact": -0.10
+      }
+    }
+  },
+  
+  "detection_algorithms": {
+    "proportion_analysis": {
+      "method": "ratio_calculation",
+      "ratios": {
+        "height_to_weight": "height_inches / weight_lbs",
+        "chest_to_waist": "chest_inches / waist_inches",
+        "shoulder_to_chest": "shoulder_inches / chest_inches",
+        "arm_length_to_height": "arm_length_inches / height_inches"
+      },
+      "thresholds": {
+        "normal_ranges": {
+          "height_to_weight": [0.04, 0.08],
+          "chest_to_waist": [1.05, 1.15],
+          "shoulder_to_chest": [1.02, 1.08],
+          "arm_length_to_height": [0.44, 0.48]
+        }
+      }
+    },
+    
+    "statistical_outlier_detection": {
+      "method": "z_score_analysis",
+      "threshold": 2.5,
+      "metrics": [
+        "height",
+        "weight",
+        "chest",
+        "waist",
+        "shoulder_width",
+        "arm_length"
+      ]
+    },
+    
+    "pattern_recognition": {
+      "method": "ml_classification",
+      "features": [
+        "height",
+        "weight",
+        "chest",
+        "waist",
+        "shoulder_width",
+        "arm_length",
+        "age",
+        "activity_level"
+      ],
+      "model_type": "random_forest",
+      "confidence_threshold": 0.8
+    }
+  },
+  
+  "handling_strategies": {
+    "primary_recommendation": {
+      "strategy": "size_for_dominant_feature",
+      "rules": [
+        "For tall/slim: size for length",
+        "For short/broad: size for width",
+        "For athletic: size for shoulders",
+        "For heavy: size for comfort"
+      ]
+    },
+    
+    "alternative_recommendations": {
+      "strategy": "provide_multiple_options",
+      "options": [
+        "Primary size recommendation",
+        "Alternative size",
+        "Custom sizing option",
+        "Professional fitting referral"
+      ]
+    },
+    
+    "confidence_adjustment": {
+      "strategy": "penalty_based_adjustment",
+      "base_penalty": -0.10,
+      "additional_penalties": {
+        "multiple_edge_cases": -0.05,
+        "extreme_values": -0.10,
+        "limited_data": -0.15
+      }
+    }
+  },
+  
+  "customer_communication": {
+    "edge_case_messages": {
+      "very_short": "Due to your height, we recommend our short sizes and suggest professional alterations for the perfect fit.",
+      "very_tall": "For your height, we recommend our tall sizes. You may need sleeve and jacket length adjustments.",
+      "athletic_build": "Your athletic build may require sizing for shoulders with waist and sleeve adjustments.",
+      "unique_proportions": "Your unique proportions suggest trying multiple sizes or considering a professional fitting.",
+      "extreme_bmi": "For optimal fit and comfort, we recommend a professional measurement and fitting consultation."
+    },
+    
+    "recommendation_types": {
+      "single_size": "We recommend size {size} for you.",
+      "size_range": "We recommend trying sizes {size1} and {size2}.",
+      "professional_fitting": "For the best fit, we recommend a professional fitting consultation.",
+      "custom_sizing": "Consider our custom sizing option for the perfect fit."
+    }
+  },
+  
+  "learning_and_improvement": {
+    "feedback_integration": {
+      "success_tracking": true,
+      "return_analysis": true,
+      "customer_satisfaction": true,
+      "adjustment_frequency": "monthly"
+    },
+    
+    "data_enrichment": {
+      "edge_case_database": true,
+      "success_patterns": true,
+      "failure_analysis": true,
+      "continuous_learning": true
+    }
+  }
+} 

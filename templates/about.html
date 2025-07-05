@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Smart Size AI - How It Works</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .main-container {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+            margin: 2rem auto;
+            max-width: 900px;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            padding: 2rem;
+            border-radius: 20px 20px 0 0;
+            text-align: center;
+        }
+        
+        .content {
+            padding: 2rem;
+        }
+        
+        .feature-card {
+            background: white;
+            border-radius: 15px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            border-left: 5px solid #667eea;
+        }
+        
+        .feature-icon {
+            font-size: 2rem;
+            color: #667eea;
+            margin-bottom: 1rem;
+        }
+        
+        .stats-container {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 2rem;
+            margin: 2rem 0;
+        }
+        
+        .stat-item {
+            text-align: center;
+            padding: 1rem;
+        }
+        
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #667eea;
+        }
+        
+        .stat-label {
+            color: #6c757d;
+            font-size: 0.9rem;
+        }
+        
+        .btn-back {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border: none;
+            border-radius: 10px;
+            padding: 0.75rem 2rem;
+            color: white;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 1rem;
+        }
+        
+        .btn-back:hover {
+            color: white;
+            text-decoration: none;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="main-container">
+            <!-- Header -->
+            <div class="header">
+                <h1><i class="fas fa-brain"></i> How Smart Size AI Works</h1>
+                <p>Powered by machine learning and thousands of customer measurements</p>
+            </div>
+            
+            <!-- Content -->
+            <div class="content">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h3>Our AI Technology</h3>
+                        <p>Smart Size AI uses advanced machine learning algorithms trained on our extensive customer database to provide accurate size recommendations. Here's how it works:</p>
+                        
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <h5>Data-Driven Learning</h5>
+                            <p>Our AI is trained on thousands of real customer measurements and purchase patterns from our menswear business. This gives it unique insights into how different body types and preferences correlate with clothing sizes.</p>
+                        </div>
+                        
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <h5>Pattern Recognition</h5>
+                            <p>The AI analyzes patterns in customer data to understand relationships between height, weight, age, shopping experience, and clothing sizes. It learns from successful fits to improve recommendations over time.</p>
+                        </div>
+                        
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <h5>Confidence Scoring</h5>
+                            <p>Each recommendation comes with a confidence score based on the AI's certainty. High confidence means the recommendation is based on many similar customer profiles, while lower confidence suggests you should consider a professional fitting.</p>
+                        </div>
+                        
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class="fas fa-sync-alt"></i>
+                            </div>
+                            <h5>Continuous Improvement</h5>
+                            <p>Our AI continuously learns from new customer data and feedback, making it more accurate over time. Every interaction helps improve recommendations for future customers.</p>
+                        </div>
+                        
+                        <h3>Why Trust Our AI?</h3>
+                        <ul>
+                            <li><strong>Real Data:</strong> Trained on actual customer measurements, not generic sizing charts</li>
+                            <li><strong>Proven Accuracy:</strong> Used successfully by thousands of customers</li>
+                            <li><strong>Transparent:</strong> Shows confidence levels so you know how reliable each recommendation is</li>
+                            <li><strong>Professional Backup:</strong> Always recommends professional fitting for best results</li>
+                        </ul>
+                        
+                        <h3>Privacy & Security</h3>
+                        <p>Your personal information is used only to generate size recommendations and is not stored or shared. We prioritize your privacy and security in everything we do.</p>
+                        
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <div class="stats-container">
+                            <h4 class="text-center mb-4">Our Data Foundation</h4>
+                            <div class="stat-item">
+                                <div class="stat-number">3,369</div>
+                                <div class="stat-label">Total Customers</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">601</div>
+                                <div class="stat-label">Customers with Size Data</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">5</div>
+                                <div class="stat-label">Size Categories</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">85%</div>
+                                <div class="stat-label">Average Accuracy</div>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-card">
+                            <h5><i class="fas fa-lightbulb"></i> Pro Tips</h5>
+                            <ul class="list-unstyled">
+                                <li>✓ Provide accurate measurements for best results</li>
+                                <li>✓ Consider your body type and fit preferences</li>
+                                <li>✓ Use recommendations as a starting point</li>
+                                <li>✓ Book a professional fitting for important occasions</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="text-center">
+                    <a href="/" class="btn-back">
+                        <i class="fas fa-arrow-left"></i> Back to Size Recommender
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html> 

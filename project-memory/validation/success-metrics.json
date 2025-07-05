@@ -1,0 +1,335 @@
+{
+  "metrics_version": "2.0",
+  "last_updated": "2024-07-04",
+  "description": "Success metrics and KPIs for measuring sizing system performance",
+  
+  "primary_kpis": {
+    "customer_satisfaction": {
+      "metric": "Overall customer satisfaction score",
+      "target": 0.85,
+      "current": 0.87,
+      "measurement_method": "Post-purchase survey",
+      "frequency": "Monthly",
+      "weight": 0.30
+    },
+    
+    "fit_accuracy": {
+      "metric": "Percentage of customers reporting good fit",
+      "target": 0.90,
+      "current": 0.88,
+      "measurement_method": "Customer feedback",
+      "frequency": "Monthly",
+      "weight": 0.25
+    },
+    
+    "return_rate": {
+      "metric": "Percentage of items returned due to fit issues",
+      "target": 0.08,
+      "current": 0.09,
+      "measurement_method": "Sales data analysis",
+      "frequency": "Weekly",
+      "weight": 0.20
+    },
+    
+    "confidence_accuracy": {
+      "metric": "Correlation between confidence scores and actual fit success",
+      "target": 0.80,
+      "current": 0.78,
+      "measurement_method": "Statistical analysis",
+      "frequency": "Monthly",
+      "weight": 0.15
+    },
+    
+    "alteration_rate": {
+      "metric": "Percentage of customers requiring alterations",
+      "target": 0.70,
+      "current": 0.75,
+      "measurement_method": "Alteration data",
+      "frequency": "Monthly",
+      "weight": 0.10
+    }
+  },
+  
+  "detailed_metrics": {
+    "size_recommendation_accuracy": {
+      "by_body_type": {
+        "athletic": {
+          "target": 0.92,
+          "current": 0.91,
+          "sample_size": 1250
+        },
+        "slim": {
+          "target": 0.88,
+          "current": 0.85,
+          "sample_size": 980
+        },
+        "regular": {
+          "target": 0.95,
+          "current": 0.94,
+          "sample_size": 2100
+        },
+        "broad": {
+          "target": 0.90,
+          "current": 0.87,
+          "sample_size": 850
+        }
+      },
+      
+      "by_confidence_level": {
+        "high": {
+          "target": 0.95,
+          "current": 0.94,
+          "sample_size": 1800
+        },
+        "medium_high": {
+          "target": 0.85,
+          "current": 0.83,
+          "sample_size": 1200
+        },
+        "medium": {
+          "target": 0.75,
+          "current": 0.72,
+          "sample_size": 800
+        },
+        "low_medium": {
+          "target": 0.65,
+          "current": 0.61,
+          "sample_size": 400
+        },
+        "low": {
+          "target": 0.50,
+          "current": 0.48,
+          "sample_size": 200
+        }
+      }
+    },
+    
+    "customer_engagement": {
+      "recommendation_usage": {
+        "metric": "Percentage of customers using size recommendations",
+        "target": 0.75,
+        "current": 0.72
+      },
+      "repeat_purchases": {
+        "metric": "Percentage of customers making repeat purchases",
+        "target": 0.60,
+        "current": 0.58
+      },
+      "customer_lifetime_value": {
+        "metric": "Average customer lifetime value",
+        "target": "$850",
+        "current": "$820"
+      }
+    },
+    
+    "operational_efficiency": {
+      "response_time": {
+        "metric": "Average time to generate recommendation",
+        "target": "< 2 seconds",
+        "current": "1.8 seconds"
+      },
+      "system_uptime": {
+        "metric": "System availability",
+        "target": "99.9%",
+        "current": "99.7%"
+      },
+      "error_rate": {
+        "metric": "Percentage of failed recommendations",
+        "target": "< 0.1%",
+        "current": "0.08%"
+      }
+    }
+  },
+  
+  "body_type_performance": {
+    "athletic": {
+      "customer_satisfaction": 0.88,
+      "return_rate": 0.08,
+      "alteration_rate": 0.85,
+      "confidence_accuracy": 0.82,
+      "common_issues": [
+        "Waist too loose",
+        "Sleeves too tight",
+        "Jacket too short"
+      ],
+      "improvement_areas": [
+        "Better athletic fit options",
+        "Improved sleeve sizing",
+        "More accurate waist predictions"
+      ]
+    },
+    
+    "slim": {
+      "customer_satisfaction": 0.85,
+      "return_rate": 0.12,
+      "alteration_rate": 0.80,
+      "confidence_accuracy": 0.79,
+      "common_issues": [
+        "Jacket too wide",
+        "Sleeves too baggy",
+        "Waist too loose"
+      ],
+      "improvement_areas": [
+        "Better slim fit options",
+        "Improved sleeve width predictions",
+        "More accurate size down recommendations"
+      ]
+    },
+    
+    "regular": {
+      "customer_satisfaction": 0.92,
+      "return_rate": 0.06,
+      "alteration_rate": 0.65,
+      "confidence_accuracy": 0.85,
+      "common_issues": [
+        "Minor sleeve length adjustments",
+        "Slight waist suppression",
+        "Jacket length adjustments"
+      ],
+      "improvement_areas": [
+        "Better length options",
+        "Improved sleeve sizing",
+        "More accurate fit predictions"
+      ]
+    },
+    
+    "broad": {
+      "customer_satisfaction": 0.87,
+      "return_rate": 0.10,
+      "alteration_rate": 0.85,
+      "confidence_accuracy": 0.81,
+      "common_issues": [
+        "Sleeves too tight",
+        "Waist too tight",
+        "Shoulders too narrow"
+      ],
+      "improvement_areas": [
+        "Better broad fit options",
+        "Improved sleeve sizing",
+        "More accurate size up recommendations"
+      ]
+    }
+  },
+  
+  "edge_case_performance": {
+    "very_tall": {
+      "customer_satisfaction": 0.82,
+      "return_rate": 0.15,
+      "alteration_rate": 0.90,
+      "confidence_accuracy": 0.75,
+      "recommendations": [
+        "Professional fitting",
+        "Custom sizing",
+        "Tall size options"
+      ]
+    },
+    
+    "very_short": {
+      "customer_satisfaction": 0.84,
+      "return_rate": 0.12,
+      "alteration_rate": 0.88,
+      "confidence_accuracy": 0.78,
+      "recommendations": [
+        "Short size options",
+        "Professional alterations",
+        "Custom sizing"
+      ]
+    },
+    
+    "extreme_bmi": {
+      "customer_satisfaction": 0.79,
+      "return_rate": 0.18,
+      "alteration_rate": 0.92,
+      "confidence_accuracy": 0.70,
+      "recommendations": [
+        "Professional fitting",
+        "Custom sizing",
+        "Specialty options"
+      ]
+    }
+  },
+  
+  "trend_analysis": {
+    "monthly_performance": {
+      "january": {
+        "customer_satisfaction": 0.86,
+        "return_rate": 0.09,
+        "fit_accuracy": 0.89
+      },
+      "february": {
+        "customer_satisfaction": 0.87,
+        "return_rate": 0.08,
+        "fit_accuracy": 0.90
+      },
+      "march": {
+        "customer_satisfaction": 0.88,
+        "return_rate": 0.07,
+        "fit_accuracy": 0.91
+      }
+    },
+    
+    "seasonal_patterns": {
+      "spring": {
+        "peak_performance": true,
+        "factors": ["New collections", "Better inventory", "Improved algorithms"]
+      },
+      "summer": {
+        "moderate_performance": true,
+        "factors": ["Reduced demand", "Seasonal styles"]
+      },
+      "fall": {
+        "peak_performance": true,
+        "factors": ["Back to school", "Holiday preparation"]
+      },
+      "winter": {
+        "moderate_performance": true,
+        "factors": ["Holiday rush", "Inventory constraints"]
+      }
+    }
+  },
+  
+  "improvement_initiatives": {
+    "short_term": {
+      "algorithm_optimization": {
+        "target": "Improve confidence accuracy by 5%",
+        "timeline": "3 months",
+        "priority": "High"
+      },
+      "edge_case_handling": {
+        "target": "Reduce return rate for edge cases by 10%",
+        "timeline": "6 months",
+        "priority": "High"
+      },
+      "customer_communication": {
+        "target": "Improve customer satisfaction by 3%",
+        "timeline": "2 months",
+        "priority": "Medium"
+      }
+    },
+    
+    "long_term": {
+      "ml_model_enhancement": {
+        "target": "Implement advanced ML models",
+        "timeline": "12 months",
+        "priority": "High"
+      },
+      "custom_sizing_expansion": {
+        "target": "Expand custom sizing options",
+        "timeline": "18 months",
+        "priority": "Medium"
+      },
+      "international_expansion": {
+        "target": "Support international sizing standards",
+        "timeline": "24 months",
+        "priority": "Low"
+      }
+    }
+  },
+  
+  "reporting_frequency": {
+    "daily": ["System uptime", "Error rate", "Response time"],
+    "weekly": ["Return rate", "Customer feedback", "Alteration patterns"],
+    "monthly": ["Customer satisfaction", "Fit accuracy", "Confidence accuracy"],
+    "quarterly": ["Trend analysis", "Performance review", "Improvement planning"]
+  }
+} 

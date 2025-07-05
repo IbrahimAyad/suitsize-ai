@@ -1,0 +1,188 @@
+{
+  "algorithm_version": "2.0",
+  "last_updated": "2024-07-04",
+  "description": "Multi-factor confidence scoring system for size recommendations",
+  
+  "confidence_factors": {
+    "data_quality": {
+      "weight": 0.25,
+      "factors": {
+        "measurement_completeness": {
+          "all_measurements": 1.0,
+          "height_weight_only": 0.7,
+          "height_only": 0.5,
+          "weight_only": 0.4,
+          "estimated": 0.3
+        },
+        "measurement_accuracy": {
+          "professional_measurement": 1.0,
+          "self_measured": 0.8,
+          "estimated": 0.6,
+          "approximate": 0.4
+        }
+      }
+    },
+    
+    "customer_similarity": {
+      "weight": 0.35,
+      "factors": {
+        "similar_customers": {
+          "exact_match": 1.0,
+          "close_match": 0.9,
+          "similar_range": 0.8,
+          "few_similar": 0.6,
+          "no_similar": 0.3
+        },
+        "sample_size": {
+          "thresholds": {
+            "excellent": 50,
+            "good": 20,
+            "fair": 10,
+            "poor": 5,
+            "insufficient": 1
+          },
+          "scores": {
+            "excellent": 1.0,
+            "good": 0.9,
+            "fair": 0.8,
+            "poor": 0.6,
+            "insufficient": 0.4
+          }
+        }
+      }
+    },
+    
+    "body_type_match": {
+      "weight": 0.20,
+      "factors": {
+        "classification_confidence": {
+          "clear_athletic": 1.0,
+          "clear_slim": 1.0,
+          "clear_regular": 1.0,
+          "clear_broad": 1.0,
+          "borderline": 0.8,
+          "unclear": 0.6
+        },
+        "proportion_consistency": {
+          "typical_proportions": 1.0,
+          "slight_variation": 0.9,
+          "moderate_variation": 0.7,
+          "extreme_variation": 0.5
+        }
+      }
+    },
+    
+    "edge_case_risk": {
+      "weight": 0.20,
+      "factors": {
+        "height_extremes": {
+          "very_short": 0.7,
+          "short": 0.9,
+          "average": 1.0,
+          "tall": 0.9,
+          "very_tall": 0.7
+        },
+        "weight_extremes": {
+          "very_light": 0.7,
+          "light": 0.9,
+          "average": 1.0,
+          "heavy": 0.9,
+          "very_heavy": 0.7
+        },
+        "bmi_risk": {
+          "underweight": 0.6,
+          "normal": 1.0,
+          "overweight": 0.9,
+          "obese": 0.7,
+          "severely_obese": 0.5
+        }
+      }
+    }
+  },
+  
+  "confidence_levels": {
+    "high": {
+      "range": [0.85, 1.0],
+      "description": "Very reliable recommendation",
+      "customer_message": "Based on your measurements and our extensive customer data, we're confident this size will fit you well.",
+      "recommendation_type": "single_size",
+      "return_risk": "low"
+    },
+    "medium_high": {
+      "range": [0.75, 0.84],
+      "description": "Reliable recommendation with minor uncertainty",
+      "customer_message": "This size should work well for you, though you may want to consider the alternative size as well.",
+      "recommendation_type": "primary_with_alternative",
+      "return_risk": "low_medium"
+    },
+    "medium": {
+      "range": [0.65, 0.74],
+      "description": "Good recommendation with some uncertainty",
+      "customer_message": "We recommend this size, but suggest trying both this and the alternative size to ensure the best fit.",
+      "recommendation_type": "size_range",
+      "return_risk": "medium"
+    },
+    "low_medium": {
+      "range": [0.55, 0.64],
+      "description": "Recommendation with significant uncertainty",
+      "customer_message": "Due to your unique proportions, we recommend trying multiple sizes or considering a professional fitting.",
+      "recommendation_type": "multiple_options",
+      "return_risk": "medium_high"
+    },
+    "low": {
+      "range": [0.0, 0.54],
+      "description": "High uncertainty, professional fitting recommended",
+      "customer_message": "For the best fit, we recommend a professional measurement and fitting consultation.",
+      "recommendation_type": "professional_fitting",
+      "return_risk": "high"
+    }
+  },
+  
+  "calculation_method": {
+    "formula": "weighted_sum_of_factors",
+    "steps": [
+      "Calculate each factor score",
+      "Apply weights to each factor",
+      "Sum weighted scores",
+      "Apply edge case penalties",
+      "Determine confidence level"
+    ]
+  },
+  
+  "edge_case_penalties": {
+    "tall_slim": -0.15,
+    "short_broad": -0.12,
+    "athletic_v_shape": -0.08,
+    "extreme_bmi": -0.20,
+    "inconsistent_measurements": -0.10,
+    "missing_critical_data": -0.25
+  },
+  
+  "learning_mechanism": {
+    "feedback_integration": {
+      "success_rate_tracking": true,
+      "return_reason_analysis": true,
+      "customer_satisfaction_scores": true,
+      "adjustment_frequency": "monthly"
+    },
+    "confidence_calibration": {
+      "method": "bayesian_updating",
+      "update_threshold": 100,
+      "learning_rate": 0.01
+    }
+  },
+  
+  "quality_metrics": {
+    "accuracy_target": 0.90,
+    "confidence_calibration": {
+      "high_confidence_accuracy": 0.95,
+      "medium_confidence_accuracy": 0.85,
+      "low_confidence_accuracy": 0.70
+    },
+    "return_rate_targets": {
+      "high_confidence": 0.05,
+      "medium_confidence": 0.10,
+      "low_confidence": 0.20
+    }
+  }
+} 

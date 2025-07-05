@@ -1,0 +1,86 @@
+{
+  "athletic": {
+    "measurement_patterns": {
+      "shoulder_width": "Wider than chest",
+      "chest_measurement": "Well-developed",
+      "waist_measurement": "Narrow relative to chest",
+      "arm_circumference": "Larger than average",
+      "drop": "6-10 inches (chest to waist)"
+    },
+    "proportion_ratios": {
+      "shoulder_to_chest": "1.02-1.08",
+      "chest_to_waist": "1.10-1.20"
+    },
+    "bmi_range": [20.0, 28.0],
+    "sizing_nudge": "If near S/R/L cutoff, prefer longer length (R or L)",
+    "fit_preferences": {
+      "jacket_fit": "Slim to regular",
+      "waist_fit": "Slightly suppressed",
+      "length_preference": "Standard to slightly longer"
+    },
+    "alteration_priority": ["waist_suppression", "sleeve_width", "sleeve_length", "jacket_length"]
+  },
+  "slim": {
+    "measurement_patterns": {
+      "shoulder_width": "Narrow relative to height",
+      "chest_measurement": "Slim",
+      "waist_measurement": "Narrow",
+      "arm_circumference": "Slender",
+      "drop": "2-6 inches (chest to waist)"
+    },
+    "proportion_ratios": {
+      "shoulder_to_chest": "0.95-1.02",
+      "chest_to_waist": "1.05-1.12"
+    },
+    "bmi_range": [16.0, 22.0],
+    "sizing_nudge": "If near S/R/L cutoff, prefer shorter length (S or R)",
+    "fit_preferences": {
+      "jacket_fit": "Slim to very slim",
+      "waist_fit": "Slightly fitted",
+      "length_preference": "Standard to slightly shorter"
+    },
+    "alteration_priority": ["sleeve_width", "waist_suppression", "shoulder_width", "jacket_length"]
+  },
+  "regular": {
+    "measurement_patterns": {
+      "shoulder_width": "Proportional to chest",
+      "chest_measurement": "Moderate",
+      "waist_measurement": "Proportional to chest",
+      "arm_circumference": "Standard",
+      "drop": "4-8 inches (chest to waist)"
+    },
+    "proportion_ratios": {
+      "shoulder_to_chest": "1.00-1.05",
+      "chest_to_waist": "1.08-1.15"
+    },
+    "bmi_range": [18.5, 26.0],
+    "sizing_nudge": "Standard S/R/L logic applies",
+    "fit_preferences": {
+      "jacket_fit": "Regular to slim",
+      "waist_fit": "Slightly fitted",
+      "length_preference": "Standard"
+    },
+    "alteration_priority": ["sleeve_length", "waist_suppression", "jacket_length", "sleeve_width"]
+  },
+  "broad": {
+    "measurement_patterns": {
+      "shoulder_width": "Wide relative to height",
+      "chest_measurement": "Broad",
+      "waist_measurement": "Wide",
+      "arm_circumference": "Larger than average",
+      "drop": "2-6 inches (chest to waist)"
+    },
+    "proportion_ratios": {
+      "shoulder_to_chest": "1.05-1.12",
+      "chest_to_waist": "1.02-1.10"
+    },
+    "bmi_range": [25.0, 35.0],
+    "sizing_nudge": "If near S/R/L cutoff, prefer longer length (R or L) and size up for comfort",
+    "fit_preferences": {
+      "jacket_fit": "Regular to comfort",
+      "waist_fit": "Comfortable",
+      "length_preference": "Standard to slightly longer"
+    },
+    "alteration_priority": ["sleeve_width", "waist_let_out", "sleeve_length", "jacket_length"]
+  }
+} 

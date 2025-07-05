@@ -1,0 +1,284 @@
+{
+  "body_type": "slim",
+  "version": "2.0",
+  "last_updated": "2024-07-04",
+  "description": "Slim build with narrow shoulders, chest, and waist, typically with a straight or slightly tapered torso",
+  
+  "characteristics": {
+    "primary_features": [
+      "Narrow shoulders",
+      "Slim chest",
+      "Narrow waist",
+      "Straight or slightly tapered torso",
+      "Slender arms"
+    ],
+    
+    "measurement_patterns": {
+      "shoulder_width": "Narrow relative to height",
+      "chest_measurement": "Slim",
+      "waist_measurement": "Narrow",
+      "arm_circumference": "Slender",
+      "drop": "2-6 inches (chest to waist)"
+    },
+    
+    "proportion_ratios": {
+      "shoulder_to_chest": "0.95-1.02",
+      "chest_to_waist": "1.05-1.12",
+      "arm_length_to_height": "0.44-0.48",
+      "torso_length": "Proportional to height"
+    },
+    
+    "bmi_range": [16.0, 22.0],
+    "typical_age_range": [16, 35],
+    "activity_level": "Low to moderate",
+    "frequency_in_population": 0.20
+  },
+  
+  "sizing_challenges": {
+    "primary_issues": [
+      "Finding small enough sizes",
+      "Jacket length vs torso",
+      "Sleeve width vs arm size",
+      "Overall proportion balance"
+    ],
+    
+    "common_problems": {
+      "jacket_too_wide": "Standard sizes too wide in shoulders and chest",
+      "sleeve_too_wide": "Standard sleeves too wide for slender arms",
+      "jacket_too_long": "Standard length may be too long",
+      "waist_too_loose": "Standard fit too loose at waist"
+    }
+  },
+  
+  "sizing_strategy": {
+    "primary_approach": "Size down and focus on length adjustments",
+    
+    "size_selection": {
+      "method": "chest_based_sizing_minus_one",
+      "priority_order": [
+        "Chest circumference",
+        "Shoulder width",
+        "Arm length",
+        "Jacket length",
+        "Waist circumference"
+      ]
+    },
+    
+    "fit_preferences": {
+      "jacket_fit": "Slim to very slim",
+      "sleeve_fit": "Close to arm",
+      "waist_fit": "Slightly fitted",
+      "length_preference": "Standard to slightly shorter"
+    }
+  },
+  
+  "recommended_sizes": {
+    "size_mapping": {
+      "32R": {
+        "height_range": ["5'4\"", "5'8\""],
+        "weight_range": [110, 130],
+        "chest_range": [32, 34],
+        "waist_range": [26, 28],
+        "shoulder_range": [15.5, 16.5],
+        "confidence": 0.90
+      },
+      "34R": {
+        "height_range": ["5'5\"", "5'9\""],
+        "weight_range": [125, 145],
+        "chest_range": [34, 36],
+        "waist_range": [28, 30],
+        "shoulder_range": [16.0, 17.0],
+        "confidence": 0.92
+      },
+      "36R": {
+        "height_range": ["5'6\"", "6'0\""],
+        "weight_range": [140, 160],
+        "chest_range": [36, 38],
+        "waist_range": [30, 32],
+        "shoulder_range": [16.5, 17.5],
+        "confidence": 0.94
+      },
+      "38R": {
+        "height_range": ["5'7\"", "6'1\""],
+        "weight_range": [155, 175],
+        "chest_range": [38, 40],
+        "waist_range": [32, 34],
+        "shoulder_range": [17.0, 18.0],
+        "confidence": 0.93
+      },
+      "40R": {
+        "height_range": ["5'8\"", "6'2\""],
+        "weight_range": [170, 190],
+        "chest_range": [40, 42],
+        "waist_range": [34, 36],
+        "shoulder_range": [17.5, 18.5],
+        "confidence": 0.91
+      }
+    },
+    
+    "length_adjustments": {
+      "S": {
+        "height_range": ["5'4\"", "5'8\""],
+        "sleeve_adjustment": -1.5,
+        "jacket_adjustment": -3.0,
+        "confidence": 0.92
+      },
+      "R": {
+        "height_range": ["5'8\"", "6'0\""],
+        "sleeve_adjustment": 0,
+        "jacket_adjustment": 0,
+        "confidence": 0.95
+      },
+      "L": {
+        "height_range": ["6'0\"", "6'4\""],
+        "sleeve_adjustment": 1.5,
+        "jacket_adjustment": 3.0,
+        "confidence": 0.93
+      }
+    }
+  },
+  
+  "alteration_recommendations": {
+    "common_alterations": [
+      {
+        "type": "sleeve_width",
+        "frequency": 0.80,
+        "description": "Take in sleeve width for better arm fit",
+        "typical_adjustment": "0.5-1 inch"
+      },
+      {
+        "type": "waist_suppression",
+        "frequency": 0.75,
+        "description": "Take in waist for better fit",
+        "typical_adjustment": "1-2 inches"
+      },
+      {
+        "type": "shoulder_width",
+        "frequency": 0.60,
+        "description": "Reduce shoulder width",
+        "typical_adjustment": "0.5-1 inch"
+      },
+      {
+        "type": "jacket_length",
+        "frequency": 0.50,
+        "description": "Shorten jacket length",
+        "typical_adjustment": "1-2 inches"
+      }
+    ],
+    
+    "alteration_priorities": [
+      "Sleeve width adjustment (most common)",
+      "Waist suppression",
+      "Shoulder width reduction",
+      "Jacket length adjustment"
+    ]
+  },
+  
+  "style_recommendations": {
+    "jacket_styles": [
+      "Slim fit suits",
+      "Italian cut jackets",
+      "Single-breasted jackets",
+      "Narrow lapels",
+      "Side vents"
+    ],
+    
+    "avoid_styles": [
+      "Boxy cuts",
+      "Double-breasted (unless very tall)",
+      "Wide lapels",
+      "Heavy fabrics"
+    ],
+    
+    "fabric_recommendations": [
+      "Lightweight wool",
+      "Cotton blends",
+      "Linen blends",
+      "Stretch fabrics"
+    ]
+  },
+  
+  "customer_communication": {
+    "key_messages": [
+      "Your slim build works best with slim fit options",
+      "Consider sizing down for better proportions",
+      "Sleeve and waist adjustments are common for your build",
+      "Focus on clean, tailored lines"
+    ],
+    
+    "common_questions": [
+      "Should I size down?",
+      "What fit works best for me?",
+      "Will alterations be expensive?",
+      "How do I avoid looking too skinny?"
+    ],
+    
+    "answers": {
+      "sizing_advice": "Yes, sizing down often works better for slim builds.",
+      "fit_recommendation": "Slim fit options will give you the best proportions.",
+      "alteration_cost": "Typical alterations range from $40-120 for slim builds.",
+      "style_advice": "Choose well-fitted pieces with clean lines to look polished."
+    }
+  },
+  
+  "success_metrics": {
+    "customer_satisfaction": 0.85,
+    "return_rate": 0.12,
+    "alteration_rate": 0.80,
+    "repeat_purchase_rate": 0.70
+  },
+  
+  "learning_data": {
+    "customer_feedback": {
+      "positive_feedback": [
+        "Perfect slim fit",
+        "Great proportions",
+        "Professional appearance",
+        "Comfortable fit"
+      ],
+      "negative_feedback": [
+        "Still too wide",
+        "Sleeves too baggy",
+        "Needed more alterations",
+        "Jacket too long"
+      ]
+    },
+    
+    "improvement_areas": [
+      "Better slim fit options",
+      "More accurate size recommendations",
+      "Improved sleeve sizing",
+      "Better length options"
+    ]
+  },
+  
+  "special_considerations": {
+    "tall_slim": {
+      "condition": "height > 6'2\" AND weight < 160",
+      "challenges": [
+        "Finding long enough sleeves",
+        "Jacket length issues",
+        "Limited size availability"
+      ],
+      "recommendations": [
+        "Consider tall sizes",
+        "Focus on length over width",
+        "Professional alterations essential"
+      ]
+    },
+    
+    "short_slim": {
+      "condition": "height < 5'6\" AND weight < 130",
+      "challenges": [
+        "Finding small enough sizes",
+        "Length adjustments needed",
+        "Proportion balance"
+      ],
+      "recommendations": [
+        "Consider short sizes",
+        "Size down when possible",
+        "Focus on fit over style"
+      ]
+    }
+  }
+} 

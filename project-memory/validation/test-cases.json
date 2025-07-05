@@ -1,0 +1,367 @@
+{
+  "test_suite_version": "2.0",
+  "last_updated": "2024-07-04",
+  "description": "Comprehensive test cases for validating sizing algorithms and recommendations",
+  
+  "test_categories": {
+    "height_weight_matrix": {
+      "description": "Test cases for height-weight matrix lookups",
+      "test_cases": [
+        {
+          "test_id": "HW_001",
+          "description": "Standard height-weight combination",
+          "input": {
+            "height": "5'10\"",
+            "weight": 175,
+            "age": 30,
+            "activity_level": "moderate"
+          },
+          "expected_output": {
+            "size": "40R",
+            "confidence": 0.94,
+            "body_type": "regular",
+            "alterations": ["sleeve_length"]
+          },
+          "success_criteria": [
+            "Correct size recommendation",
+            "Confidence > 0.90",
+            "Appropriate body type classification"
+          ]
+        },
+        {
+          "test_id": "HW_002",
+          "description": "Athletic build with high weight",
+          "input": {
+            "height": "6'0\"",
+            "weight": 200,
+            "age": 25,
+            "activity_level": "high",
+            "chest": 44,
+            "waist": 34
+          },
+          "expected_output": {
+            "size": "42R",
+            "confidence": 0.91,
+            "body_type": "athletic",
+            "alterations": ["waist_suppression", "sleeve_width"]
+          },
+          "success_criteria": [
+            "Athletic body type classification",
+            "Appropriate size recommendation",
+            "Waist suppression alteration"
+          ]
+        },
+        {
+          "test_id": "HW_003",
+          "description": "Slim build with low weight",
+          "input": {
+            "height": "5'8\"",
+            "weight": 140,
+            "age": 22,
+            "activity_level": "low"
+          },
+          "expected_output": {
+            "size": "36R",
+            "confidence": 0.92,
+            "body_type": "slim",
+            "alterations": ["sleeve_width", "waist_suppression"]
+          },
+          "success_criteria": [
+            "Slim body type classification",
+            "Size down recommendation",
+            "Sleeve width alteration"
+          ]
+        }
+      ]
+    },
+    
+    "edge_cases": {
+      "description": "Test cases for edge case detection and handling",
+      "test_cases": [
+        {
+          "test_id": "EC_001",
+          "description": "Very tall and slim",
+          "input": {
+            "height": "6'8\"",
+            "weight": 180,
+            "age": 28,
+            "activity_level": "moderate"
+          },
+          "expected_output": {
+            "size": "42L",
+            "confidence": 0.75,
+            "body_type": "slim",
+            "edge_case": "very_tall",
+            "recommendations": ["professional_fitting", "custom_sizing"]
+          },
+          "success_criteria": [
+            "Edge case detection",
+            "Reduced confidence score",
+            "Professional fitting recommendation"
+          ]
+        },
+        {
+          "test_id": "EC_002",
+          "description": "Very short and broad",
+          "input": {
+            "height": "5'2\"",
+            "weight": 220,
+            "age": 45,
+            "activity_level": "low"
+          },
+          "expected_output": {
+            "size": "44S",
+            "confidence": 0.78,
+            "body_type": "broad",
+            "edge_case": "very_short",
+            "recommendations": ["short_sizes", "professional_alterations"]
+          },
+          "success_criteria": [
+            "Edge case detection",
+            "Short size recommendation",
+            "Professional alterations"
+          ]
+        },
+        {
+          "test_id": "EC_003",
+          "description": "Extreme BMI - underweight",
+          "input": {
+            "height": "5'10\"",
+            "weight": 120,
+            "age": 20,
+            "activity_level": "low"
+          },
+          "expected_output": {
+            "size": "34R",
+            "confidence": 0.70,
+            "body_type": "slim",
+            "edge_case": "underweight",
+            "recommendations": ["slim_fit", "professional_tailoring"]
+          },
+          "success_criteria": [
+            "BMI edge case detection",
+            "Reduced confidence",
+            "Professional tailoring recommendation"
+          ]
+        }
+      ]
+    },
+    
+    "body_type_classification": {
+      "description": "Test cases for body type classification accuracy",
+      "test_cases": [
+        {
+          "test_id": "BTC_001",
+          "description": "Clear athletic build",
+          "input": {
+            "height": "6'0\"",
+            "weight": 190,
+            "chest": 44,
+            "waist": 34,
+            "shoulder_width": 19.5,
+            "age": 30
+          },
+          "expected_output": {
+            "body_type": "athletic",
+            "confidence": 0.95,
+            "classification_factors": ["drop_8_inches", "broad_shoulders", "narrow_waist"]
+          },
+          "success_criteria": [
+            "Correct athletic classification",
+            "High confidence score",
+            "Appropriate classification factors"
+          ]
+        },
+        {
+          "test_id": "BTC_002",
+          "description": "Borderline body type",
+          "input": {
+            "height": "5'10\"",
+            "weight": 170,
+            "chest": 40,
+            "waist": 34,
+            "shoulder_width": 17.5,
+            "age": 35
+          },
+          "expected_output": {
+            "body_type": "regular",
+            "confidence": 0.85,
+            "classification_factors": ["moderate_drop", "balanced_proportions"]
+          },
+          "success_criteria": [
+            "Appropriate classification",
+            "Moderate confidence",
+            "Clear classification factors"
+          ]
+        }
+      ]
+    },
+    
+    "confidence_scoring": {
+      "description": "Test cases for confidence scoring accuracy",
+      "test_cases": [
+        {
+          "test_id": "CS_001",
+          "description": "High confidence case",
+          "input": {
+            "height": "5'10\"",
+            "weight": 175,
+            "chest": 40,
+            "waist": 34,
+            "shoulder_width": 18.0,
+            "age": 30,
+            "measurement_quality": "professional"
+          },
+          "expected_output": {
+            "confidence_score": 0.92,
+            "confidence_level": "high",
+            "factors": {
+              "data_quality": 1.0,
+              "customer_similarity": 0.95,
+              "body_type_match": 1.0,
+              "edge_case_risk": 1.0
+            }
+          },
+          "success_criteria": [
+            "High confidence score",
+            "Appropriate confidence level",
+            "All factors contributing positively"
+          ]
+        },
+        {
+          "test_id": "CS_002",
+          "description": "Low confidence case",
+          "input": {
+            "height": "6'6\"",
+            "weight": 160,
+            "age": 25,
+            "measurement_quality": "estimated"
+          },
+          "expected_output": {
+            "confidence_score": 0.55,
+            "confidence_level": "low_medium",
+            "factors": {
+              "data_quality": 0.6,
+              "customer_similarity": 0.4,
+              "body_type_match": 0.8,
+              "edge_case_risk": 0.7
+            }
+          },
+          "success_criteria": [
+            "Low confidence score",
+            "Appropriate confidence level",
+            "Edge case penalties applied"
+          ]
+        }
+      ]
+    },
+    
+    "size_recommendations": {
+      "description": "Test cases for size recommendation accuracy",
+      "test_cases": [
+        {
+          "test_id": "SR_001",
+          "description": "Standard size recommendation",
+          "input": {
+            "height": "5'10\"",
+            "weight": 175,
+            "chest": 40,
+            "waist": 34
+          },
+          "expected_output": {
+            "primary_size": "40R",
+            "alternative_size": "42R",
+            "confidence": 0.94,
+            "reasoning": "Standard proportions, good data quality"
+          },
+          "success_criteria": [
+            "Correct primary size",
+            "Appropriate alternative",
+            "High confidence"
+          ]
+        },
+        {
+          "test_id": "SR_002",
+          "description": "Size range recommendation",
+          "input": {
+            "height": "5'11\"",
+            "weight": 185,
+            "chest": 42,
+            "waist": 36
+          },
+          "expected_output": {
+            "size_range": ["40R", "42R"],
+            "confidence": 0.85,
+            "reasoning": "Borderline measurements, try both sizes"
+          },
+          "success_criteria": [
+            "Appropriate size range",
+            "Moderate confidence",
+            "Clear reasoning"
+          ]
+        }
+      ]
+    }
+  },
+  
+  "performance_metrics": {
+    "accuracy_targets": {
+      "size_recommendation_accuracy": 0.90,
+      "body_type_classification_accuracy": 0.85,
+      "confidence_calibration_accuracy": 0.80,
+      "edge_case_detection_accuracy": 0.95
+    },
+    
+    "response_time_targets": {
+      "standard_recommendation": "< 2 seconds",
+      "edge_case_handling": "< 5 seconds",
+      "complex_calculation": "< 10 seconds"
+    },
+    
+    "customer_satisfaction_targets": {
+      "overall_satisfaction": 0.85,
+      "fit_accuracy": 0.90,
+      "recommendation_helpfulness": 0.88
+    }
+  },
+  
+  "validation_process": {
+    "automated_testing": {
+      "unit_tests": true,
+      "integration_tests": true,
+      "performance_tests": true,
+      "regression_tests": true
+    },
+    
+    "manual_testing": {
+      "expert_review": true,
+      "customer_feedback": true,
+      "real_world_validation": true
+    },
+    
+    "continuous_monitoring": {
+      "production_metrics": true,
+      "customer_satisfaction": true,
+      "return_rate_analysis": true,
+      "alteration_patterns": true
+    }
+  },
+  
+  "test_data_requirements": {
+    "diverse_customer_profiles": {
+      "age_range": [16, 80],
+      "height_range": ["5'0\"", "7'0\""],
+      "weight_range": [100, 400],
+      "body_types": ["slim", "regular", "athletic", "broad"],
+      "measurement_quality": ["professional", "self_measured", "estimated"]
+    },
+    
+    "edge_case_coverage": {
+      "very_tall": "> 6'6\"",
+      "very_short": "< 5'4\"",
+      "very_light": "< 120 lbs",
+      "very_heavy": "> 300 lbs",
+      "extreme_bmi": "< 16 or > 40"
+    }
+  }
+} 

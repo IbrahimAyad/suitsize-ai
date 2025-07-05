@@ -1,0 +1,315 @@
+{
+  "body_type": "broad",
+  "version": "2.0",
+  "last_updated": "2024-07-04",
+  "description": "Broad build with wide shoulders, chest, and waist, typically with a rectangular or slightly tapered torso",
+  
+  "characteristics": {
+    "primary_features": [
+      "Wide shoulders",
+      "Broad chest",
+      "Wide waist",
+      "Rectangular or slightly tapered torso",
+      "Larger arm circumference"
+    ],
+    
+    "measurement_patterns": {
+      "shoulder_width": "Wide relative to height",
+      "chest_measurement": "Broad",
+      "waist_measurement": "Wide",
+      "arm_circumference": "Larger than average",
+      "drop": "2-6 inches (chest to waist)"
+    },
+    
+    "proportion_ratios": {
+      "shoulder_to_chest": "1.05-1.12",
+      "chest_to_waist": "1.02-1.10",
+      "arm_length_to_height": "0.44-0.48",
+      "torso_length": "Proportional to height"
+    },
+    
+    "bmi_range": [25.0, 35.0],
+    "typical_age_range": [30, 65],
+    "activity_level": "Low to moderate",
+    "frequency_in_population": 0.20
+  },
+  
+  "sizing_challenges": {
+    "primary_issues": [
+      "Finding wide enough sizes",
+      "Sleeve width vs arm size",
+      "Jacket length vs torso",
+      "Comfort vs style balance"
+    ],
+    
+    "common_problems": {
+      "jacket_too_narrow": "Standard sizes too narrow in shoulders and chest",
+      "sleeve_too_narrow": "Standard sleeves too tight on arms",
+      "jacket_too_short": "Standard length may be too short",
+      "waist_too_tight": "Standard fit too tight at waist"
+    }
+  },
+  
+  "sizing_strategy": {
+    "primary_approach": "Size up and focus on comfort",
+    
+    "size_selection": {
+      "method": "shoulder_based_sizing_plus_one",
+      "priority_order": [
+        "Shoulder width",
+        "Chest circumference",
+        "Arm circumference",
+        "Jacket length",
+        "Waist circumference"
+      ]
+    },
+    
+    "fit_preferences": {
+      "jacket_fit": "Regular to comfort",
+      "sleeve_fit": "Comfortable around arms",
+      "waist_fit": "Comfortable",
+      "length_preference": "Standard to slightly longer"
+    }
+  },
+  
+  "recommended_sizes": {
+    "size_mapping": {
+      "40R": {
+        "height_range": ["5'6\"", "6'0\""],
+        "weight_range": [180, 200],
+        "chest_range": [40, 42],
+        "waist_range": [36, 38],
+        "shoulder_range": [18.5, 19.5],
+        "confidence": 0.91
+      },
+      "42R": {
+        "height_range": ["5'7\"", "6'1\""],
+        "weight_range": [195, 215],
+        "chest_range": [42, 44],
+        "waist_range": [38, 40],
+        "shoulder_range": [19.0, 20.0],
+        "confidence": 0.93
+      },
+      "44R": {
+        "height_range": ["5'8\"", "6'2\""],
+        "weight_range": [210, 230],
+        "chest_range": [44, 46],
+        "waist_range": [40, 42],
+        "shoulder_range": [19.5, 20.5],
+        "confidence": 0.94
+      },
+      "46R": {
+        "height_range": ["5'9\"", "6'3\""],
+        "weight_range": [225, 245],
+        "chest_range": [46, 48],
+        "waist_range": [42, 44],
+        "shoulder_range": [20.0, 21.0],
+        "confidence": 0.92
+      },
+      "48R": {
+        "height_range": ["5'10\"", "6'4\""],
+        "weight_range": [240, 260],
+        "chest_range": [48, 50],
+        "waist_range": [44, 46],
+        "shoulder_range": [20.5, 21.5],
+        "confidence": 0.90
+      },
+      "50R": {
+        "height_range": ["5'11\"", "6'5\""],
+        "weight_range": [255, 275],
+        "chest_range": [50, 52],
+        "waist_range": [46, 48],
+        "shoulder_range": [21.0, 22.0],
+        "confidence": 0.88
+      }
+    },
+    
+    "length_adjustments": {
+      "S": {
+        "height_range": ["5'4\"", "5'8\""],
+        "sleeve_adjustment": -1.0,
+        "jacket_adjustment": -2.5,
+        "confidence": 0.89
+      },
+      "R": {
+        "height_range": ["5'8\"", "6'0\""],
+        "sleeve_adjustment": 0,
+        "jacket_adjustment": 0,
+        "confidence": 0.94
+      },
+      "L": {
+        "height_range": ["6'0\"", "6'4\""],
+        "sleeve_adjustment": 1.0,
+        "jacket_adjustment": 2.5,
+        "confidence": 0.91
+      }
+    }
+  },
+  
+  "alteration_recommendations": {
+    "common_alterations": [
+      {
+        "type": "sleeve_width",
+        "frequency": 0.85,
+        "description": "Let out sleeve width for arm comfort",
+        "typical_adjustment": "0.5-1.5 inches"
+      },
+      {
+        "type": "waist_let_out",
+        "frequency": 0.70,
+        "description": "Let out waist for comfort",
+        "typical_adjustment": "0.5-1 inch"
+      },
+      {
+        "type": "sleeve_length",
+        "frequency": 0.65,
+        "description": "Adjust sleeve length",
+        "typical_adjustment": "±0.5 inches"
+      },
+      {
+        "type": "jacket_length",
+        "frequency": 0.50,
+        "description": "Adjust jacket length",
+        "typical_adjustment": "±1 inch"
+      }
+    ],
+    
+    "alteration_priorities": [
+      "Sleeve width adjustment (most common)",
+      "Waist let out",
+      "Sleeve length adjustment",
+      "Jacket length adjustment"
+    ]
+  },
+  
+  "style_recommendations": {
+    "jacket_styles": [
+      "Regular fit suits",
+      "Comfort fit options",
+      "Single-breasted jackets",
+      "Notch lapels",
+      "Side vents"
+    ],
+    
+    "avoid_styles": [
+      "Very slim fits",
+      "Double-breasted (unless very tall)",
+      "Very narrow lapels",
+      "Tight cuts"
+    ],
+    
+    "fabric_recommendations": [
+      "Wool with stretch",
+      "Cotton blends",
+      "Lightweight wool",
+      "Comfort fabrics"
+    ]
+  },
+  
+  "customer_communication": {
+    "key_messages": [
+      "Your broad build works best with regular to comfort fit options",
+      "Consider sizing up for better shoulder and arm fit",
+      "Sleeve and waist adjustments are common for your build",
+      "Focus on comfort and professional appearance"
+    ],
+    
+    "common_questions": [
+      "Should I size up?",
+      "What fit works best for me?",
+      "Will alterations be expensive?",
+      "How do I look professional without being uncomfortable?"
+    ],
+    
+    "answers": {
+      "sizing_advice": "Yes, sizing up often works better for broad builds.",
+      "fit_recommendation": "Regular to comfort fit options will give you the best balance.",
+      "alteration_cost": "Typical alterations range from $50-150 for broad builds.",
+      "style_advice": "Choose well-fitted pieces that prioritize comfort and professional appearance."
+    }
+  },
+  
+  "success_metrics": {
+    "customer_satisfaction": 0.87,
+    "return_rate": 0.10,
+    "alteration_rate": 0.85,
+    "repeat_purchase_rate": 0.75
+  },
+  
+  "learning_data": {
+    "customer_feedback": {
+      "positive_feedback": [
+        "Comfortable fit",
+        "Good shoulder fit",
+        "Professional appearance",
+        "Easy movement"
+      ],
+      "negative_feedback": [
+        "Sleeves too tight",
+        "Waist too tight",
+        "Needed more alterations",
+        "Limited style options"
+      ]
+    },
+    
+    "improvement_areas": [
+      "Better broad fit options",
+      "More accurate size recommendations",
+      "Improved sleeve sizing",
+      "Better comfort options"
+    ]
+  },
+  
+  "special_considerations": {
+    "tall_broad": {
+      "condition": "height > 6'2\" AND weight > 220",
+      "challenges": [
+        "Finding long enough sleeves",
+        "Jacket length issues",
+        "Limited size availability"
+      ],
+      "recommendations": [
+        "Consider tall sizes",
+        "Focus on length over width",
+        "Professional alterations essential"
+      ]
+    },
+    
+    "short_broad": {
+      "condition": "height < 5'8\" AND weight > 200",
+      "challenges": [
+        "Finding short enough lengths",
+        "Proportion balance",
+        "Style limitations"
+      ],
+      "recommendations": [
+        "Consider short sizes",
+        "Focus on fit over style",
+        "Professional alterations recommended"
+      ]
+    }
+  },
+  
+  "comfort_considerations": {
+    "movement_requirements": [
+      "Easy arm movement",
+      "Comfortable shoulder fit",
+      "Unrestricted chest expansion",
+      "Comfortable waist fit"
+    ],
+    
+    "fabric_preferences": [
+      "Stretch fabrics",
+      "Lightweight materials",
+      "Breathable options",
+      "Easy-care materials"
+    ],
+    
+    "fit_priorities": [
+      "Comfort over style",
+      "Professional appearance",
+      "Easy movement",
+      "Durability"
+    ]
+  }
+} 
