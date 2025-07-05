@@ -14,6 +14,10 @@ app = Flask(__name__, template_folder='templates')
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+# Update the path for the training data and sizing table to be relative to the app.py location
+TRAINING_DATA_PATH = "enhanced_customers_menswear.csv"
+SIZING_TABLE_PATH = "project-memory/unified-data/unified_suit_sizing_table.csv"
+
 class SizeRecommendationAI:
     def __init__(self):
         self.models = {}
@@ -27,7 +31,7 @@ class SizeRecommendationAI:
         """Load and prepare training data from enhanced customer database"""
         try:
             # Load the enhanced customer database
-            df = pd.read_csv('../enhanced_customers_menswear.csv')
+            df = pd.read_csv(TRAINING_DATA_PATH)
             
             # Filter customers with size data
             size_columns = ['jacket_size', 'vest_size', 'shirt_size', 'shoe_size', 'pants_size']
