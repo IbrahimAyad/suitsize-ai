@@ -272,42 +272,47 @@ def get_enhanced_recommendations():
     try:
         user_data = request.get_json()
         
-        # Validate required fields
-        required_fields = ['height', 'weight', 'body_type']
+        # Handle both old format (body_type) and new format (fitPreference)
+        if 'fitPreference' in user_data:
+            # Map frontend fit preferences to body types
+            fit_mapping = {
+                'slim': 'slim',
+                'regular': 'regular', 
+                'relaxed': 'broad'
+            }
+            body_type = fit_mapping.get(user_data['fitPreference'], 'regular')
+        else:
+            body_type = user_data.get('body_type', 'regular')
+        
+        # Validate required fields for frontend
+        required_fields = ['height', 'weight']
         for field in required_fields:
             if field not in user_data:
                 return jsonify({'error': f'Missing required field: {field}'}), 400
-        
-        # Validate body type
-        valid_body_types = ['slim', 'athletic', 'regular', 'broad']
-        if user_data['body_type'] not in valid_body_types:
-            return jsonify({'error': f'Invalid body type. Must be one of: {", ".join(valid_body_types)}'}), 400
         
         # Get enhanced recommendation
         recommendation = enhanced_engine.get_size_recommendation(
             height=user_data['height'],
             weight=user_data['weight'],
-            body_type=user_data['body_type'],
+            body_type=body_type,
             chest=user_data.get('chest'),
             waist=user_data.get('waist'),
             shoulder_width=user_data.get('shoulder_width')
         )
         
-        # Convert to JSON-serializable format
+        # Convert to JSON-serializable format that matches frontend expectations
         result = {
             'success': True,
             'recommendation': {
-                'primary_size': recommendation.primary_size,
-                'alternative_size': recommendation.alternative_size,
+                'size': recommendation.primary_size,
                 'confidence': recommendation.confidence,
-                'confidence_level': recommendation.confidence_level,
-                'body_type': recommendation.body_type,
+                'confidenceLevel': recommendation.confidence_level,
+                'bodyType': recommendation.body_type,
                 'alterations': recommendation.alterations,
                 'rationale': recommendation.rationale,
-                'edge_cases': recommendation.edge_cases,
-                'measurements': recommendation.measurements,
-                'fit_preferences': recommendation.fit_preferences
+                'measurements': recommendation.measurements
             },
+            'message': f"We recommend size {recommendation.primary_size} based on your measurements.",
             'timestamp': datetime.now().isoformat()
         }
         
@@ -316,6 +321,68 @@ def get_enhanced_recommendations():
     except Exception as e:
         logger.error(f"Error getting enhanced recommendations: {e}")
         return jsonify({'error': 'An error occurred while processing your request'}), 500
+
+# Add a simple API endpoint that matches exactly what the frontend expects
+@app.route('/api/size-recommendation', methods=['POST'])
+def get_size_recommendation_simple():
+    """Simple API endpoint that matches frontend expectations exactly"""
+    try:
+        data = request.get_json()
+        
+        # Validate required fields
+        if not data or 'height' not in data or 'weight' not in data:
+            return jsonify({
+                'success': False,
+                'error': 'Missing required fields: height and weight'
+            }), 400
+        
+        height = float(data['height'])
+        weight = float(data['weight'])
+        fit_preference = data.get('fitPreference', 'regular')
+        
+        # Map fit preferences to body types
+        fit_mapping = {
+            'slim': 'slim',
+            'regular': 'regular',
+            'relaxed': 'broad'
+        }
+        body_type = fit_mapping.get(fit_preference, 'regular')
+        
+        # Get recommendation using the enhanced engine
+        recommendation = enhanced_engine.get_size_recommendation(
+            height=height,
+            weight=weight,
+            body_type=body_type
+        )
+        
+        # Format response for frontend
+        response = {
+            'success': True,
+            'size': recommendation.primary_size,
+            'confidence': round(recommendation.confidence * 100, 1),
+            'confidenceLevel': recommendation.confidence_level,
+            'message': f"Based on your measurements, we recommend size {recommendation.primary_size}",
+            'details': {
+                'bodyType': recommendation.body_type,
+                'rationale': recommendation.rationale,
+                'alterations': recommendation.alterations,
+                'measurements': recommendation.measurements
+            }
+        }
+        
+        return jsonify(response)
+        
+    except ValueError as e:
+        return jsonify({
+            'success': False,
+            'error': f'Invalid input: {str(e)}'
+        }), 400
+    except Exception as e:
+        logger.error(f"Error in size recommendation: {e}")
+        return jsonify({
+            'success': False,
+            'error': 'An error occurred while processing your request'
+        }), 500
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=5001) 
