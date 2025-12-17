@@ -1,0 +1,74 @@
+{
+  "timestamp": "2025-12-17T16:38:22.729226",
+  "test_summary": {
+    "overall_success_rate": 1.0,
+    "total_tests_run": 37
+  },
+  "detailed_results": {
+    "basic_functionality": {
+      "passed": 8,
+      "total": 8,
+      "success_rate": 1.0,
+      "avg_processing_time": 0.006445080041885376
+    },
+    "edge_cases": {
+      "handled": 9,
+      "total": 9,
+      "success_rate": 1.0
+    },
+    "concurrent_requests": {
+      "successful": 20,
+      "total": 20,
+      "success_rate": 1.0,
+      "avg_processing_time_ms": 85.14
+    },
+    "accuracy_validation": {
+      "size_consistency": true,
+      "logical_consistency_rate": 1.0,
+      "consistency_samples": 10
+    },
+    "unit_conversions": {
+      "size_match": true,
+      "confidence_difference": 0.004,
+      "metric_confidence": 0.922,
+      "imperial_confidence": 0.925
+    }
+  },
+  "performance_metrics": {
+    "single_request_avg_ms": 6.93,
+    "batch_50_requests_ms": 389.79,
+    "requests_per_second": 144.36,
+    "batch_throughput_per_sec": 128.27
+  },
+  "engine_stats": {
+    "customerDatabaseSize": 3371,
+    "mlModelsTrained": true,
+    "anthropometricFeatures": 8,
+    "similarityFactors": [
+      "height",
+      "weight",
+      "fit_preference"
+    ],
+    "confidenceComponents": [
+      "anthropometric",
+      "similarity",
+      "model_prediction",
+      "edge_case"
+    ],
+    "supportedSizes": [
+      "46L",
+      "46S",
+      "50L",
+      "50R"
+    ],
+    "supportedFits": [
+      "slim",
+      "regular",
+      "relaxed"
+    ],
+    "version": "2.0-ML-Enhanced"
+  },
+  "recommendations": [
+    "All tests passed - system is performing optimally"
+  ]
+}

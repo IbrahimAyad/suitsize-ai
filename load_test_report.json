@@ -1,0 +1,9 @@
+{
+  "duration_seconds": 30.012861967086792,
+  "total_requests": 1785,
+  "error_count": 0,
+  "requests_per_second": 59.474501364031745,
+  "avg_response_time_ms": 6.73,
+  "max_response_time_ms": 176.33,
+  "error_rate": 0.0
+}
