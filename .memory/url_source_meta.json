@@ -1,5 +1,5 @@
 {
-  "_source_id": 52,
+  "_source_id": 66,
   "sources": {
     "Menswear Brands Sizing Technology Competitive Analysis": {
       "https://www.indochino.com/how-it-works": {
@@ -340,6 +340,108 @@
         "url": "https://suitsize-ai-production.up.railway.app/api/recommend",
         "title": "Railway Recommendation API Endpoint",
         "info": "Primary API endpoint tested with 18 different parameter combinations covering height (60-80 inches), weight (80-300 lbs), body types (slim, regular, athletic, broad), and fit preferences (slim, regular, relaxed). Successfully analyzed response patterns, performance metrics, confidence scoring, and error handling."
+      }
+    },
+    "Short Suits 34S-38S Research": {
+      "https://www.oliverwicks.com/article/suit-size": {
+        "id": 53,
+        "publisher": "Oliver Wicks",
+        "url": "https://www.oliverwicks.com/article/suit-size",
+        "title": "How to Measure and Understand Men's Suit Sizes Like a Pro",
+        "info": "Comprehensive sizing standards including drop system (6-inch standard), jacket length recommendations by height, body measurements, and international sizing conversions"
+      },
+      "https://d3gqasl9vmjfd8.cloudfront.net/b71054dc-4c26-4afc-bbb1-6c4681318852.pdf": {
+        "id": 54,
+        "publisher": "Cloudfront.net",
+        "url": "https://d3gqasl9vmjfd8.cloudfront.net/b71054dc-4c26-4afc-bbb1-6c4681318852.pdf",
+        "title": "Men's Suits Size Chart",
+        "info": "Detailed measurements for 34S, 36S, 38S short suits including chest (32-34, 33-35, 36-38), waist (26-28, 29-30, 31-32), sleeve lengths (32, 32, 33)"
+      },
+      "https://dress-for-success.com/wp-content/uploads/2024/03/Rajawongse-Suit-Guideline-s.pdf": {
+        "id": 55,
+        "publisher": "Dress for Success",
+        "url": "https://dress-for-success.com/wp-content/uploads/2024/03/Rajawongse-Suit-Guideline-s.pdf",
+        "title": "Suit Measurement Guidelines",
+        "info": "Professional suit measurement techniques, garment measurement procedures, body measurement protocols, and international production tolerances"
+      },
+      "https://www.moderntailor.com/static/mt/men_suit_measureguide.pdf": {
+        "id": 56,
+        "publisher": "Modern Tailor",
+        "url": "https://www.moderntailor.com/static/mt/men_suit_measureguide.pdf",
+        "title": "Guide to Perfect Men's Suit Fit",
+        "info": "Comprehensive measurement guide with fit allowances (slim: +10cm, normal: +12cm, loose: +15cm), detailed garment and body measurement procedures"
+      }
+    },
+    "Suit Measurement Standards Research": {
+      "https://bebetailor.com/wp-content/uploads/2019/05/Measuring-Guide-Final.pdf": {
+        "id": 57,
+        "publisher": "Be Be Tailor",
+        "url": "https://bebetailor.com/wp-content/uploads/2019/05/Measuring-Guide-Final.pdf",
+        "title": "Professional Tailoring Measurement Guide",
+        "info": "Comprehensive professional tailoring measurement guide including detailed protocols for measuring 24+ body parts, height/weight correlation methods, and anthropometric data for clothing design"
+      },
+      "https://multisite.eos.ncsu.edu/www-ergocenter-ncsu-edu/wp-content/uploads/sites/18/2016/06/Anthropometric-Detailed-Data-Tables.pdf": {
+        "id": 58,
+        "publisher": "NCSU Ergonomics Center",
+        "url": "https://multisite.eos.ncsu.edu/www-ergocenter-ncsu-edu/wp-content/uploads/sites/18/2016/06/Anthropometric-Detailed-Data-Tables.pdf",
+        "title": "Anthropometric Detailed Data Tables",
+        "info": "Extensive anthropometric data tables for male body measurements with percentiles, mean values, and statistical analysis for clothing design applications"
+      },
+      "https://wrkny.com/blogs/how-tos/what-is-drop-6-sizing-in-our-tailored-suits": {
+        "id": 59,
+        "publisher": "WRK NYC",
+        "url": "https://wrkny.com/blogs/how-tos/what-is-drop-6-sizing-in-our-tailored-suits",
+        "title": "What is Drop 6 Sizing in Tailored Suits",
+        "info": "6-drop sizing system definition, implementation guidelines, and practical application in menswear tailoring"
+      },
+      "https://www.alarnahope.com.au/blog/suit-terminology-fits-drop-sizing": {
+        "id": 60,
+        "publisher": "Alarna Hope",
+        "url": "https://www.alarnahope.com.au/blog/suit-terminology-fits-drop-sizing",
+        "title": "Suit Terminology - Fits & Drop Sizing",
+        "info": "Comprehensive explanation of suit fit terminology, drop sizing systems, and industry standards for menswear sizing"
+      },
+      "https://www.maeslondon.com/blogs/news/quality-control-luxury-fashion-designer-production": {
+        "id": 61,
+        "publisher": "MAES London",
+        "url": "https://www.maeslondon.com/blogs/news/quality-control-luxury-fashion-designer-production",
+        "title": "Quality Control in Luxury Fashion Production",
+        "info": "Luxury menswear quality control framework including measurement precision requirements, craftsmanship standards, and quality assurance processes for premium fashion production"
+      },
+      "https://westwoodhart.com/blogs/westwood-hart/classic-suit-fit-measurements-guide": {
+        "id": 62,
+        "publisher": "Westwood Hart",
+        "url": "https://westwoodhart.com/blogs/westwood-hart/classic-suit-fit-measurements-guide",
+        "title": "Classic Suit Fit Measurements Guide",
+        "info": "Classic suit fit standards including traditional proportions, measurement specifications, and bespoke tailoring standards for luxury menswear"
+      },
+      "https://fashion-incubator.com/how_to_get_sizing_and_grading_standards/": {
+        "id": 63,
+        "publisher": "Fashion-Incubator",
+        "url": "https://fashion-incubator.com/how_to_get_sizing_and_grading_standards/",
+        "title": "How to Get Sizing and Grading Standards",
+        "info": "Professional sizing and grading standards acquisition methods, ASTM standards for apparel, and measurement protocol guidelines"
+      },
+      "https://www.paromitadas.com/clothing-designer/garment-measurement-specification/": {
+        "id": 64,
+        "publisher": "Paromi Das",
+        "url": "https://www.paromitadas.com/clothing-designer/garment-measurement-specification/",
+        "title": "Garment Measurement Specification Standards",
+        "info": "Garment measurement specification standards, tolerance requirements, precision standards, and quality control processes for apparel manufacturing"
+      },
+      "https://www.hockerty.com/en-us/blog/male-body-types": {
+        "id": 65,
+        "publisher": "Hockerty",
+        "url": "https://www.hockerty.com/en-us/blog/male-body-types",
+        "title": "Male Body Types Classification Guide",
+        "info": "Male body shape classifications including Rectangle, Triangle, Inverted Triangle, Oval, and Trapezoid types with anthropometric standards for menswear tailoring"
+      },
+      "https://alexandrawoodbespoke.co.uk/blogs/bespoke-made-to-measure-tailoring/a-guide-to-savile-row-tailoring-everything-you-need-to-know/": {
+        "id": 66,
+        "publisher": "Alexandra Wood Bespoke",
+        "url": "https://alexandrawoodbespoke.co.uk/blogs/bespoke-made-to-measure-tailoring/a-guide-to-savile-row-tailoring-everything-you-need-to-know/",
+        "title": "Savile Row Tailoring Standards Guide",
+        "info": "Savile Row bespoke tailoring standards including measurement protocols, fitting requirements, and professional measurement standards for luxury menswear"
       }
     }
   }
