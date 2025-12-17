@@ -1,5 +1,5 @@
 {
-  "_source_id": 66,
+  "_source_id": 107,
   "sources": {
     "Menswear Brands Sizing Technology Competitive Analysis": {
       "https://www.indochino.com/how-it-works": {
@@ -442,6 +442,303 @@
         "url": "https://alexandrawoodbespoke.co.uk/blogs/bespoke-made-to-measure-tailoring/a-guide-to-savile-row-tailoring-everything-you-need-to-know/",
         "title": "Savile Row Tailoring Standards Guide",
         "info": "Savile Row bespoke tailoring standards including measurement protocols, fitting requirements, and professional measurement standards for luxury menswear"
+      }
+    },
+    "Regular Suits 40R-44R Research": {
+      "https://d3gqasl9vmjfd8.cloudfront.net/b71054dc-4c26-4afc-bbb1-6c4681318852.pdf": {
+        "id": 67,
+        "publisher": "Cloudfront.net",
+        "url": "https://d3gqasl9vmjfd8.cloudfront.net/b71054dc-4c26-4afc-bbb1-6c4681318852.pdf",
+        "title": "Men's Suits Size Chart - Industry Standards",
+        "info": "Comprehensive measurements for men's suit sizes 40R, 42R, 44R including chest, waist, shoulders, sleeve length, jacket length, and height/weight correlations for 5'10\"-6'1\" range"
+      },
+      "https://www.oliverwicks.com/article/suit-size": {
+        "id": 68,
+        "publisher": "Oliver Wicks",
+        "url": "https://www.oliverwicks.com/article/suit-size",
+        "title": "How to Measure and Understand Men's Suit Sizes Like a Pro",
+        "info": "Detailed explanation of the 6-drop system implementation, industry standards for suit sizing, and specific measurements for 40R, 42R, 44R suits with anthropometric correlations"
+      },
+      "https://www.brooksbrothers.com/sizeguide?cid=men-suits": {
+        "id": 69,
+        "publisher": "Brooks Brothers",
+        "url": "https://www.brooksbrothers.com/sizeguide?cid=men-suits",
+        "title": "Men's Size & Fit Guide",
+        "info": "Professional sizing information for Regent fit (regular fit) suits with detailed measurements for 40R, 42R, 44R, confirming 6-inch drop system implementation"
+      },
+      "https://www.ralphlauren.com/suits-and-sport-coats-size-guide/mens_polo_purplelabel_rrl_suits_sportcoats.html": {
+        "id": 70,
+        "publisher": "Ralph Lauren",
+        "url": "https://www.ralphlauren.com/suits-and-sport-coats-size-guide/mens_polo_purplelabel_rrl_suits_sportcoats.html",
+        "title": "Suits & Sport Coats Size Guide",
+        "info": "Suit and sport coat sizing specifications with measurements for regular fit suits 40R, 42R, 44R, showing drop system implementation"
+      },
+      "https://www.hmcole.com/how-a-suit-should-fit-a-complete-guide-for-every-body-type": {
+        "id": 71,
+        "publisher": "HM Cole",
+        "url": "https://www.hmcole.com/how-a-suit-should-fit-a-complete-guide-for-every-body-type",
+        "title": "How a Suit Should Fit: A Complete Guide for Every Body Type",
+        "info": "Comprehensive professional tailoring standards and specifications for slim-cut regular fit suits, including measurement protocols and quality standards"
+      },
+      "https://westwoodhart.com/blogs/westwood-hart/classic-suit-fit-measurements-guide": {
+        "id": 72,
+        "publisher": "Westwood Hart",
+        "url": "https://westwoodhart.com/blogs/westwood-hart/classic-suit-fit-measurements-guide",
+        "title": "Classic Suit Fit Guide: Understanding Traditional Suit Proportions",
+        "info": "Classic suit fit philosophy and professional standards for regular fit suits, including detailed measurement specifications and proportions"
+      },
+      "https://www.hockerty.com/en-us/blog/suit-size-chart": {
+        "id": 73,
+        "publisher": "Hockerty",
+        "url": "https://www.hockerty.com/en-us/blog/suit-size-chart",
+        "title": "Men's Suit Size Chart",
+        "info": "Comprehensive measurement protocols and anthropometric correlations for men's suit sizing, including detailed size charts with body measurements for different builds"
+      },
+      "https://pdfs.semanticscholar.org/22df/6c0ed053a7f08460c8aab0c648780a614022.pdf": {
+        "id": 90,
+        "publisher": "North Carolina State University",
+        "url": "https://pdfs.semanticscholar.org/22df/6c0ed053a7f08460c8aab0c648780a614022.pdf",
+        "title": "Body Shape Classifications of Males 26 to 35 Using Size USA Three-Dimensional Scan Data",
+        "info": "Anthropometric data for men 26-35 with heights 5'6\"-6'1\" including height, weight, chest, waist, hip measurements, and body shape classifications (Oval/Rectangle, Trapezoid, Inverted Trapezoid)"
+      },
+      "https://xsuit.com/products/xsuit-5-0-black": {
+        "id": 91,
+        "publisher": "xSuit",
+        "url": "https://xsuit.com/products/xsuit-5-0-black",
+        "title": "xSuit 5.0 - Black Size Chart",
+        "info": "Detailed xSuit 5.0 measurements for Regular length suits including specific data for 40R, 42R, 44R sizes with comprehensive garment measurements"
+      }
+    },
+    "Regular Suits 46R-50R with 6-Drop System Research": {
+      "https://www.oliverwicks.com/article/suit-size": {
+        "id": 74,
+        "publisher": "Oliver Wicks",
+        "url": "https://www.oliverwicks.com/article/suit-size",
+        "title": "How to Measure and Understand Men's Suit Sizes Like a Pro",
+        "info": "Comprehensive suit sizing standards, 6-drop system explanation, measurement protocols for regular fit suits, sizing conversions for 46R-50R"
+      },
+      "https://blog.lanieri.com/en/take-measurements-mens-suit/": {
+        "id": 75,
+        "publisher": "Lanieri",
+        "url": "https://blog.lanieri.com/en/take-measurements-mens-suit/",
+        "title": "How to take measurements for a men's suit",
+        "info": "Professional tailoring measurement standards, 12 essential body measurements, quality control protocols for slim-cut regular suits"
+      },
+      "https://www.hockerty.com/en-us/blog/suit-size-chart": {
+        "id": 76,
+        "publisher": "Hockerty",
+        "url": "https://www.hockerty.com/en-us/blog/suit-size-chart",
+        "title": "Men's Suit Size Chart",
+        "info": "Detailed size chart for EU sizes 46, 48, 50 with measurements in inches and centimeters, regular fit specifications"
+      },
+      "https://www.indochino.com/measurements": {
+        "id": 77,
+        "publisher": "Indochino",
+        "url": "https://www.indochino.com/measurements",
+        "title": "Save your measurements for the perfect fit",
+        "info": "Made-to-measure sizing specifications, comprehensive measurement instructions, body measurement protocols"
+      },
+      "https://d3gqasl9vmjfd8.cloudfront.net/b71054dc-4c26-4afc-bbb1-6c4681318852.pdf": {
+        "id": 78,
+        "publisher": "Cloudfront",
+        "url": "https://d3gqasl9vmjfd8.cloudfront.net/b71054dc-4c26-4afc-bbb1-6c4681318852.pdf",
+        "title": "Men's Suits Size Chart",
+        "info": "Anthropometric data for regular fit suits 46R-50R with detailed measurements, height/weight correlations (46R: 6'0\"-6'3\", 210-220 lbs; 48R-50R: 6'1\"-6'5\", 240-260 lbs)"
+      },
+      "https://www.nordstrom.com/sizeguides/1456_sizeguide.pdf": {
+        "id": 79,
+        "publisher": "Nordstrom",
+        "url": "https://www.nordstrom.com/sizeguides/1456_sizeguide.pdf",
+        "title": "Men's suits & sportcoats: find your fit & how to measure",
+        "info": "Classic fit (regular equivalent) specifications, 6-drop system details, height/weight correlations, over-arm measurement adjustments"
+      },
+      "https://www.brooksbrothers.com/sizeguide?cid=men-suits": {
+        "id": 80,
+        "publisher": "Brooks Brothers",
+        "url": "https://www.brooksbrothers.com/sizeguide?cid=men-suits",
+        "title": "Men's Size & Fit Guide",
+        "info": "Regent fit (regular fit) specifications for 46, 48, 50 sizes, Milano slim fit comparison, detailed body measurements"
+      },
+      "https://www.hugoboss.com/us/size-charts/menswear-clothing/size-chart_BOSS_m1.html": {
+        "id": 81,
+        "publisher": "Hugo Boss",
+        "url": "https://www.hugoboss.com/us/size-charts/menswear-clothing/size-chart_BOSS_m1.html",
+        "title": "Menswear Clothing Size Chart",
+        "info": "International size conversions for regular fit suits 46R-60R, European size equivalents"
+      }
+    },
+    "Regular Suits Height/Weight Measurement Mapping": {
+      "https://ergocenter.ncsu.edu/wp-content/uploads/sites/18/2020/07/Anthropometry-Summary-Table-2020.pdf": {
+        "id": 82,
+        "publisher": "NCSU Ergonomics Center",
+        "url": "https://ergocenter.ncsu.edu/wp-content/uploads/sites/18/2020/07/Anthropometry-Summary-Table-2020.pdf",
+        "title": "Anthropometric Data for U.S. Adults (Summary Table 2020)",
+        "info": "Comprehensive anthropometric data for adult men including statistical distributions of body measurements, height, weight, and proportions for average height men (5'6\" to 6'1\"). Key findings: 50th percentile stature for men is 69.09 inches (5'9\"), with detailed percentile distributions for shoulder breadth, hip breadth, chest depth, and other measurements."
+      },
+      "https://multisite.eos.ncsu.edu/wp-content/uploads/sites/18/2016/06/Anthropometric-Detailed-Data-Tables.pdf": {
+        "id": 83,
+        "publisher": "NCSU Ergonomics Center",
+        "url": "https://multisite.eos.ncsu.edu/wp-content/uploads/sites/18/2016/06/Anthropometric-Detailed-Data-Tables.pdf",
+        "title": "Anthropometric Detailed Data Tables",
+        "info": "Detailed anthropometric measurements for men from 1988 survey including statistical distributions, percentiles, and correlations between measurements. Contains data on height (mean 69.09 inches), chest, waist, shoulder measurements with standard deviations and percentile distributions."
+      },
+      "https://d3gqasl9vmjfd8.cloudfront.net/b71054dc-4c26-4afc-bbb1-6c4681318852.pdf": {
+        "id": 84,
+        "publisher": "Multiple Menswear Brands",
+        "url": "https://d3gqasl9vmjfd8.cloudfront.net/b71054dc-4c26-4afc-bbb1-6c4681318852.pdf",
+        "title": "Men's Regular Suits Size Chart",
+        "info": "Complete Regular suit sizing data (34R-54R) including height/weight ranges, body measurements, and anthropometric correlations. Key data: Regular suits for heights 5'6\"-6'7\", weights 110-290 lbs, with detailed chest, waist, shoulder measurements for each size."
+      },
+      "https://www.nature.com/articles/s41598-025-24584-6": {
+        "id": 85,
+        "publisher": "Nature Scientific Reports",
+        "url": "https://www.nature.com/articles/s41598-025-24584-6",
+        "title": "Evaluating machine learning models for clothing size prediction using anthropometric measurements from 3D body scanning",
+        "info": "Machine learning models for clothing size prediction using anthropometric data. SVM model with height/weight achieved 51.72% accuracy, while models using body measurements achieved 89.66% accuracy. Provides mathematical formulas and regression models for measurement prediction."
+      },
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5886752/": {
+        "id": 86,
+        "publisher": "PubMed Central",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5886752/",
+        "title": "Height and Weight Estimation From Anthropometric Measurements Using Machine Learning Regressions",
+        "info": "Height and weight estimation from anthropometric measurements using various regression models. Gaussian Process Regression achieved best performance with RMSE of 2.11 cm for height prediction and demonstrated statistical relationships between body measurements."
+      },
+      "https://www.hstockton.com/blogs/news/h-stocktons-guide-to-finding-the-right-fit-suits-f/": {
+        "id": 87,
+        "publisher": "H. Stockton",
+        "url": "https://www.hstockton.com/blogs/news/h-stocktons-guide-to-finding-the-right-fit-suits-f/",
+        "title": "H. Stockton's Guide to Finding the Right Fit: Suits for Every Body Type",
+        "info": "Body type classifications (athletic, slim, broad, tall/lean, short) and their effects on suit measurements and fit. Provides specific recommendations for shoulder padding, jacket length, lapel width, and trouser fit for each body type."
+      },
+      "https://xsuit.com/blogs/news/understanding-suit-fits-a-complete-guide-to-classic-fit-slim-fit-modern-fit-and-tailored-fit": {
+        "id": 88,
+        "publisher": "xSuit",
+        "url": "https://xsuit.com/blogs/news/understanding-suit-fits-a-complete-guide-to-classic-fit-slim-fit-modern-fit-and-tailored-fit",
+        "title": "Understanding Suit Fits: A Complete Guide to Classic Fit, Slim Fit, Modern Fit and Tailored Fit",
+        "info": "Suit fit types (Classic, Slim, Modern, Tailored) and their measurement variations. Details how different fits affect chest, waist, and overall measurements with specific recommendations for body shape matching."
+      },
+      "https://www.oliverwicks.com/article/suit-size": {
+        "id": 89,
+        "publisher": "Oliver Wicks",
+        "url": "https://www.oliverwicks.com/article/suit-size",
+        "title": "How to Measure and Understand Men's Suit Sizes Like a Pro",
+        "info": "Body type analysis for Regular suits including athletic builds requiring larger chest-to-waist ratios, Regular jacket length recommendations for 5'7\"-5'11\" heights, and fit considerations for different body types."
+      }
+    },
+    "Regular Suit Sizes 34R, 36R, 38R Research": {
+      "https://d3gqasl9vmjfd8.cloudfront.net/b71054dc-4c26-4afc-bbb1-6c4681318852.pdf": {
+        "id": 92,
+        "publisher": "Cloudfront.net",
+        "url": "https://d3gqasl9vmjfd8.cloudfront.net/b71054dc-4c26-4afc-bbb1-6c4681318852.pdf",
+        "title": "Men's Suits Size Chart - Industry Standard Measurements",
+        "info": "Detailed measurements for Regular suit sizes 34R, 36R, 38R including chest (32-39), waist (26-32), shoulders (17.75-19), sleeve length (32-33), jacket length (30-30.5), height ranges (5'6\"-5'11\"), and weight ranges (110-165 lbs)"
+      },
+      "https://www.oliverwicks.com/article/suit-size": {
+        "id": 93,
+        "publisher": "Oliver Wicks",
+        "url": "https://www.oliverwicks.com/article/suit-size",
+        "title": "How to Measure and Understand Men's Suit Sizes Like a Pro",
+        "info": "Professional guide on suit sizing standards, 6-drop system implementation, anthropometric data for Regular fit suits (5'7\"-5'11\" height, 36-54\" chest), and measurement protocols for chest, waist, shoulders, and sleeve length"
+      },
+      "https://suitshop.com/size-charts/": {
+        "id": 94,
+        "publisher": "SuitShop",
+        "url": "https://suitshop.com/size-charts/",
+        "title": "Size Charts - Suit, Tuxedo & Accessory Measurements",
+        "info": "Slim fit Regular length jacket measurements: 34R (35.5\" chest, 31.5\" waist, 16.5\" shoulders, 32.75\" sleeve), 36R (37.5\" chest, 33.5\" waist, 17\" shoulders, 33.25\" sleeve), 38R (39.5\" chest, 35.5\" waist, 17.5\" shoulders, 33.75\" sleeve)"
+      },
+      "https://bananarepublic.gap.com/browse/info.do?cid=35404": {
+        "id": 95,
+        "publisher": "Banana Republic",
+        "url": "https://bananarepublic.gap.com/browse/info.do?cid=35404",
+        "title": "Size Charts - Men's Regular Size Chart",
+        "info": "Banana Republic sizing: 34R (34-35\" chest, 27-28\" waist, 32\" sleeve), 36R (36-37\" chest, 29-31\" waist, 33\" sleeve), 38R (38-40\" chest, 32-34\" waist, 34\" sleeve)"
+      },
+      "https://sizecharter.com/brands/j-crew/mens": {
+        "id": 96,
+        "publisher": "SizeCharter",
+        "url": "https://sizecharter.com/brands/j-crew/mens",
+        "title": "J.Crew Men's Size Charts",
+        "info": "J.Crew measurements: 34R (34\" chest, 26-28\" waist, 31-32\" sleeve), 36R (36\" chest, 29-31\" waist, 32-33\" sleeve), 38R (38\" chest, 32-34\" waist, 33-34\" sleeve)"
+      },
+      "https://sizecharter.com/brands/h-m/mens": {
+        "id": 97,
+        "publisher": "SizeCharter",
+        "url": "https://sizecharter.com/brands/h-m/mens",
+        "title": "H&M Men's Size Charts",
+        "info": "H&M jacket measurements: Size 34 (34.5\" chest, 30\" waist), Size 36 (36.25\" chest, 31.5\" waist), Size 38 (37.75\" chest, 33\" waist)"
+      },
+      "https://wrkny.com/blogs/how-tos/what-is-drop-6-sizing-in-our-tailored-suits": {
+        "id": 98,
+        "publisher": "WRK NYC",
+        "url": "https://wrkny.com/blogs/how-tos/what-is-drop-6-sizing-in-our-tailored-suits",
+        "title": "What is Drop 6 Sizing in Our Tailored Suits?",
+        "info": "Detailed explanation of 6-drop system: difference between jacket chest size and trouser waist size. For 6-drop: size 38 jacket = size 32 trouser waist. Standard suit shape described as straight and rectangular"
+      },
+      "https://dress-for-success.com/wp-content/uploads/2024/03/Rajawongse-Suit-Guideline-s.pdf": {
+        "id": 99,
+        "publisher": "Dress for Success",
+        "url": "https://dress-for-success.com/wp-content/uploads/2024/03/Rajawongse-Suit-Guideline-s.pdf",
+        "title": "Suit Measurement Guide - Professional Tailoring Standards",
+        "info": "Professional anthropometric measurement protocols and tolerances: collar (±0.5cm), shoulder (±0.6cm), chest (±2.0cm), waist (±2.0cm), sleeve (±1.0cm). Comprehensive measurement standards for jackets and pants including body measurements and garment measurements"
+      }
+    },
+    "Regular Suits 52R & 54R Research": {
+      "https://xsuit.com/products/xsuit-5-0-black": {
+        "id": 100,
+        "publisher": "xSuit",
+        "url": "https://xsuit.com/products/xsuit-5-0-black",
+        "title": "xSuit 5.0 Black Size Chart and Measurements",
+        "info": "Comprehensive xSuit 5.0 measurements for Regular fit suits, including detailed garment measurements for 52R (5XL) and 54R (6XL): chest width 26.4-27.2\", waist width 24.4-25.2\", hip width 25.8-26.6\", sleeve length 26.0-26.1\", center back length 30.7-30.9\""
+      },
+      "https://d3gqasl9vmjfd8.cloudfront.net/b71054dc-4c26-4afc-bbb1-6c4681318852.pdf": {
+        "id": 101,
+        "publisher": "Cloudfront PDF",
+        "url": "https://d3gqasl9vmjfd8.cloudfront.net/b71054dc-4c26-4afc-bbb1-6c4681318852.pdf",
+        "title": "Men's Suits Size Chart",
+        "info": "Big & Tall suit sizing for 52R and 54R: chest 50-54\", waist 42-51\", hips 48-56\", sleeve 33-37\", height 5'8\"-6'7\", weight 260-290 lbs. Includes anthropometric correlations for height/weight ranges."
+      },
+      "https://www.mrbigandtall.ca/pages/size-guide": {
+        "id": 102,
+        "publisher": "Mr. Big & Tall",
+        "url": "https://www.mrbigandtall.ca/pages/size-guide",
+        "title": "Size Guide for Men's Clothing",
+        "info": "Big & Tall sizing standards: 52R (2X) chest 50-52\", waist 48-50\", sleeve 35.5-36\"; 54R (3X) chest 54-56\", waist 52-54\", sleeve 36-36.5\". Regular sizing up to 6' tall."
+      },
+      "https://www.dxl.com/static/size-charts": {
+        "id": 103,
+        "publisher": "DXL",
+        "url": "https://www.dxl.com/static/size-charts",
+        "title": "Size Charts for Men's Suits",
+        "info": "Big & Tall suit measurements: 52R chest 52\", sleeve 35-35.5\"; 54R chest 54\", sleeve 35.5-36\". Body measurement standards and how-to-measure instructions."
+      },
+      "https://www.josbank.com/find-the-best-suit-fit-for-you": {
+        "id": 104,
+        "publisher": "Jos. A. Bank",
+        "url": "https://www.josbank.com/find-the-best-suit-fit-for-you",
+        "title": "Find the Best Suit Fit Guide",
+        "info": "6-drop system implementation: 6-inch drop for sizes 38-43, 5-inch drop for sizes 44-48, 4-inch drop for sizes 50-52. Three fit categories: Traditional, Tailored, Slim. Height recommendations for different rises."
+      },
+      "https://www.brooksbrothers.com/sizeguide?cid=men-suits": {
+        "id": 105,
+        "publisher": "Brooks Brothers",
+        "url": "https://www.brooksbrothers.com/sizeguide?cid=men-suits",
+        "title": "Men's Size & Fit Guide",
+        "info": "Professional suit fit standards: Milano (slimmest), Regent (tailored classic), Madison (relaxed). Fit comparisons show chest/waist variations. Sizing up to 52 and 54 with corresponding measurements."
+      },
+      "https://www.oliverwicks.com/article/suit-size": {
+        "id": 106,
+        "publisher": "Oliver Wicks",
+        "url": "https://www.oliverwicks.com/article/suit-size",
+        "title": "How to Measure and Understand Men's Suit Sizes Like a Pro",
+        "info": "Professional tailoring measurement standards and industry best practices. Detailed measurement protocols, fit guidelines, and off-the-rack vs made-to-measure considerations. 6-drop system confirmed as industry standard."
+      },
+      "https://www.hockerty.com/en-us/blog/suit-size-chart": {
+        "id": 107,
+        "publisher": "Hockerty",
+        "url": "https://www.hockerty.com/en-us/blog/suit-size-chart",
+        "title": "Men's Suit Size Chart",
+        "info": "International sizing standards and anthropometric correlations. EU size 52 corresponds to US 42, chest 42-43\", waist 36-37\", height 5'10\"-6'0\", weight 180-195 lbs. EU size 54 corresponds to US 44, chest 44-45\", waist 38-39\", height 6'0\"-6'1\", weight 190-205 lbs."
       }
     }
   }
