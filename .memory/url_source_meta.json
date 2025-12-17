@@ -1,5 +1,5 @@
 {
-  "_source_id": 31,
+  "_source_id": 52,
   "sources": {
     "Menswear Brands Sizing Technology Competitive Analysis": {
       "https://www.indochino.com/how-it-works": {
@@ -222,6 +222,124 @@
         "url": "https://www.tandfonline.com/doi/abs/10.1080/00405167.2015.1023512",
         "title": "A review of research and innovation in garment sizing, prototyping and fitting",
         "info": "Comprehensive review of statistical methods used in creating size charts, pattern construction approaches, and historical evolution of sizing systems in fashion industry."
+      }
+    },
+    "Railway Backend Algorithm Optimization": {
+      "https://www.nature.com/articles/s41598-025-24584-6": {
+        "id": 32,
+        "publisher": "Nature Scientific Reports",
+        "url": "https://www.nature.com/articles/s41598-025-24584-6",
+        "title": "Evaluating machine learning models for clothing size prediction using anthropometric measurements from 3D body scanning",
+        "info": "SVM model achieved 89.66% accuracy using bust, waist, hip measurements. Comprehensive analysis of anthropometric feature importance and model performance across different size ranges."
+      },
+      "https://www.sciencedirect.com/science/article/pii/S0169814125000046": {
+        "id": 33,
+        "publisher": "ScienceDirect",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0169814125000046",
+        "title": "Validation of a 3D whole-body scanning system to collect anthropometric data",
+        "info": "3D scanning validation showing 62.5% comparable dimensions with manual measurements. Best practices for body scanning including landmarking procedures and error source analysis."
+      },
+      "https://arxiv.org/abs/1709.09844": {
+        "id": 34,
+        "publisher": "arXiv",
+        "url": "https://arxiv.org/abs/1709.09844",
+        "title": "Distance-based Confidence Score for Neural Network Classifiers",
+        "info": "Novel distance-based confidence scoring method using penultimate layer embeddings for error prediction, ensemble weighting, and novelty detection with improved performance over traditional methods."
+      },
+      "http://www.eonyoushin.com/uploads/4/4/8/9/44890499/shin___saeidi_2022b.pdf": {
+        "id": 35,
+        "publisher": "International Journal of Fashion Design, Technology and Education",
+        "url": "http://www.eonyoushin.com/uploads/4/4/8/9/44890499/shin___saeidi_2022b.pdf",
+        "title": "Body shapes and apparel fit for overweight and obese women in the US",
+        "info": "Comprehensive classification of 5 body shape groups for OWOB populations. Analysis of fit challenges showing 80% difficulty with current ASTM sizing systems and specific measurement pattern considerations."
+      },
+      "https://link.springer.com/article/10.1186/s40691-023-00357-5": {
+        "id": 41,
+        "publisher": "Fashion and Textites (Springer)",
+        "url": "https://link.springer.com/article/10.1186/s40691-023-00357-5",
+        "title": "Missing body measurements prediction in fashion industry: a comparative approach",
+        "info": "Comprehensive analysis of 30 machine learning models for fashion measurements. SVR and RF achieved best performance with average MAE below 1.4%. KL divergence validation for distribution fidelity."
+      },
+      "https://link.springer.com/chapter/10.1007/978-3-030-80829-7_135": {
+        "id": 50,
+        "publisher": "Springer",
+        "url": "https://link.springer.com/chapter/10.1007/978-3-030-80829-7_135",
+        "title": "Clothing design methods based on Kansei engineering: Example of suit design",
+        "info": "Kansei engineering methodology for clothing design integrating anthropometric measurements with customer preferences. Framework for optimizing garment design based on customer satisfaction metrics."
+      },
+      "https://www.tandfonline.com/doi/abs/10.1080/00140139.2022.2069867": {
+        "id": 51,
+        "publisher": "Taylor & Francis",
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/00140139.2022.2069867",
+        "title": "An improved clothing size recommendation approach based on subdivision of female body types",
+        "info": "Female body type classification system with 5 subdivisions. Anthropometric analysis showing 89.66% improvement in clothing size recommendation accuracy through personalized body type-based approaches."
+      },
+      "https://www.mdpi.com/2076-3417/13/18/10317": {
+        "id": 49,
+        "publisher": "MDPI Applied Sciences",
+        "url": "https://www.mdpi.com/2076-3417/13/18/10317",
+        "title": "Developing a Generalized Regression Forecasting Network for the Anthropometric Measurement Prediction",
+        "info": "GRFN architecture using KRR regression model for detailed body measurements. Single-pass training capability for 76 measurements from 7 easy-to-measure inputs with robust noise handling."
+      },
+      "https://www.analyticsvidhya.com/blog/2022/10/calibration-of-machine-learning-models/": {
+        "id": 52,
+        "publisher": "Analytics Vidhya",
+        "url": "https://www.analyticsvidhya.com/blog/2022/10/calibration-of-machine-learning-models/",
+        "title": "Calibration of Machine Learning Models",
+        "info": "Comprehensive guide to model calibration techniques including reliability diagrams, Brier score analysis, and confidence estimation methods. Implementation strategies for production ML systems."
+      },
+      "https://www.tandfonline.com/doi/full/10.1080/00405000.2023.2216099": {
+        "id": 48,
+        "publisher": "Taylor & Francis",
+        "url": "https://www.tandfonline.com/doi/full/10.1080/00405000.2023.2216099",
+        "title": "Mobile 3D body scanning applications: a review of contact-free AI methods",
+        "info": "Comprehensive review of mobile 3D scanning and photogrammetry methods. Comparison of accuracy between manual measurement (13.2% error), portable 3D scanning (6.7% error), and smartphone apps (5.1-6.1% error) for body measurement capture."
+      }
+    },
+    "Railway Backend Performance Optimization Strategy": {
+      "https://dev.to/amaresh_adak/i-cut-my-api-response-time-from-19s-to-200ms-heres-how-5g2e": {
+        "id": 37,
+        "publisher": "Dev.to",
+        "url": "https://dev.to/amaresh_adak/i-cut-my-api-response-time-from-19s-to-200ms-heres-how-5g2e",
+        "title": "I Cut My API Response Time from 1.9s to 200ms - Here's How",
+        "info": "Comprehensive guide on reducing API response time by 89% through parallel processing, intelligent caching, database optimization, payload reduction, and connection pooling"
+      },
+      "https://www.geeksforgeeks.org/system-design/rate-limter-vs-circuit-breaker-in-microservices/": {
+        "id": 38,
+        "publisher": "GeeksforGeeks",
+        "url": "https://www.geeksforgeeks.org/system-design/rate-limter-vs-circuit-breaker-in-microservices/",
+        "title": "Rate Limiter vs Circuit Breaker in Microservices",
+        "info": "Detailed explanation of rate limiting and circuit breaker patterns for API stability and performance protection"
+      },
+      "https://blog.logrocket.com/caching-headers-a-practical-guide-for-frontend-developers/": {
+        "id": 39,
+        "publisher": "LogRocket",
+        "url": "https://blog.logrocket.com/caching-headers-a-practical-guide-for-frontend-developers/",
+        "title": "Caching Headers: A Practical Guide for Frontend Developers",
+        "info": "Comprehensive guide to HTTP caching headers including Cache-Control, ETag, Last-Modified, and implementation strategies for API optimization"
+      },
+      "https://medium.com/@artemkhrenov/connection-pooling-patterns-optimizing-database-connections-for-scalable-applications-159e78281389": {
+        "id": 40,
+        "publisher": "Medium",
+        "url": "https://medium.com/@artemkhrenov/connection-pooling-patterns-optimizing-database-connections-for-scalable-applications-159e78281389",
+        "title": "Connection Pooling Patterns: Optimizing Database Connections for Scalable Applications",
+        "info": "Advanced connection pooling patterns and database optimization techniques for API performance and scalability"
+      },
+      "file:///workspace/docs/performance_optimization_strategy.md": {
+        "id": 46,
+        "publisher": "Internal Analysis",
+        "url": "file:///workspace/docs/performance_optimization_strategy.md",
+        "title": "Railway Backend Performance Optimization Strategy",
+        "info": "Comprehensive 6-phase performance optimization strategy addressing caching, database optimization, edge case handling, rate limiting, and frontend integration"
+      }
+    },
+    "Railway Backend Analysis": {
+      "https://suitsize-ai-production.up.railway.app/api/recommend": {
+        "id": 47,
+        "publisher": "SuitSize.ai",
+        "url": "https://suitsize-ai-production.up.railway.app/api/recommend",
+        "title": "Railway Recommendation API Endpoint",
+        "info": "Primary API endpoint tested with 18 different parameter combinations covering height (60-80 inches), weight (80-300 lbs), body types (slim, regular, athletic, broad), and fit preferences (slim, regular, relaxed). Successfully analyzed response patterns, performance metrics, confidence scoring, and error handling."
       }
     }
   }

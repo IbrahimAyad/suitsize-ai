@@ -1,0 +1,582 @@
+[
+  {
+    "description": "No description",
+    "input": {
+      "height": 69,
+      "weight": 165,
+      "body_type": "regular",
+      "fit_preference": "regular",
+      "description": "No description"
+    },
+    "status_code": 200,
+    "response_time": 0.056,
+    "response_text": "{\"message\":\"We recommend size 40R based on your measurements.\",\"recommendation\":{\"alterations\":[\"sleeve_length\",\"waist_suppression\",\"minor_waist\"],\"bodyType\":\"regular\",\"confidence\":0.9235,\"confidenceLevel\":\"high\",\"measurements\":{\"bmi\":24.363579080025204,\"chest\":33.1,\"drop\":6.0,\"height\":69,\"shoulder_width\":14.9,\"waist\":27.1,\"weight\":165},\"rationale\":\"Your regular build requires standard_sizing for optimal slim fit suit sizing.\",\"size\":\"40R\"},\"success\":true,\"timestamp\":\"2025-12-17T07:37:36.237685\"}\n",
+    "success": true,
+    "response_json": {
+      "message": "We recommend size 40R based on your measurements.",
+      "recommendation": {
+        "alterations": [
+          "sleeve_length",
+          "waist_suppression",
+          "minor_waist"
+        ],
+        "bodyType": "regular",
+        "confidence": 0.9235,
+        "confidenceLevel": "high",
+        "measurements": {
+          "bmi": 24.363579080025204,
+          "chest": 33.1,
+          "drop": 6.0,
+          "height": 69,
+          "shoulder_width": 14.9,
+          "waist": 27.1,
+          "weight": 165
+        },
+        "rationale": "Your regular build requires standard_sizing for optimal slim fit suit sizing.",
+        "size": "40R"
+      },
+      "success": true,
+      "timestamp": "2025-12-17T07:37:36.237685"
+    }
+  },
+  {
+    "description": "No description",
+    "input": {
+      "height": 69,
+      "weight": 165,
+      "body_type": "regular",
+      "fit_preference": "slim",
+      "description": "No description"
+    },
+    "status_code": 200,
+    "response_time": 0.045,
+    "response_text": "{\"message\":\"We recommend size 40R based on your measurements.\",\"recommendation\":{\"alterations\":[\"sleeve_length\",\"waist_suppression\",\"minor_waist\"],\"bodyType\":\"regular\",\"confidence\":0.9235,\"confidenceLevel\":\"high\",\"measurements\":{\"bmi\":24.363579080025204,\"chest\":33.1,\"drop\":6.0,\"height\":69,\"shoulder_width\":14.9,\"waist\":27.1,\"weight\":165},\"rationale\":\"Your regular build requires standard_sizing for optimal slim fit suit sizing.\",\"size\":\"40R\"},\"success\":true,\"timestamp\":\"2025-12-17T07:37:36.386341\"}\n",
+    "success": true,
+    "response_json": {
+      "message": "We recommend size 40R based on your measurements.",
+      "recommendation": {
+        "alterations": [
+          "sleeve_length",
+          "waist_suppression",
+          "minor_waist"
+        ],
+        "bodyType": "regular",
+        "confidence": 0.9235,
+        "confidenceLevel": "high",
+        "measurements": {
+          "bmi": 24.363579080025204,
+          "chest": 33.1,
+          "drop": 6.0,
+          "height": 69,
+          "shoulder_width": 14.9,
+          "waist": 27.1,
+          "weight": 165
+        },
+        "rationale": "Your regular build requires standard_sizing for optimal slim fit suit sizing.",
+        "size": "40R"
+      },
+      "success": true,
+      "timestamp": "2025-12-17T07:37:36.386341"
+    }
+  },
+  {
+    "description": "No description",
+    "input": {
+      "height": 69,
+      "weight": 165,
+      "body_type": "regular",
+      "fit_preference": "relaxed",
+      "description": "No description"
+    },
+    "status_code": 200,
+    "response_time": 0.04,
+    "response_text": "{\"message\":\"We recommend size 40R based on your measurements.\",\"recommendation\":{\"alterations\":[\"sleeve_length\",\"waist_suppression\",\"minor_waist\"],\"bodyType\":\"regular\",\"confidence\":0.9235,\"confidenceLevel\":\"high\",\"measurements\":{\"bmi\":24.363579080025204,\"chest\":33.1,\"drop\":6.0,\"height\":69,\"shoulder_width\":14.9,\"waist\":27.1,\"weight\":165},\"rationale\":\"Your regular build requires standard_sizing for optimal slim fit suit sizing.\",\"size\":\"40R\"},\"success\":true,\"timestamp\":\"2025-12-17T07:37:36.526683\"}\n",
+    "success": true,
+    "response_json": {
+      "message": "We recommend size 40R based on your measurements.",
+      "recommendation": {
+        "alterations": [
+          "sleeve_length",
+          "waist_suppression",
+          "minor_waist"
+        ],
+        "bodyType": "regular",
+        "confidence": 0.9235,
+        "confidenceLevel": "high",
+        "measurements": {
+          "bmi": 24.363579080025204,
+          "chest": 33.1,
+          "drop": 6.0,
+          "height": 69,
+          "shoulder_width": 14.9,
+          "waist": 27.1,
+          "weight": 165
+        },
+        "rationale": "Your regular build requires standard_sizing for optimal slim fit suit sizing.",
+        "size": "40R"
+      },
+      "success": true,
+      "timestamp": "2025-12-17T07:37:36.526683"
+    }
+  },
+  {
+    "description": "No description",
+    "input": {
+      "height": 63,
+      "weight": 165,
+      "body_type": "regular",
+      "fit_preference": "regular",
+      "description": "No description"
+    },
+    "status_code": 200,
+    "response_time": 0.039,
+    "response_text": "{\"message\":\"We recommend size 40S based on your measurements.\",\"recommendation\":{\"alterations\":[\"sleeve_length\",\"waist_suppression\",\"jacket_length\"],\"bodyType\":\"regular\",\"confidence\":0.8755,\"confidenceLevel\":\"high\",\"measurements\":{\"bmi\":29.225245653817083,\"chest\":32.8,\"drop\":5.9999999999999964,\"height\":63,\"shoulder_width\":14.8,\"waist\":26.8,\"weight\":165},\"rationale\":\"Your regular build requires size_for_chest and proportion adjustments for optimal slim fit suit sizing.\",\"size\":\"40S\"},\"success\":true,\"timestamp\":\"2025-12-17T07:37:36.668321\"}\n",
+    "success": true,
+    "response_json": {
+      "message": "We recommend size 40S based on your measurements.",
+      "recommendation": {
+        "alterations": [
+          "sleeve_length",
+          "waist_suppression",
+          "jacket_length"
+        ],
+        "bodyType": "regular",
+        "confidence": 0.8755,
+        "confidenceLevel": "high",
+        "measurements": {
+          "bmi": 29.225245653817083,
+          "chest": 32.8,
+          "drop": 5.9999999999999964,
+          "height": 63,
+          "shoulder_width": 14.8,
+          "waist": 26.8,
+          "weight": 165
+        },
+        "rationale": "Your regular build requires size_for_chest and proportion adjustments for optimal slim fit suit sizing.",
+        "size": "40S"
+      },
+      "success": true,
+      "timestamp": "2025-12-17T07:37:36.668321"
+    }
+  },
+  {
+    "description": "No description",
+    "input": {
+      "height": 79,
+      "weight": 165,
+      "body_type": "regular",
+      "fit_preference": "regular",
+      "description": "No description"
+    },
+    "status_code": 500,
+    "response_time": 0.042,
+    "response_text": "{\"error\":\"An error occurred while processing your request\"}\n",
+    "success": false,
+    "response_json": {
+      "error": "An error occurred while processing your request"
+    }
+  },
+  {
+    "description": "No description",
+    "input": {
+      "height": 69,
+      "weight": 110,
+      "body_type": "regular",
+      "fit_preference": "regular",
+      "description": "No description"
+    },
+    "status_code": 200,
+    "response_time": 0.069,
+    "response_text": "{\"message\":\"We recommend size 34R based on your measurements.\",\"recommendation\":{\"alterations\":[\"sleeve_length\",\"waist_suppression\",\"minor_waist\"],\"bodyType\":\"regular\",\"confidence\":0.9510000000000001,\"confidenceLevel\":\"high\",\"measurements\":{\"bmi\":16.24238605335014,\"chest\":31.1,\"drop\":6.0,\"height\":69,\"shoulder_width\":14.0,\"waist\":25.1,\"weight\":110},\"rationale\":\"Your regular build requires standard_sizing for optimal slim fit suit sizing.\",\"size\":\"34R\"},\"success\":true,\"timestamp\":\"2025-12-17T07:37:36.953900\"}\n",
+    "success": true,
+    "response_json": {
+      "message": "We recommend size 34R based on your measurements.",
+      "recommendation": {
+        "alterations": [
+          "sleeve_length",
+          "waist_suppression",
+          "minor_waist"
+        ],
+        "bodyType": "regular",
+        "confidence": 0.9510000000000001,
+        "confidenceLevel": "high",
+        "measurements": {
+          "bmi": 16.24238605335014,
+          "chest": 31.1,
+          "drop": 6.0,
+          "height": 69,
+          "shoulder_width": 14.0,
+          "waist": 25.1,
+          "weight": 110
+        },
+        "rationale": "Your regular build requires standard_sizing for optimal slim fit suit sizing.",
+        "size": "34R"
+      },
+      "success": true,
+      "timestamp": "2025-12-17T07:37:36.953900"
+    }
+  },
+  {
+    "description": "No description",
+    "input": {
+      "height": 69,
+      "weight": 265,
+      "body_type": "regular",
+      "fit_preference": "regular",
+      "description": "No description"
+    },
+    "status_code": 200,
+    "response_time": 0.042,
+    "response_text": "{\"message\":\"We recommend size 52R based on your measurements.\",\"recommendation\":{\"alterations\":[\"sleeve_length\",\"waist_suppression\",\"minor_waist\"],\"bodyType\":\"regular\",\"confidence\":0.8335,\"confidenceLevel\":\"medium-high\",\"measurements\":{\"bmi\":39.12938458307078,\"chest\":38.6,\"drop\":6.0,\"height\":69,\"shoulder_width\":17.4,\"waist\":32.6,\"weight\":265},\"rationale\":\"Your regular build requires standard_sizing for optimal slim fit suit sizing.\",\"size\":\"52R\"},\"success\":true,\"timestamp\":\"2025-12-17T07:37:37.122374\"}\n",
+    "success": true,
+    "response_json": {
+      "message": "We recommend size 52R based on your measurements.",
+      "recommendation": {
+        "alterations": [
+          "sleeve_length",
+          "waist_suppression",
+          "minor_waist"
+        ],
+        "bodyType": "regular",
+        "confidence": 0.8335,
+        "confidenceLevel": "medium-high",
+        "measurements": {
+          "bmi": 39.12938458307078,
+          "chest": 38.6,
+          "drop": 6.0,
+          "height": 69,
+          "shoulder_width": 17.4,
+          "waist": 32.6,
+          "weight": 265
+        },
+        "rationale": "Your regular build requires standard_sizing for optimal slim fit suit sizing.",
+        "size": "52R"
+      },
+      "success": true,
+      "timestamp": "2025-12-17T07:37:37.122374"
+    }
+  },
+  {
+    "description": "No description",
+    "input": {
+      "height": 69,
+      "weight": 165,
+      "body_type": "slim",
+      "fit_preference": "regular",
+      "description": "No description"
+    },
+    "status_code": 200,
+    "response_time": 0.054,
+    "response_text": "{\"message\":\"We recommend size 40R based on your measurements.\",\"recommendation\":{\"alterations\":[\"sleeve_width\",\"waist_suppression\",\"sleeve_length\"],\"bodyType\":\"slim\",\"confidence\":0.9235,\"confidenceLevel\":\"high\",\"measurements\":{\"bmi\":24.363579080025204,\"chest\":33.1,\"drop\":6.0,\"height\":69,\"shoulder_width\":14.9,\"waist\":27.1,\"weight\":165},\"rationale\":\"Your slim build requires standard_sizing for optimal slim fit suit sizing.\",\"size\":\"40R\"},\"success\":true,\"timestamp\":\"2025-12-17T07:37:37.278682\"}\n",
+    "success": true,
+    "response_json": {
+      "message": "We recommend size 40R based on your measurements.",
+      "recommendation": {
+        "alterations": [
+          "sleeve_width",
+          "waist_suppression",
+          "sleeve_length"
+        ],
+        "bodyType": "slim",
+        "confidence": 0.9235,
+        "confidenceLevel": "high",
+        "measurements": {
+          "bmi": 24.363579080025204,
+          "chest": 33.1,
+          "drop": 6.0,
+          "height": 69,
+          "shoulder_width": 14.9,
+          "waist": 27.1,
+          "weight": 165
+        },
+        "rationale": "Your slim build requires standard_sizing for optimal slim fit suit sizing.",
+        "size": "40R"
+      },
+      "success": true,
+      "timestamp": "2025-12-17T07:37:37.278682"
+    }
+  },
+  {
+    "description": "No description",
+    "input": {
+      "height": 69,
+      "weight": 165,
+      "body_type": "athletic",
+      "fit_preference": "regular",
+      "description": "No description"
+    },
+    "status_code": 200,
+    "response_time": 0.05,
+    "response_text": "{\"message\":\"We recommend size 40R based on your measurements.\",\"recommendation\":{\"alterations\":[\"waist_suppression\",\"sleeve_width\",\"sleeve_length\"],\"bodyType\":\"athletic\",\"confidence\":0.9235,\"confidenceLevel\":\"high\",\"measurements\":{\"bmi\":24.363579080025204,\"chest\":33.1,\"drop\":6.0,\"height\":69,\"shoulder_width\":14.9,\"waist\":27.1,\"weight\":165},\"rationale\":\"Your athletic build requires standard_sizing for optimal slim fit suit sizing.\",\"size\":\"40R\"},\"success\":true,\"timestamp\":\"2025-12-17T07:37:37.428620\"}\n",
+    "success": true,
+    "response_json": {
+      "message": "We recommend size 40R based on your measurements.",
+      "recommendation": {
+        "alterations": [
+          "waist_suppression",
+          "sleeve_width",
+          "sleeve_length"
+        ],
+        "bodyType": "athletic",
+        "confidence": 0.9235,
+        "confidenceLevel": "high",
+        "measurements": {
+          "bmi": 24.363579080025204,
+          "chest": 33.1,
+          "drop": 6.0,
+          "height": 69,
+          "shoulder_width": 14.9,
+          "waist": 27.1,
+          "weight": 165
+        },
+        "rationale": "Your athletic build requires standard_sizing for optimal slim fit suit sizing.",
+        "size": "40R"
+      },
+      "success": true,
+      "timestamp": "2025-12-17T07:37:37.428620"
+    }
+  },
+  {
+    "description": "No description",
+    "input": {
+      "height": 69,
+      "weight": 165,
+      "body_type": "broad",
+      "fit_preference": "regular",
+      "description": "No description"
+    },
+    "status_code": 200,
+    "response_time": 0.045,
+    "response_text": "{\"message\":\"We recommend size 40R based on your measurements.\",\"recommendation\":{\"alterations\":[\"sleeve_width\",\"waist_let_out\",\"sleeve_length\"],\"bodyType\":\"broad\",\"confidence\":0.9235,\"confidenceLevel\":\"high\",\"measurements\":{\"bmi\":24.363579080025204,\"chest\":33.1,\"drop\":6.0,\"height\":69,\"shoulder_width\":14.9,\"waist\":27.1,\"weight\":165},\"rationale\":\"Your broad build requires standard_sizing for optimal slim fit suit sizing.\",\"size\":\"40R\"},\"success\":true,\"timestamp\":\"2025-12-17T07:37:37.572526\"}\n",
+    "success": true,
+    "response_json": {
+      "message": "We recommend size 40R based on your measurements.",
+      "recommendation": {
+        "alterations": [
+          "sleeve_width",
+          "waist_let_out",
+          "sleeve_length"
+        ],
+        "bodyType": "broad",
+        "confidence": 0.9235,
+        "confidenceLevel": "high",
+        "measurements": {
+          "bmi": 24.363579080025204,
+          "chest": 33.1,
+          "drop": 6.0,
+          "height": 69,
+          "shoulder_width": 14.9,
+          "waist": 27.1,
+          "weight": 165
+        },
+        "rationale": "Your broad build requires standard_sizing for optimal slim fit suit sizing.",
+        "size": "40R"
+      },
+      "success": true,
+      "timestamp": "2025-12-17T07:37:37.572526"
+    }
+  },
+  {
+    "description": "No description",
+    "input": {
+      "height": 60,
+      "weight": 80,
+      "body_type": "regular",
+      "fit_preference": "regular",
+      "description": "No description"
+    },
+    "status_code": 200,
+    "response_time": 0.044,
+    "response_text": "{\"message\":\"We recommend size 34S based on your measurements.\",\"recommendation\":{\"alterations\":[\"sleeve_length\",\"waist_suppression\",\"minor_waist\"],\"bodyType\":\"regular\",\"confidence\":0.7375,\"confidenceLevel\":\"medium\",\"measurements\":{\"bmi\":15.622222222222222,\"chest\":27.0,\"drop\":6.0,\"height\":60,\"shoulder_width\":12.2,\"waist\":21.0,\"weight\":80},\"rationale\":\"Your regular build requires standard_sizing and proportion adjustments for optimal slim fit suit sizing. Body type considered for fine-tuning: regular\",\"size\":\"34S\"},\"success\":true,\"timestamp\":\"2025-12-17T07:37:37.720210\"}\n",
+    "success": true,
+    "response_json": {
+      "message": "We recommend size 34S based on your measurements.",
+      "recommendation": {
+        "alterations": [
+          "sleeve_length",
+          "waist_suppression",
+          "minor_waist"
+        ],
+        "bodyType": "regular",
+        "confidence": 0.7375,
+        "confidenceLevel": "medium",
+        "measurements": {
+          "bmi": 15.622222222222222,
+          "chest": 27.0,
+          "drop": 6.0,
+          "height": 60,
+          "shoulder_width": 12.2,
+          "waist": 21.0,
+          "weight": 80
+        },
+        "rationale": "Your regular build requires standard_sizing and proportion adjustments for optimal slim fit suit sizing. Body type considered for fine-tuning: regular",
+        "size": "34S"
+      },
+      "success": true,
+      "timestamp": "2025-12-17T07:37:37.720210"
+    }
+  },
+  {
+    "description": "No description",
+    "input": {
+      "height": 80,
+      "weight": 300,
+      "body_type": "regular",
+      "fit_preference": "regular",
+      "description": "No description"
+    },
+    "status_code": 500,
+    "response_time": 0.046,
+    "response_text": "{\"error\":\"An error occurred while processing your request\"}\n",
+    "success": false,
+    "response_json": {
+      "error": "An error occurred while processing your request"
+    }
+  },
+  {
+    "description": "No description",
+    "input": {
+      "height": "invalid",
+      "weight": 165,
+      "body_type": "regular",
+      "fit_preference": "regular",
+      "description": "No description"
+    },
+    "status_code": 500,
+    "response_time": 0.046,
+    "response_text": "{\"error\":\"An error occurred while processing your request\"}\n",
+    "success": false,
+    "response_json": {
+      "error": "An error occurred while processing your request"
+    }
+  },
+  {
+    "description": "No description",
+    "input": {
+      "height": 69,
+      "weight": "invalid",
+      "body_type": "regular",
+      "fit_preference": "regular",
+      "description": "No description"
+    },
+    "status_code": 500,
+    "response_time": 0.042,
+    "response_text": "{\"error\":\"An error occurred while processing your request\"}\n",
+    "success": false,
+    "response_json": {
+      "error": "An error occurred while processing your request"
+    }
+  },
+  {
+    "description": "No description",
+    "input": {
+      "height": 69,
+      "weight": 165,
+      "body_type": "invalid",
+      "fit_preference": "regular",
+      "description": "No description"
+    },
+    "status_code": 500,
+    "response_time": 0.053,
+    "response_text": "{\"error\":\"An error occurred while processing your request\"}\n",
+    "success": false,
+    "response_json": {
+      "error": "An error occurred while processing your request"
+    }
+  },
+  {
+    "description": "No description",
+    "input": {
+      "height": 69,
+      "weight": 165,
+      "body_type": "regular",
+      "fit_preference": "invalid",
+      "description": "No description"
+    },
+    "status_code": 200,
+    "response_time": 0.057,
+    "response_text": "{\"message\":\"We recommend size 40R based on your measurements.\",\"recommendation\":{\"alterations\":[\"sleeve_length\",\"waist_suppression\",\"minor_waist\"],\"bodyType\":\"regular\",\"confidence\":0.9235,\"confidenceLevel\":\"high\",\"measurements\":{\"bmi\":24.363579080025204,\"chest\":33.1,\"drop\":6.0,\"height\":69,\"shoulder_width\":14.9,\"waist\":27.1,\"weight\":165},\"rationale\":\"Your regular build requires standard_sizing for optimal slim fit suit sizing.\",\"size\":\"40R\"},\"success\":true,\"timestamp\":\"2025-12-17T07:37:38.470155\"}\n",
+    "success": true,
+    "response_json": {
+      "message": "We recommend size 40R based on your measurements.",
+      "recommendation": {
+        "alterations": [
+          "sleeve_length",
+          "waist_suppression",
+          "minor_waist"
+        ],
+        "bodyType": "regular",
+        "confidence": 0.9235,
+        "confidenceLevel": "high",
+        "measurements": {
+          "bmi": 24.363579080025204,
+          "chest": 33.1,
+          "drop": 6.0,
+          "height": 69,
+          "shoulder_width": 14.9,
+          "waist": 27.1,
+          "weight": 165
+        },
+        "rationale": "Your regular build requires standard_sizing for optimal slim fit suit sizing.",
+        "size": "40R"
+      },
+      "success": true,
+      "timestamp": "2025-12-17T07:37:38.470155"
+    }
+  },
+  {
+    "description": "No description",
+    "input": {
+      "height": 69,
+      "weight": 165,
+      "body_type": "regular",
+      "description": "No description"
+    },
+    "status_code": 200,
+    "response_time": 0.042,
+    "response_text": "{\"message\":\"We recommend size 40R based on your measurements.\",\"recommendation\":{\"alterations\":[\"sleeve_length\",\"waist_suppression\",\"minor_waist\"],\"bodyType\":\"regular\",\"confidence\":0.9235,\"confidenceLevel\":\"high\",\"measurements\":{\"bmi\":24.363579080025204,\"chest\":33.1,\"drop\":6.0,\"height\":69,\"shoulder_width\":14.9,\"waist\":27.1,\"weight\":165},\"rationale\":\"Your regular build requires standard_sizing for optimal slim fit suit sizing.\",\"size\":\"40R\"},\"success\":true,\"timestamp\":\"2025-12-17T07:37:38.612210\"}\n",
+    "success": true,
+    "response_json": {
+      "message": "We recommend size 40R based on your measurements.",
+      "recommendation": {
+        "alterations": [
+          "sleeve_length",
+          "waist_suppression",
+          "minor_waist"
+        ],
+        "bodyType": "regular",
+        "confidence": 0.9235,
+        "confidenceLevel": "high",
+        "measurements": {
+          "bmi": 24.363579080025204,
+          "chest": 33.1,
+          "drop": 6.0,
+          "height": 69,
+          "shoulder_width": 14.9,
+          "waist": 27.1,
+          "weight": 165
+        },
+        "rationale": "Your regular build requires standard_sizing for optimal slim fit suit sizing.",
+        "size": "40R"
+      },
+      "success": true,
+      "timestamp": "2025-12-17T07:37:38.612210"
+    }
+  },
+  {
+    "description": "No description",
+    "input": {
+      "height": 69,
+      "body_type": "regular",
+      "fit_preference": "regular",
+      "description": "No description"
+    },
+    "status_code": 400,
+    "response_time": 0.041,
+    "response_text": "{\"error\":\"Missing required field: weight\"}\n",
+    "success": false,
+    "response_json": {
+      "error": "Missing required field: weight"
+    }
+  }
+]

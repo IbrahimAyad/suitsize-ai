@@ -1,1 +1,1 @@
-suitsize_enhancement_strategy.md
+suitsize_complete_strategy.md
