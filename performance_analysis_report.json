@@ -1,0 +1,1768 @@
+{
+  "timestamp": "2025-12-17T20:52:43.791821",
+  "report_type": "comprehensive_performance_analysis",
+  "backend_performance": {
+    "test_summary": {
+      "total_requests": 100,
+      "successful_requests": 88,
+      "failed_requests": 12,
+      "success_rate": 0.88,
+      "total_duration_seconds": 0.23,
+      "requests_per_second": 443.04
+    },
+    "response_time_analysis": {
+      "min_ms": 0.02,
+      "max_ms": 38.27,
+      "mean_ms": 0.94,
+      "median_ms": 0.02,
+      "p95_ms": 6.36,
+      "p99_ms": 14.09,
+      "std_dev_ms": 4.42
+    },
+    "caching_analysis": {
+      "total_cached_requests": 81,
+      "cache_hit_rate": 0.9204545454545454,
+      "avg_uncached_response_ms": 11.51,
+      "avg_cached_response_ms": 0.02
+    },
+    "memory_analysis": {
+      "initial_memory_mb": 216.69,
+      "final_memory_mb": 217.46,
+      "memory_growth_mb": 0.78,
+      "peak_memory_mb": 217.46,
+      "avg_memory_mb": 217.42
+    },
+    "detailed_results": [
+      {
+        "request_id": 0,
+        "scenario": {
+          "height": 175,
+          "weight": 75,
+          "fit": "regular",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_0",
+        "response_time_ms": 10.476112365722656,
+        "success": true,
+        "size": "50R",
+        "confidence": 0.922,
+        "cached": false,
+        "memory_usage_mb": 216.6875,
+        "timestamp": "2025-12-17T20:52:42.916603"
+      },
+      {
+        "request_id": 1,
+        "scenario": {
+          "height": 180,
+          "weight": 80,
+          "fit": "slim",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_1",
+        "response_time_ms": 6.383657455444336,
+        "success": true,
+        "size": "46S",
+        "confidence": 0.931,
+        "cached": false,
+        "memory_usage_mb": 216.6875,
+        "timestamp": "2025-12-17T20:52:42.923106"
+      },
+      {
+        "request_id": 2,
+        "scenario": {
+          "height": 170,
+          "weight": 70,
+          "fit": "relaxed",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_2",
+        "response_time_ms": 6.487369537353516,
+        "success": true,
+        "size": "50R",
+        "confidence": 0.81,
+        "cached": false,
+        "memory_usage_mb": 216.6875,
+        "timestamp": "2025-12-17T20:52:42.929694"
+      },
+      {
+        "request_id": 3,
+        "scenario": {
+          "height": 185,
+          "weight": 85,
+          "fit": "regular",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_3",
+        "response_time_ms": 6.390571594238281,
+        "success": true,
+        "size": "50R",
+        "confidence": 0.884,
+        "cached": false,
+        "memory_usage_mb": 216.6875,
+        "timestamp": "2025-12-17T20:52:42.936168"
+      },
+      {
+        "request_id": 4,
+        "scenario": {
+          "height": 160,
+          "weight": 60,
+          "fit": "slim",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_4",
+        "response_time_ms": 6.232738494873047,
+        "success": true,
+        "size": "46S",
+        "confidence": 0.729,
+        "cached": false,
+        "memory_usage_mb": 216.6875,
+        "timestamp": "2025-12-17T20:52:42.942482"
+      },
+      {
+        "request_id": 5,
+        "scenario": {
+          "height": 120,
+          "weight": 50,
+          "fit": "regular",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_5",
+        "response_time_ms": 38.27404975891113,
+        "success": true,
+        "size": "50L",
+        "confidence": 0.487,
+        "cached": false,
+        "memory_usage_mb": 216.6875,
+        "timestamp": "2025-12-17T20:52:42.980857"
+      },
+      {
+        "request_id": 6,
+        "scenario": {
+          "height": 250,
+          "weight": 150,
+          "fit": "relaxed",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_6",
+        "response_time_ms": 6.305456161499023,
+        "success": true,
+        "size": "50R",
+        "confidence": 0.6,
+        "cached": false,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.987242"
+      },
+      {
+        "request_id": 7,
+        "scenario": {
+          "height": 69,
+          "weight": 165,
+          "fit": "regular",
+          "unit": "imperial"
+        },
+        "client_ip": "test_ip_7",
+        "response_time_ms": 0.008344650268554688,
+        "success": false,
+        "size": null,
+        "confidence": null,
+        "cached": false,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.987287"
+      },
+      {
+        "request_id": 8,
+        "scenario": {
+          "height": 175,
+          "weight": 75,
+          "fit": "regular",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_8",
+        "response_time_ms": 0.04506111145019531,
+        "success": true,
+        "size": "50R",
+        "confidence": 0.922,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.987366"
+      },
+      {
+        "request_id": 9,
+        "scenario": {
+          "height": 180,
+          "weight": 80,
+          "fit": "slim",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_9",
+        "response_time_ms": 0.03361701965332031,
+        "success": true,
+        "size": "46S",
+        "confidence": 0.931,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.987431"
+      },
+      {
+        "request_id": 10,
+        "scenario": {
+          "height": 170,
+          "weight": 70,
+          "fit": "relaxed",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_0",
+        "response_time_ms": 0.026941299438476562,
+        "success": true,
+        "size": "50R",
+        "confidence": 0.81,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.987489"
+      },
+      {
+        "request_id": 11,
+        "scenario": {
+          "height": 185,
+          "weight": 85,
+          "fit": "regular",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_1",
+        "response_time_ms": 0.024080276489257812,
+        "success": true,
+        "size": "50R",
+        "confidence": 0.884,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.987543"
+      },
+      {
+        "request_id": 12,
+        "scenario": {
+          "height": 160,
+          "weight": 60,
+          "fit": "slim",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_2",
+        "response_time_ms": 0.022411346435546875,
+        "success": true,
+        "size": "46S",
+        "confidence": 0.729,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.987594"
+      },
+      {
+        "request_id": 13,
+        "scenario": {
+          "height": 120,
+          "weight": 50,
+          "fit": "regular",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_3",
+        "response_time_ms": 0.02002716064453125,
+        "success": true,
+        "size": "50L",
+        "confidence": 0.487,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.987641"
+      },
+      {
+        "request_id": 14,
+        "scenario": {
+          "height": 250,
+          "weight": 150,
+          "fit": "relaxed",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_4",
+        "response_time_ms": 0.025987625122070312,
+        "success": true,
+        "size": "50R",
+        "confidence": 0.6,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.987712"
+      },
+      {
+        "request_id": 15,
+        "scenario": {
+          "height": 69,
+          "weight": 165,
+          "fit": "regular",
+          "unit": "imperial"
+        },
+        "client_ip": "test_ip_5",
+        "response_time_ms": 0.0057220458984375,
+        "success": false,
+        "size": null,
+        "confidence": null,
+        "cached": false,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.987743"
+      },
+      {
+        "request_id": 16,
+        "scenario": {
+          "height": 175,
+          "weight": 75,
+          "fit": "regular",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_6",
+        "response_time_ms": 0.023126602172851562,
+        "success": true,
+        "size": "50R",
+        "confidence": 0.922,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.987810"
+      },
+      {
+        "request_id": 17,
+        "scenario": {
+          "height": 180,
+          "weight": 80,
+          "fit": "slim",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_7",
+        "response_time_ms": 0.027418136596679688,
+        "success": true,
+        "size": "46S",
+        "confidence": 0.931,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.987870"
+      },
+      {
+        "request_id": 18,
+        "scenario": {
+          "height": 170,
+          "weight": 70,
+          "fit": "relaxed",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_8",
+        "response_time_ms": 0.024080276489257812,
+        "success": true,
+        "size": "50R",
+        "confidence": 0.81,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.987922"
+      },
+      {
+        "request_id": 19,
+        "scenario": {
+          "height": 185,
+          "weight": 85,
+          "fit": "regular",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_9",
+        "response_time_ms": 0.022172927856445312,
+        "success": true,
+        "size": "50R",
+        "confidence": 0.884,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.987972"
+      },
+      {
+        "request_id": 20,
+        "scenario": {
+          "height": 160,
+          "weight": 60,
+          "fit": "slim",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_0",
+        "response_time_ms": 0.021219253540039062,
+        "success": true,
+        "size": "46S",
+        "confidence": 0.729,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.988020"
+      },
+      {
+        "request_id": 21,
+        "scenario": {
+          "height": 120,
+          "weight": 50,
+          "fit": "regular",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_1",
+        "response_time_ms": 0.020503997802734375,
+        "success": true,
+        "size": "50L",
+        "confidence": 0.487,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.988088"
+      },
+      {
+        "request_id": 22,
+        "scenario": {
+          "height": 250,
+          "weight": 150,
+          "fit": "relaxed",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_2",
+        "response_time_ms": 0.020503997802734375,
+        "success": true,
+        "size": "50R",
+        "confidence": 0.6,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.988136"
+      },
+      {
+        "request_id": 23,
+        "scenario": {
+          "height": 69,
+          "weight": 165,
+          "fit": "regular",
+          "unit": "imperial"
+        },
+        "client_ip": "test_ip_3",
+        "response_time_ms": 0.00476837158203125,
+        "success": false,
+        "size": null,
+        "confidence": null,
+        "cached": false,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.988165"
+      },
+      {
+        "request_id": 24,
+        "scenario": {
+          "height": 175,
+          "weight": 75,
+          "fit": "regular",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_4",
+        "response_time_ms": 0.020503997802734375,
+        "success": true,
+        "size": "50R",
+        "confidence": 0.922,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.988212"
+      },
+      {
+        "request_id": 25,
+        "scenario": {
+          "height": 180,
+          "weight": 80,
+          "fit": "slim",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_5",
+        "response_time_ms": 0.019788742065429688,
+        "success": true,
+        "size": "46S",
+        "confidence": 0.931,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.988260"
+      },
+      {
+        "request_id": 26,
+        "scenario": {
+          "height": 170,
+          "weight": 70,
+          "fit": "relaxed",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_6",
+        "response_time_ms": 0.02002716064453125,
+        "success": true,
+        "size": "50R",
+        "confidence": 0.81,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.988308"
+      },
+      {
+        "request_id": 27,
+        "scenario": {
+          "height": 185,
+          "weight": 85,
+          "fit": "regular",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_7",
+        "response_time_ms": 0.019788742065429688,
+        "success": true,
+        "size": "50R",
+        "confidence": 0.884,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.988355"
+      },
+      {
+        "request_id": 28,
+        "scenario": {
+          "height": 160,
+          "weight": 60,
+          "fit": "slim",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_8",
+        "response_time_ms": 0.019073486328125,
+        "success": true,
+        "size": "46S",
+        "confidence": 0.729,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.988401"
+      },
+      {
+        "request_id": 29,
+        "scenario": {
+          "height": 120,
+          "weight": 50,
+          "fit": "regular",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_9",
+        "response_time_ms": 0.019550323486328125,
+        "success": true,
+        "size": "50L",
+        "confidence": 0.487,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.988446"
+      },
+      {
+        "request_id": 30,
+        "scenario": {
+          "height": 250,
+          "weight": 150,
+          "fit": "relaxed",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_0",
+        "response_time_ms": 0.019311904907226562,
+        "success": true,
+        "size": "50R",
+        "confidence": 0.6,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.988491"
+      },
+      {
+        "request_id": 31,
+        "scenario": {
+          "height": 69,
+          "weight": 165,
+          "fit": "regular",
+          "unit": "imperial"
+        },
+        "client_ip": "test_ip_1",
+        "response_time_ms": 0.004291534423828125,
+        "success": false,
+        "size": null,
+        "confidence": null,
+        "cached": false,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.988521"
+      },
+      {
+        "request_id": 32,
+        "scenario": {
+          "height": 175,
+          "weight": 75,
+          "fit": "regular",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_2",
+        "response_time_ms": 0.021696090698242188,
+        "success": true,
+        "size": "50R",
+        "confidence": 0.922,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.988570"
+      },
+      {
+        "request_id": 33,
+        "scenario": {
+          "height": 180,
+          "weight": 80,
+          "fit": "slim",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_3",
+        "response_time_ms": 0.021457672119140625,
+        "success": true,
+        "size": "46S",
+        "confidence": 0.931,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.988619"
+      },
+      {
+        "request_id": 34,
+        "scenario": {
+          "height": 170,
+          "weight": 70,
+          "fit": "relaxed",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_4",
+        "response_time_ms": 0.019311904907226562,
+        "success": true,
+        "size": "50R",
+        "confidence": 0.81,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.988688"
+      },
+      {
+        "request_id": 35,
+        "scenario": {
+          "height": 185,
+          "weight": 85,
+          "fit": "regular",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_5",
+        "response_time_ms": 0.034809112548828125,
+        "success": true,
+        "size": "50R",
+        "confidence": 0.884,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.988755"
+      },
+      {
+        "request_id": 36,
+        "scenario": {
+          "height": 160,
+          "weight": 60,
+          "fit": "slim",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_6",
+        "response_time_ms": 0.03170967102050781,
+        "success": true,
+        "size": "46S",
+        "confidence": 0.729,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.988819"
+      },
+      {
+        "request_id": 37,
+        "scenario": {
+          "height": 120,
+          "weight": 50,
+          "fit": "regular",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_7",
+        "response_time_ms": 0.0247955322265625,
+        "success": true,
+        "size": "50L",
+        "confidence": 0.487,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.988872"
+      },
+      {
+        "request_id": 38,
+        "scenario": {
+          "height": 250,
+          "weight": 150,
+          "fit": "relaxed",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_8",
+        "response_time_ms": 0.021457672119140625,
+        "success": true,
+        "size": "50R",
+        "confidence": 0.6,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.988920"
+      },
+      {
+        "request_id": 39,
+        "scenario": {
+          "height": 69,
+          "weight": 165,
+          "fit": "regular",
+          "unit": "imperial"
+        },
+        "client_ip": "test_ip_9",
+        "response_time_ms": 0.0050067901611328125,
+        "success": false,
+        "size": null,
+        "confidence": null,
+        "cached": false,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.988951"
+      },
+      {
+        "request_id": 40,
+        "scenario": {
+          "height": 175,
+          "weight": 75,
+          "fit": "regular",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_0",
+        "response_time_ms": 0.02384185791015625,
+        "success": true,
+        "size": "50R",
+        "confidence": 0.922,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.989001"
+      },
+      {
+        "request_id": 41,
+        "scenario": {
+          "height": 180,
+          "weight": 80,
+          "fit": "slim",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_1",
+        "response_time_ms": 0.020503997802734375,
+        "success": true,
+        "size": "46S",
+        "confidence": 0.931,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.989067"
+      },
+      {
+        "request_id": 42,
+        "scenario": {
+          "height": 170,
+          "weight": 70,
+          "fit": "relaxed",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_2",
+        "response_time_ms": 0.0209808349609375,
+        "success": true,
+        "size": "50R",
+        "confidence": 0.81,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.989114"
+      },
+      {
+        "request_id": 43,
+        "scenario": {
+          "height": 185,
+          "weight": 85,
+          "fit": "regular",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_3",
+        "response_time_ms": 0.020265579223632812,
+        "success": true,
+        "size": "50R",
+        "confidence": 0.884,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.989160"
+      },
+      {
+        "request_id": 44,
+        "scenario": {
+          "height": 160,
+          "weight": 60,
+          "fit": "slim",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_4",
+        "response_time_ms": 0.019550323486328125,
+        "success": true,
+        "size": "46S",
+        "confidence": 0.729,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.989206"
+      },
+      {
+        "request_id": 45,
+        "scenario": {
+          "height": 120,
+          "weight": 50,
+          "fit": "regular",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_5",
+        "response_time_ms": 0.019073486328125,
+        "success": true,
+        "size": "50L",
+        "confidence": 0.487,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.989251"
+      },
+      {
+        "request_id": 46,
+        "scenario": {
+          "height": 250,
+          "weight": 150,
+          "fit": "relaxed",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_6",
+        "response_time_ms": 0.019550323486328125,
+        "success": true,
+        "size": "50R",
+        "confidence": 0.6,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.989296"
+      },
+      {
+        "request_id": 47,
+        "scenario": {
+          "height": 69,
+          "weight": 165,
+          "fit": "regular",
+          "unit": "imperial"
+        },
+        "client_ip": "test_ip_7",
+        "response_time_ms": 0.004291534423828125,
+        "success": false,
+        "size": null,
+        "confidence": null,
+        "cached": false,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.989324"
+      },
+      {
+        "request_id": 48,
+        "scenario": {
+          "height": 175,
+          "weight": 75,
+          "fit": "regular",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_8",
+        "response_time_ms": 0.021219253540039062,
+        "success": true,
+        "size": "50R",
+        "confidence": 0.922,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.989370"
+      },
+      {
+        "request_id": 49,
+        "scenario": {
+          "height": 180,
+          "weight": 80,
+          "fit": "slim",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_9",
+        "response_time_ms": 0.020742416381835938,
+        "success": true,
+        "size": "46S",
+        "confidence": 0.931,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.989416"
+      },
+      {
+        "request_id": 50,
+        "scenario": {
+          "height": 170,
+          "weight": 70,
+          "fit": "relaxed",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_0",
+        "response_time_ms": 0.019788742065429688,
+        "success": true,
+        "size": "50R",
+        "confidence": 0.81,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.989462"
+      },
+      {
+        "request_id": 51,
+        "scenario": {
+          "height": 185,
+          "weight": 85,
+          "fit": "regular",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_1",
+        "response_time_ms": 0.02002716064453125,
+        "success": true,
+        "size": "50R",
+        "confidence": 0.884,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.989509"
+      },
+      {
+        "request_id": 52,
+        "scenario": {
+          "height": 160,
+          "weight": 60,
+          "fit": "slim",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_2",
+        "response_time_ms": 0.019788742065429688,
+        "success": true,
+        "size": "46S",
+        "confidence": 0.729,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.989556"
+      },
+      {
+        "request_id": 53,
+        "scenario": {
+          "height": 120,
+          "weight": 50,
+          "fit": "regular",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_3",
+        "response_time_ms": 0.018835067749023438,
+        "success": true,
+        "size": "50L",
+        "confidence": 0.487,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.989601"
+      },
+      {
+        "request_id": 54,
+        "scenario": {
+          "height": 250,
+          "weight": 150,
+          "fit": "relaxed",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_4",
+        "response_time_ms": 0.02002716064453125,
+        "success": true,
+        "size": "50R",
+        "confidence": 0.6,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.989658"
+      },
+      {
+        "request_id": 55,
+        "scenario": {
+          "height": 69,
+          "weight": 165,
+          "fit": "regular",
+          "unit": "imperial"
+        },
+        "client_ip": "test_ip_5",
+        "response_time_ms": 0.005245208740234375,
+        "success": false,
+        "size": null,
+        "confidence": null,
+        "cached": false,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.989693"
+      },
+      {
+        "request_id": 56,
+        "scenario": {
+          "height": 175,
+          "weight": 75,
+          "fit": "regular",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_6",
+        "response_time_ms": 0.024318695068359375,
+        "success": true,
+        "size": "50R",
+        "confidence": 0.922,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.989746"
+      },
+      {
+        "request_id": 57,
+        "scenario": {
+          "height": 180,
+          "weight": 80,
+          "fit": "slim",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_7",
+        "response_time_ms": 0.022411346435546875,
+        "success": true,
+        "size": "46S",
+        "confidence": 0.931,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.989807"
+      },
+      {
+        "request_id": 58,
+        "scenario": {
+          "height": 170,
+          "weight": 70,
+          "fit": "relaxed",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_8",
+        "response_time_ms": 0.024080276489257812,
+        "success": true,
+        "size": "50R",
+        "confidence": 0.81,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.989859"
+      },
+      {
+        "request_id": 59,
+        "scenario": {
+          "height": 185,
+          "weight": 85,
+          "fit": "regular",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_9",
+        "response_time_ms": 0.02193450927734375,
+        "success": true,
+        "size": "50R",
+        "confidence": 0.884,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.989909"
+      },
+      {
+        "request_id": 60,
+        "scenario": {
+          "height": 160,
+          "weight": 60,
+          "fit": "slim",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_0",
+        "response_time_ms": 0.020742416381835938,
+        "success": true,
+        "size": "46S",
+        "confidence": 0.729,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.989956"
+      },
+      {
+        "request_id": 61,
+        "scenario": {
+          "height": 120,
+          "weight": 50,
+          "fit": "regular",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_1",
+        "response_time_ms": 0.019550323486328125,
+        "success": true,
+        "size": "50L",
+        "confidence": 0.487,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.990020"
+      },
+      {
+        "request_id": 62,
+        "scenario": {
+          "height": 250,
+          "weight": 150,
+          "fit": "relaxed",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_2",
+        "response_time_ms": 0.020503997802734375,
+        "success": true,
+        "size": "50R",
+        "confidence": 0.6,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.990067"
+      },
+      {
+        "request_id": 63,
+        "scenario": {
+          "height": 69,
+          "weight": 165,
+          "fit": "regular",
+          "unit": "imperial"
+        },
+        "client_ip": "test_ip_3",
+        "response_time_ms": 0.004291534423828125,
+        "success": false,
+        "size": null,
+        "confidence": null,
+        "cached": false,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.990096"
+      },
+      {
+        "request_id": 64,
+        "scenario": {
+          "height": 175,
+          "weight": 75,
+          "fit": "regular",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_4",
+        "response_time_ms": 0.020503997802734375,
+        "success": true,
+        "size": "50R",
+        "confidence": 0.922,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.990142"
+      },
+      {
+        "request_id": 65,
+        "scenario": {
+          "height": 180,
+          "weight": 80,
+          "fit": "slim",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_5",
+        "response_time_ms": 0.020742416381835938,
+        "success": true,
+        "size": "46S",
+        "confidence": 0.931,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.990188"
+      },
+      {
+        "request_id": 66,
+        "scenario": {
+          "height": 170,
+          "weight": 70,
+          "fit": "relaxed",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_6",
+        "response_time_ms": 0.020265579223632812,
+        "success": true,
+        "size": "50R",
+        "confidence": 0.81,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.990235"
+      },
+      {
+        "request_id": 67,
+        "scenario": {
+          "height": 185,
+          "weight": 85,
+          "fit": "regular",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_7",
+        "response_time_ms": 0.019788742065429688,
+        "success": true,
+        "size": "50R",
+        "confidence": 0.884,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.990281"
+      },
+      {
+        "request_id": 68,
+        "scenario": {
+          "height": 160,
+          "weight": 60,
+          "fit": "slim",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_8",
+        "response_time_ms": 0.020265579223632812,
+        "success": true,
+        "size": "46S",
+        "confidence": 0.729,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.990329"
+      },
+      {
+        "request_id": 69,
+        "scenario": {
+          "height": 120,
+          "weight": 50,
+          "fit": "regular",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_9",
+        "response_time_ms": 0.02002716064453125,
+        "success": true,
+        "size": "50L",
+        "confidence": 0.487,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.990375"
+      },
+      {
+        "request_id": 70,
+        "scenario": {
+          "height": 250,
+          "weight": 150,
+          "fit": "relaxed",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_0",
+        "response_time_ms": 0.019550323486328125,
+        "success": true,
+        "size": "50R",
+        "confidence": 0.6,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.990420"
+      },
+      {
+        "request_id": 71,
+        "scenario": {
+          "height": 69,
+          "weight": 165,
+          "fit": "regular",
+          "unit": "imperial"
+        },
+        "client_ip": "test_ip_1",
+        "response_time_ms": 0.004291534423828125,
+        "success": false,
+        "size": null,
+        "confidence": null,
+        "cached": false,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.990449"
+      },
+      {
+        "request_id": 72,
+        "scenario": {
+          "height": 175,
+          "weight": 75,
+          "fit": "regular",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_2",
+        "response_time_ms": 0.0209808349609375,
+        "success": true,
+        "size": "50R",
+        "confidence": 0.922,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.990496"
+      },
+      {
+        "request_id": 73,
+        "scenario": {
+          "height": 180,
+          "weight": 80,
+          "fit": "slim",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_3",
+        "response_time_ms": 0.021457672119140625,
+        "success": true,
+        "size": "46S",
+        "confidence": 0.931,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.990544"
+      },
+      {
+        "request_id": 74,
+        "scenario": {
+          "height": 170,
+          "weight": 70,
+          "fit": "relaxed",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_4",
+        "response_time_ms": 0.019550323486328125,
+        "success": true,
+        "size": "50R",
+        "confidence": 0.81,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.990590"
+      },
+      {
+        "request_id": 75,
+        "scenario": {
+          "height": 185,
+          "weight": 85,
+          "fit": "regular",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_5",
+        "response_time_ms": 0.019550323486328125,
+        "success": true,
+        "size": "50R",
+        "confidence": 0.884,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.990636"
+      },
+      {
+        "request_id": 76,
+        "scenario": {
+          "height": 160,
+          "weight": 60,
+          "fit": "slim",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_6",
+        "response_time_ms": 0.0324249267578125,
+        "success": true,
+        "size": "46S",
+        "confidence": 0.729,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.990697"
+      },
+      {
+        "request_id": 77,
+        "scenario": {
+          "height": 120,
+          "weight": 50,
+          "fit": "regular",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_7",
+        "response_time_ms": 0.0209808349609375,
+        "success": true,
+        "size": "50L",
+        "confidence": 0.487,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.990746"
+      },
+      {
+        "request_id": 78,
+        "scenario": {
+          "height": 250,
+          "weight": 150,
+          "fit": "relaxed",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_8",
+        "response_time_ms": 0.020742416381835938,
+        "success": true,
+        "size": "50R",
+        "confidence": 0.6,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.990805"
+      },
+      {
+        "request_id": 79,
+        "scenario": {
+          "height": 69,
+          "weight": 165,
+          "fit": "regular",
+          "unit": "imperial"
+        },
+        "client_ip": "test_ip_9",
+        "response_time_ms": 0.0050067901611328125,
+        "success": false,
+        "size": null,
+        "confidence": null,
+        "cached": false,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.990837"
+      },
+      {
+        "request_id": 80,
+        "scenario": {
+          "height": 175,
+          "weight": 75,
+          "fit": "regular",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_0",
+        "response_time_ms": 0.02384185791015625,
+        "success": true,
+        "size": "50R",
+        "confidence": 0.922,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.990886"
+      },
+      {
+        "request_id": 81,
+        "scenario": {
+          "height": 180,
+          "weight": 80,
+          "fit": "slim",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_1",
+        "response_time_ms": 0.020265579223632812,
+        "success": true,
+        "size": "46S",
+        "confidence": 0.931,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.990951"
+      },
+      {
+        "request_id": 82,
+        "scenario": {
+          "height": 170,
+          "weight": 70,
+          "fit": "relaxed",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_2",
+        "response_time_ms": 0.020265579223632812,
+        "success": true,
+        "size": "50R",
+        "confidence": 0.81,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.990996"
+      },
+      {
+        "request_id": 83,
+        "scenario": {
+          "height": 185,
+          "weight": 85,
+          "fit": "regular",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_3",
+        "response_time_ms": 0.019550323486328125,
+        "success": true,
+        "size": "50R",
+        "confidence": 0.884,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.991042"
+      },
+      {
+        "request_id": 84,
+        "scenario": {
+          "height": 160,
+          "weight": 60,
+          "fit": "slim",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_4",
+        "response_time_ms": 0.019311904907226562,
+        "success": true,
+        "size": "46S",
+        "confidence": 0.729,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.991087"
+      },
+      {
+        "request_id": 85,
+        "scenario": {
+          "height": 120,
+          "weight": 50,
+          "fit": "regular",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_5",
+        "response_time_ms": 0.018596649169921875,
+        "success": true,
+        "size": "50L",
+        "confidence": 0.487,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.991132"
+      },
+      {
+        "request_id": 86,
+        "scenario": {
+          "height": 250,
+          "weight": 150,
+          "fit": "relaxed",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_6",
+        "response_time_ms": 0.019073486328125,
+        "success": true,
+        "size": "50R",
+        "confidence": 0.6,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.991178"
+      },
+      {
+        "request_id": 87,
+        "scenario": {
+          "height": 69,
+          "weight": 165,
+          "fit": "regular",
+          "unit": "imperial"
+        },
+        "client_ip": "test_ip_7",
+        "response_time_ms": 0.0040531158447265625,
+        "success": false,
+        "size": null,
+        "confidence": null,
+        "cached": false,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.991207"
+      },
+      {
+        "request_id": 88,
+        "scenario": {
+          "height": 175,
+          "weight": 75,
+          "fit": "regular",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_8",
+        "response_time_ms": 0.020503997802734375,
+        "success": true,
+        "size": "50R",
+        "confidence": 0.922,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.991252"
+      },
+      {
+        "request_id": 89,
+        "scenario": {
+          "height": 180,
+          "weight": 80,
+          "fit": "slim",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_9",
+        "response_time_ms": 0.020265579223632812,
+        "success": true,
+        "size": "46S",
+        "confidence": 0.931,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.991299"
+      },
+      {
+        "request_id": 90,
+        "scenario": {
+          "height": 170,
+          "weight": 70,
+          "fit": "relaxed",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_0",
+        "response_time_ms": 0.0209808349609375,
+        "success": true,
+        "size": "50R",
+        "confidence": 0.81,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.991344"
+      },
+      {
+        "request_id": 91,
+        "scenario": {
+          "height": 185,
+          "weight": 85,
+          "fit": "regular",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_1",
+        "response_time_ms": 0.019788742065429688,
+        "success": true,
+        "size": "50R",
+        "confidence": 0.884,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.991390"
+      },
+      {
+        "request_id": 92,
+        "scenario": {
+          "height": 160,
+          "weight": 60,
+          "fit": "slim",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_2",
+        "response_time_ms": 0.019550323486328125,
+        "success": true,
+        "size": "46S",
+        "confidence": 0.729,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.991435"
+      },
+      {
+        "request_id": 93,
+        "scenario": {
+          "height": 120,
+          "weight": 50,
+          "fit": "regular",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_3",
+        "response_time_ms": 0.019550323486328125,
+        "success": true,
+        "size": "50L",
+        "confidence": 0.487,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.991482"
+      },
+      {
+        "request_id": 94,
+        "scenario": {
+          "height": 250,
+          "weight": 150,
+          "fit": "relaxed",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_4",
+        "response_time_ms": 0.019311904907226562,
+        "success": true,
+        "size": "50R",
+        "confidence": 0.6,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.991527"
+      },
+      {
+        "request_id": 95,
+        "scenario": {
+          "height": 69,
+          "weight": 165,
+          "fit": "regular",
+          "unit": "imperial"
+        },
+        "client_ip": "test_ip_5",
+        "response_time_ms": 0.004291534423828125,
+        "success": false,
+        "size": null,
+        "confidence": null,
+        "cached": false,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.991556"
+      },
+      {
+        "request_id": 96,
+        "scenario": {
+          "height": 175,
+          "weight": 75,
+          "fit": "regular",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_6",
+        "response_time_ms": 0.020265579223632812,
+        "success": true,
+        "size": "50R",
+        "confidence": 0.922,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.991601"
+      },
+      {
+        "request_id": 97,
+        "scenario": {
+          "height": 180,
+          "weight": 80,
+          "fit": "slim",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_7",
+        "response_time_ms": 0.019073486328125,
+        "success": true,
+        "size": "46S",
+        "confidence": 0.931,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.991655"
+      },
+      {
+        "request_id": 98,
+        "scenario": {
+          "height": 170,
+          "weight": 70,
+          "fit": "relaxed",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_8",
+        "response_time_ms": 0.024318695068359375,
+        "success": true,
+        "size": "50R",
+        "confidence": 0.81,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.991708"
+      },
+      {
+        "request_id": 99,
+        "scenario": {
+          "height": 185,
+          "weight": 85,
+          "fit": "regular",
+          "unit": "metric"
+        },
+        "client_ip": "test_ip_9",
+        "response_time_ms": 0.020742416381835938,
+        "success": true,
+        "size": "50R",
+        "confidence": 0.884,
+        "cached": true,
+        "memory_usage_mb": 217.46484375,
+        "timestamp": "2025-12-17T20:52:42.991755"
+      }
+    ],
+    "bottlenecks": []
+  },
+  "caching_benchmarks": {
+    "current_memory_cache": {
+      "avg_response_time_ms": 0.01,
+      "description": "Current in-memory dictionary cache"
+    },
+    "no_cache": {
+      "avg_response_time_ms": 0.13,
+      "description": "No caching (always recompute)"
+    },
+    "redis_simulation": {
+      "avg_response_time_ms": -0.0,
+      "description": "Simulated Redis cache with proper TTL"
+    }
+  },
+  "ml_engine_performance": {
+    "initialization_time_seconds": 0.45,
+    "prediction_performance": {
+      "min_ms": 5.96,
+      "max_ms": 106.36,
+      "mean_ms": 12.96,
+      "median_ms": 6.19,
+      "p95_ms": 44.11
+    },
+    "customer_similarity_performance": {
+      "mean_ms": 2.65,
+      "database_size": 3371
+    }
+  },
+  "optimization_recommendations": []
+}
