@@ -1,12 +1,26 @@
 {
   "todos": {
     "Coordinator": {
-      "11": {
-        "id": "11",
-        "content": "Final integration testing",
-        "details": "Test the complete system end-to-end: Lovable UI with body type selector → enhanced Supabase backend → competitive sizing recommendations with body type adjustments",
+      "12": {
+        "id": "12",
+        "content": "Deploy enhanced V2 size bot to production",
+        "details": "Replace current enhanced-size-bot with V2 version that includes alternative options, detailed body type analysis, and research-based measurements - competitive with or better than Lovable AI",
         "status": "pending",
-        "priority": "low"
+        "priority": "high"
+      },
+      "13": {
+        "id": "13",
+        "content": "Update Lovable integration to use V2 backend",
+        "details": "Update Lovable's API calls to use the enhanced V2 backend that provides alternative options, detailed analysis, and professional measurements",
+        "status": "pending",
+        "priority": "high"
+      },
+      "14": {
+        "id": "14",
+        "content": "Performance comparison testing",
+        "details": "Test V2 enhanced bot vs Lovable AI side-by-side to validate our competitive advantages and accuracy improvements",
+        "status": "pending",
+        "priority": "medium"
       }
     }
   }
