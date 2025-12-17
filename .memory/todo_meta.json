@@ -11,7 +11,7 @@
       "2": {
         "id": "2",
         "content": "Add bodyType field to UI components",
-        "details": "Update CompactSizeGuide.tsx to include body type dropdown (regular, athletic, slim, heavy) instead of hardcoding to 'regular'",
+        "details": "Add body type dropdown with options: Athletic (Muscular & defined), Regular (Balanced proportions), Broad (Wider shoulders) - this completes the 4-field minimal approach that matches KCT's current implementation",
         "status": "pending",
         "priority": "high"
       },
