@@ -1,24 +1,10 @@
 {
   "todos": {
     "Coordinator": {
-      "10": {
-        "id": "10",
-        "content": "Complete UI integration for 4-field system",
-        "details": "Add bodyType field to Lovable UI to complete the 4-field minimal approach (height, weight, fit_style, body_type). This will enable users to access the enhanced competitive sizing backend we've built.",
-        "status": "pending",
-        "priority": "high"
-      },
-      "1": {
-        "id": "1",
-        "content": "Fix TypeScript build errors in Lovable project",
-        "details": "Address 40+ TypeScript build errors that are blocking deployment (needed for UI integration)",
-        "status": "pending",
-        "priority": "medium"
-      },
       "11": {
         "id": "11",
         "content": "Final integration testing",
-        "details": "Test the complete system: Lovable UI → enhanced Supabase backend → competitive sizing recommendations",
+        "details": "Test the complete system end-to-end: Lovable UI with body type selector → enhanced Supabase backend → competitive sizing recommendations with body type adjustments",
         "status": "pending",
         "priority": "low"
       }

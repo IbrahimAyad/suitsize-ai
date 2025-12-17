@@ -7,6 +7,7 @@
 import React, { useState, useEffect } from 'react';
 import { enhancedAPI, type SizeRecommendationRequest, type SizeRecommendationResponse } from '../lib/enhanced-api';
 import EnhancedFitSelector from '../components/EnhancedFitSelector';
+import BodyTypeSelector from '../components/BodyTypeSelector';
 import EnhancedInputField from '../components/EnhancedInputField';
 import { 
   Calculator, 
@@ -33,6 +34,7 @@ const EnhancedHome: React.FC = () => {
   const [weight, setWeight] = useState(75);
   const [unit, setUnit] = useState<'metric' | 'imperial'>('metric');
   const [fit, setFit] = useState('regular');
+  const [bodyType, setBodyType] = useState('regular');
   const [loading, setLoading] = useState(false);
   const [result, setResult] = useState<SizeRecommendationResponse | null>(null);
   const [error, setError] = useState('');
@@ -78,6 +80,7 @@ const EnhancedHome: React.FC = () => {
         height: Math.round(height),
         weight: Math.round(weight),
         fit,
+        bodyType,
         unit
       };
 
@@ -222,6 +225,11 @@ const EnhancedHome: React.FC = () => {
             {/* Fit Selector */}
             <div className="mb-6">
               <EnhancedFitSelector fit={fit} setFit={setFit} />
+            </div>
+
+            {/* Body Type Selector */}
+            <div className="mb-6">
+              <BodyTypeSelector bodyType={bodyType} setBodyType={setBodyType} />
             </div>
 
             {/* Calculate Button */}
