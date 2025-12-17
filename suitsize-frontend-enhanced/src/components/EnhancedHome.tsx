@@ -127,19 +127,42 @@ const EnhancedHome: React.FC = () => {
     return enhancedAPI.getCacheStats();
   };
 
-  // Format size recommendation for display
+  // Format size recommendation for display (V3 Enhanced Format)
   const formatRecommendation = (rec: SizeRecommendationResponse) => {
+    // Handle V3 enhanced format
+    if (rec.data?.primary) {
+      const primary = rec.data.primary;
+      const bodyTypeAnalysis = rec.data.bodyType;
+      
+      return {
+        size: primary.size || 'N/A',
+        confidence: primary.confidence || 0,
+        confidenceLevel: primary.confidenceLevel || 'Unknown',
+        bodyType: bodyTypeAnalysis?.classification || bodyType,
+        rationale: primary.description || 'Enhanced AI sizing recommendation',
+        // V3 Enhanced Features
+        alternatives: rec.data.alternatives || [],
+        bodyTypeAnalysis: bodyTypeAnalysis,
+        alterations: rec.data.alterations || [],
+        measurements: rec.data.measurements,
+        aiAnalysis: rec.data.aiAnalysis,
+        performance: rec.data.performance,
+        metadata: rec.metadata
+      };
+    }
+    
+    // Fallback to legacy format
     const size = rec.recommendation?.size || rec.size;
     const confidence = rec.recommendation?.confidence || rec.confidence || 0;
     const confidenceLevel = rec.recommendation?.confidenceLevel || rec.confidenceLevel;
-    const bodyType = rec.recommendation?.bodyType;
+    const bodyTypeLegacy = rec.recommendation?.bodyType;
     const rationale = rec.recommendation?.rationale || rec.message;
 
     return {
       size: size || 'N/A',
       confidence,
       confidenceLevel: confidenceLevel || 'Unknown',
-      bodyType,
+      bodyType: bodyTypeLegacy,
       rationale: rationale || 'Size recommendation based on your measurements'
     };
   };
