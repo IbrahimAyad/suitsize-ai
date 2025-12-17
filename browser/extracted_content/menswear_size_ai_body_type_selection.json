@@ -1,0 +1,23 @@
+📄 Extracted from page: Enhanced Size Recommendation AI - Menswear
+URL: https://suitsize-ai-production.up.railway.app/
+
+Extracted content:
+```json
+{
+    "title": "Enhanced Size Recommendation AI - Menswear",
+    "url": "https://suitsize-ai-production.up.railway.app/",
+    "summary": "The page features a section dedicated to selecting the user's body type as part of its enhanced size recommendation process for menswear. This section presents four distinct body type options, each with a brief descriptive characteristic, allowing users to accurately define their physique for more personalized size recommendations.",
+    "key_points": [
+        "The body type selection is located under the heading 'Select Your Body Type'.",
+        "There are four specific body type options available for selection:",
+        "1.  **Slim**: Described as having 'Narrow shoulders & chest'.",
+        "2.  **Athletic**: Described as 'V-shaped, broad shoulders'.",
+        "3.  **Regular**: Described as having 'Balanced proportions'.",
+        "4.  **Broad**: Described as having 'Wide shoulders & chest'.",
+        "Users are expected to interact with one of these options to select their body type.",
+        "The provided page content is in plain text, therefore, specific HTML selectors (e.g., IDs, classes) or JavaScript event handlers (e.g., `onclick`) for these body type options cannot be extracted directly from this input. The interaction is inferred as a clickable/selectable element for each body type."
+    ],
+    "relevant_links": [],
+    "file_name": "menswear_size_ai_body_type_selection.json"
+}
+```

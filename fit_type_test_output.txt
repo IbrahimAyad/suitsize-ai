@@ -1,0 +1,148 @@
+=== Fit Type Validation Test ===
+Starting at: 2025-12-17 14:37:49.605380
+URL: https://suitsize-ai-production.up.railway.app/api/recommend
+Base Data: height=175cm, weight=75kg
+
+Test  1: Testing fit_type='slim'
+          ❌ SERVER ERROR (500) - 0.038s
+          Error: {"error":"An error occurred while processing your request"}
+
+
+Test  2: Testing fit_type='classic'
+          ❌ SERVER ERROR (500) - 0.048s
+          Error: {"error":"An error occurred while processing your request"}
+
+
+Test  3: Testing fit_type='loose'
+          ❌ SERVER ERROR (500) - 0.041s
+          Error: {"error":"An error occurred while processing your request"}
+
+
+Test  4: Testing fit_type='tailored'
+          ❌ SERVER ERROR (500) - 0.041s
+          Error: {"error":"An error occurred while processing your request"}
+
+
+Test  5: Testing fit_type='modern'
+          ❌ SERVER ERROR (500) - 0.053s
+          Error: {"error":"An error occurred while processing your request"}
+
+
+Test  6: Testing fit_type='regular'
+          ❌ SERVER ERROR (500) - 0.041s
+          Error: {"error":"An error occurred while processing your request"}
+
+
+Test  7: Testing fit_type='relaxed'
+          ❌ SERVER ERROR (500) - 0.040s
+          Error: {"error":"An error occurred while processing your request"}
+
+
+Test  8: Testing fit_type='custom'
+          ❌ SERVER ERROR (500) - 0.040s
+          Error: {"error":"An error occurred while processing your request"}
+
+
+Test  9: Testing fit_type='tight'
+          ❌ SERVER ERROR (500) - 0.041s
+          Error: {"error":"An error occurred while processing your request"}
+
+
+Test 10: Testing fit_type='extra-tight'
+          ❌ SERVER ERROR (500) - 0.039s
+          Error: {"error":"An error occurred while processing your request"}
+
+
+Test 11: Testing fit_type='extra-loose'
+          ❌ SERVER ERROR (500) - 0.038s
+          Error: {"error":"An error occurred while processing your request"}
+
+
+Test 12: Testing fit_type=''
+          ❌ SERVER ERROR (500) - 0.039s
+          Error: {"error":"An error occurred while processing your request"}
+
+
+Test 13: Testing fit_type='None'
+          ❌ SERVER ERROR (500) - 0.039s
+          Error: {"error":"An error occurred while processing your request"}
+
+
+Test 14: Testing fit_type='123'
+          ❌ SERVER ERROR (500) - 0.039s
+          Error: {"error":"An error occurred while processing your request"}
+
+
+Test 15: Testing fit_type='Slim'
+          ❌ SERVER ERROR (500) - 0.048s
+          Error: {"error":"An error occurred while processing your request"}
+
+
+Test 16: Testing fit_type='SLIM'
+          ❌ SERVER ERROR (500) - 0.052s
+          Error: {"error":"An error occurred while processing your request"}
+
+
+Test 17: Testing fit_type='Regular'
+          ❌ SERVER ERROR (500) - 0.043s
+          Error: {"error":"An error occurred while processing your request"}
+
+
+Test 18: Testing fit_type='random_value'
+          ❌ SERVER ERROR (500) - 0.040s
+          Error: {"error":"An error occurred while processing your request"}
+
+
+=== Analysis Summary ===
+Successful (200): 0 cases
+
+Validation Errors (400): 0 cases
+
+Server Errors (500): 18 cases
+  ❌ 'slim' - {"error":"An error occurred while processing your request"}
+
+  ❌ 'classic' - {"error":"An error occurred while processing your request"}
+
+  ❌ 'loose' - {"error":"An error occurred while processing your request"}
+
+  ❌ 'tailored' - {"error":"An error occurred while processing your request"}
+
+  ❌ 'modern' - {"error":"An error occurred while processing your request"}
+
+  ❌ 'regular' - {"error":"An error occurred while processing your request"}
+
+  ❌ 'relaxed' - {"error":"An error occurred while processing your request"}
+
+  ❌ 'custom' - {"error":"An error occurred while processing your request"}
+
+  ❌ 'tight' - {"error":"An error occurred while processing your request"}
+
+  ❌ 'extra-tight' - {"error":"An error occurred while processing your request"}
+
+  ❌ 'extra-loose' - {"error":"An error occurred while processing your request"}
+
+  ❌ '' - {"error":"An error occurred while processing your request"}
+
+  ❌ 'None' - {"error":"An error occurred while processing your request"}
+
+  ❌ '123' - {"error":"An error occurred while processing your request"}
+
+  ❌ 'Slim' - {"error":"An error occurred while processing your request"}
+
+  ❌ 'SLIM' - {"error":"An error occurred while processing your request"}
+
+  ❌ 'Regular' - {"error":"An error occurred while processing your request"}
+
+  ❌ 'random_value' - {"error":"An error occurred while processing your request"}
+
+
+Exceptions: 0 cases
+
+=== Pattern Analysis ===
+ACCEPTED fit types: []
+REJECTED fit types: ['slim', 'classic', 'loose', 'tailored', 'modern', 'regular', 'relaxed', 'custom', 'tight', 'extra-tight', 'extra-loose', '', None, 123, 'Slim', 'SLIM', 'Regular', 'random_value']
+⚠️  'tight' variations may be rejected
+
+=== Conclusions ===
+Total tests: 18
+Success rate: 0/18 (0.0%)

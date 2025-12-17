@@ -1,0 +1,38 @@
+[
+  {
+    "fit_type": "slim",
+    "status": 500,
+    "response": "{\"error\":\"An error occurred while processing your request\"}\n",
+    "time": 0.047693
+  },
+  {
+    "fit_type": "regular",
+    "status": 500,
+    "response": "{\"error\":\"An error occurred while processing your request\"}\n",
+    "time": 0.046012
+  },
+  {
+    "fit_type": "relaxed",
+    "status": 500,
+    "response": "{\"error\":\"An error occurred while processing your request\"}\n",
+    "time": 0.042123
+  },
+  {
+    "fit_type": "classic",
+    "status": 500,
+    "response": "{\"error\":\"An error occurred while processing your request\"}\n",
+    "time": 0.045125
+  },
+  {
+    "fit_type": "modern",
+    "status": 500,
+    "response": "{\"error\":\"An error occurred while processing your request\"}\n",
+    "time": 0.036522
+  },
+  {
+    "fit_type": "tailored",
+    "status": 500,
+    "response": "{\"error\":\"An error occurred while processing your request\"}\n",
+    "time": 0.038114
+  }
+]

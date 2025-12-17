@@ -1,0 +1,22 @@
+📄 Extracted from page: Enhanced Size Recommendation AI - Menswear
+URL: https://suitsize-ai-production.up.railway.app/
+
+Extracted content:
+```json
+{
+  "title": "Enhanced Size Recommendation AI - Menswear",
+  "url": "https://suitsize-ai-production.up.railway.app/",
+  "summary": "This page provides an AI-powered tool for menswear size recommendations. Users can input their height, weight, select a body type (e.g., Slim, Athletic), and specify their preferred fit (e.g., Slim / Trendy, Regular / Classic, Relaxed / Roomy). Optional additional measurements like chest, waist, and shoulder width can also be provided. After submitting the form with a 'slim' fit type, the system indicates it's 'Analyzing your measurements and generating personalized recommendations'. While no specific size recommendations are provided in the static page content, the page shows a potential error message 'Please select your body type' and outlines the structure for successful recommendations under 'Your Personalized Size Recommendations', 'General Tips', and 'Next Steps'.",
+  "key_points": [
+    "Input fields include Height, Weight, and options to select a Body Type (Slim, Athletic, Regular, Broad).",
+    "Fit preferences can be chosen: 'Slim / Trendy', 'Regular / Classic', or 'Relaxed / Roomy'.",
+    "Optional additional measurements for Chest, Waist, and Shoulder Width are available.",
+    "Upon submission (e.g., with slim fit type), a loading message 'Analyzing your measurements and generating personalized recommendations...' is displayed.",
+    "A potential error message shown after submission is 'Please select your body type'.",
+    "The page structure for successful output includes headings: 'Your Personalized Size Recommendations', 'General Tips', and 'Next Steps'.",
+    "No specific numeric size recommendations or raw API response content are present in the provided page content, only the informational and structural elements."
+  ],
+  "relevant_links": [],
+  "file_name": "menswear_size_recommendation_response.json"
+}
+```

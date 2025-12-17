@@ -1,0 +1,35 @@
+📄 Extracted from page: Enhanced Size Recommendation AI - Menswear
+URL: https://suitsize-ai-production.up.railway.app/
+
+Extracted content:
+```json
+{
+  "title": "Enhanced Size Recommendation AI - Menswear",
+  "url": "https://suitsize-ai-production.up.railway.app/",
+  "summary": "The page presents a user interface for an Enhanced Size Recommendation AI for menswear. It allows users to get personalized suit size recommendations by inputting their body measurements and fit preferences. The system offers a 'Quick Estimate' mode with basic inputs (height, weight, body type) and an implied 'Advanced Mode' which includes optional additional measurements (chest, waist, shoulder width) for higher confidence recommendations. Users also select their preferred fit type (Slim/Trendy, Regular/Classic, Relaxed/Roomy) to tailor the output.",
+  "key_points": [
+    "The page provides a user interface for a menswear suit size recommendation AI, inferring that an underlying API exists.",
+    "Input is categorized into two modes: 'Quick Estimate' for basic inputs, and an 'Advanced Mode' (using 'Additional Measurements') for more precise, higher confidence results.",
+    "Required input fields for a 'Quick Estimate' include:",
+    "  - `Height`: Selection from discrete values (e.g., '5\\'4\"' through '6\\'6\"').",
+    "  - `Weight`: Numerical value in pounds (lbs).",
+    "  - `Body Type`: Categorical selection with descriptions:",
+    "    - 'Slim': Narrow shoulders & chest",
+    "    - 'Athletic': V-shaped, broad shoulders",
+    "    - 'Regular': Balanced proportions",
+    "    - 'Broad': Wide shoulders & chest",
+    "  - `Fit Preference`: Categorical selection with descriptions:",
+    "    - 'Slim / Trendy': Closer to the body",
+    "    - 'Regular / Classic': Standard, comfortable fit",
+    "    - 'Relaxed / Roomy': More space, extra comfort",
+    "Optional input fields for 'Advanced Mode' ('Additional Measurements') include:",
+    "  - `Chest`: Numerical value in inches.",
+    "  - `Waist`: Numerical value in inches.",
+    "  - `Shoulder Width`: Numerical value in inches.",
+    "The user interface guides the user through providing these inputs and then clicking 'Get Size Recommendations' to receive personalized recommendations, general tips, and next steps.",
+    "No explicit API endpoint URLs, request/response schemas, or formal API documentation are present on this specific page; all details regarding input format are inferred from the interactive UI elements."
+  ],
+  "relevant_links": [],
+  "file_name": "suit_size_ai_api_details.json"
+}
+```

@@ -1,0 +1,228 @@
+{
+  "_source_id": 31,
+  "sources": {
+    "Menswear Brands Sizing Technology Competitive Analysis": {
+      "https://www.indochino.com/how-it-works": {
+        "id": 1,
+        "publisher": "Indochino",
+        "url": "https://www.indochino.com/how-it-works",
+        "title": "How Indochino Works - Custom Tailoring Process",
+        "info": "Indochino's made-to-measure process with at-home measurements via video guides and in-showroom measurements by Style Guides. Orders take 2-3 weeks with 14-day fit guarantee."
+      },
+      "https://www.indochino.com/production": {
+        "id": 2,
+        "publisher": "Indochino",
+        "url": "https://www.indochino.com/production",
+        "title": "Indochino Production Process",
+        "info": "Algorithm validates customer measurement profiles before creating unique patterns and laser cutting fabric. Partners with Dayang Group for production."
+      },
+      "https://info.boldmetrics.com/customer-story-charles-tyrwhitt": {
+        "id": 3,
+        "publisher": "Bold Metrics",
+        "url": "https://info.boldmetrics.com/customer-story-charles-tyrwhitt",
+        "title": "Charles Tyrwhitt Customer Story - Find My Size Implementation",
+        "info": "Charles Tyrwhitt achieved +246% conversion lift with Bold Metrics' Find My Size solution. Customers show increased confidence in sizing."
+      },
+      "https://boldmetrics.com/": {
+        "id": 4,
+        "publisher": "Bold Metrics",
+        "url": "https://boldmetrics.com/",
+        "title": "Bold Metrics AI Sizing Platform",
+        "info": "AI body data platform using digital twin technology to map 50+ body measurements. Over 200 million digital twins created with 10 billion data points collected."
+      },
+      "https://www.brooksbrothers.com/sizeguide?cid=men-dress-shirts": {
+        "id": 5,
+        "publisher": "Brooks Brothers",
+        "url": "https://www.brooksbrothers.com/sizeguide?cid=men-dress-shirts",
+        "title": "Brooks Brothers Men's Dress Shirt Sizing Guide",
+        "info": "Traditional sizing system with multiple fit categories (Extra Slim, Slim, Regular, Relaxed, Extra Relaxed, Big & Tall) using standard body measurements."
+      },
+      "https://suitsupply.com/en-us/journal/size-passport.html": {
+        "id": 6,
+        "publisher": "SuitSupply",
+        "url": "https://suitsupply.com/en-us/journal/size-passport.html",
+        "title": "Size Passport Technology",
+        "info": "Centralized measurement storage system allowing customers to save detailed measurements. Can be created in-store (15-25 minutes) or at home. Used for custom made and ready-to-wear items."
+      },
+      "https://theblacktux.com/pages/fit-survey": {
+        "id": 7,
+        "publisher": "The Black Tux",
+        "url": "https://theblacktux.com/pages/fit-survey",
+        "title": "AI Fit Survey Technology",
+        "info": "AI fit algorithm using over 10 million data points to determine correct fit. Highly accurate system for online suit fitting."
+      },
+      "https://generationtux.com/how-it-works/fit-process": {
+        "id": 8,
+        "publisher": "Generation Tux",
+        "url": "https://generationtux.com/how-it-works/fit-process",
+        "title": "Generation Tux Fit Technology",
+        "info": "Online fit algorithm honed by hundreds of thousands of rentals using height, weight, and build measurements. Over 40 years of rental experience combined with millions of data points."
+      },
+      "https://medium.com/@fashioninmetaverse/tommy-hilfiger-is-experimenting-with-in-store-ar-try-on-50ad648539c7": {
+        "id": 9,
+        "publisher": "Medium",
+        "url": "https://medium.com/@fashioninmetaverse/tommy-hilfiger-is-experimenting-with-in-store-ar-try-on-50ad648539c7",
+        "title": "Tommy Hilfiger AR Try-On with Zero10",
+        "info": "Tommy Hilfiger partnered with Zero10 for AR try-on technology using proprietary AR mirror. Over 1,000 unique visitors experienced the technology as of April 2023."
+      },
+      "https://www.measmerize.com/whitepapers/solving-sizing": {
+        "id": 10,
+        "publisher": "Measmerize",
+        "url": "https://www.measmerize.com/whitepapers/solving-sizing",
+        "title": "Solving Sizing in Fashion E-commerce",
+        "info": "AI sizing solutions show 60-80% higher conversion rates compared to traditional size guides. Retailers using AI sizing see ~18% higher conversion rates."
+      }
+    },
+    "Menswear Sizing Standards 2024-2025": {
+      "https://www.astm.org/d6240_d6240m-24a.html": {
+        "id": 11,
+        "publisher": "ASTM International",
+        "url": "https://www.astm.org/d6240_d6240m-24a.html",
+        "title": "ASTM D6240/D6240M-24a: Standard Tables of Body Measurements for Adult Male",
+        "info": "Latest ASTM standard for adult male body measurements covering chest sizes 34-52 with Short, Regular, and Tall variations. Updated October 2024 with 3D avatar visualizations for better pattern development."
+      },
+      "https://www.iso.org/obp/ui/es/#!iso:std:85590:en": {
+        "id": 12,
+        "publisher": "International Organization for Standardization (ISO)",
+        "url": "https://www.iso.org/obp/ui/es/#!iso:std:85590:en",
+        "title": "ISO 8559-2:2025 Size designation of clothes — Part 2",
+        "info": "Updated ISO standard establishing size designation system based on body dimensions, not garment measurements. Cancels and replaces 2017 edition with new Annex B for supporting size information."
+      },
+      "https://www.aafaglobal.org/AAFA/Solutions_Pages/Labeling_Frequently_Asked_Individual_Questions/Is_there_a_standard_for_sizing_in_the_United_States_.aspx": {
+        "id": 13,
+        "publisher": "American Apparel & Footwear Association",
+        "url": "https://www.aafaglobal.org/AAFA/Solutions_Pages/Labeling_Frequently_Asked_Individual_Questions/Is_there_a_standard_for_sizing_in_the_United_States_.aspx",
+        "title": "Is there a standard for sizing in the United States?",
+        "info": "Official statement confirming no standardization for apparel sizing exists in the US, contrasting with European Union standards under BS EN 13402-1:2001."
+      },
+      "https://www.vogue.com/article/the-vogue-business-autumn-winter-2025-menswear-size-inclusivity-report": {
+        "id": 14,
+        "publisher": "Vogue Business",
+        "url": "https://www.vogue.com/article/the-vogue-business-autumn-winter-2025-menswear-size-inclusivity-report",
+        "title": "The Vogue Business Autumn/Winter 2025 menswear size inclusivity report",
+        "info": "Comprehensive analysis of 2,579 looks from 59 brands showing 94.9% straight-size representation with only 0.3% plus-size models, highlighting ongoing size inclusivity challenges."
+      },
+      "https://3dlook.ai/content-hub/body-scanning-technology-for-apparel/": {
+        "id": 15,
+        "publisher": "3DLOOK",
+        "url": "https://3dlook.ai/content-hub/body-scanning-technology-for-apparel/",
+        "title": "Body Scanning Technology for Apparel",
+        "info": "Detailed analysis of 3D body scanning technology achieving <2% error rates for body composition, using advanced sensors and AI to generate 85+ measurement points in under a minute."
+      },
+      "https://xsuit.com/blogs/news/understanding-suit-fits-a-complete-guide-to-classic-fit-slim-fit-modern-fit-and-tailored-fit": {
+        "id": 16,
+        "publisher": "xSuit",
+        "url": "https://xsuit.com/blogs/news/understanding-suit-fits-a-complete-guide-to-classic-fit-slim-fit-modern-fit-and-tailored-fit",
+        "title": "Understanding Suit Fits: A Complete Guide to Classic Fit, Slim Fit, Modern Fit and Tailored Fit",
+        "info": "Comprehensive guide detailing four main fit types: Classic (relaxed), Slim (streamlined), Modern (balanced), and Tailored (custom-fitted) with specific characteristics and ideal use cases."
+      },
+      "https://www.statman.info/conversions/mens_suits.html": {
+        "id": 17,
+        "publisher": "Statman.info",
+        "url": "https://www.statman.info/conversions/mens_suits.html",
+        "title": "Mens Suit Sizes conversion, US to UK and European",
+        "info": "Conversion chart showing direct numerical mapping between US/UK and European sizing systems for men's suits with 34-46 size range covered."
+      },
+      "https://www.nature.com/articles/s41598-025-24584-6": {
+        "id": 18,
+        "publisher": "Nature Scientific Reports",
+        "url": "https://www.nature.com/articles/s41598-025-24584-6",
+        "title": "Evaluating machine learning models for clothing size prediction using anthropometric measurements from 3D body scanning",
+        "info": "Scientific study showing traditional SVM model achieved 89.66% accuracy using key measurements (bust, waist, hip), while PCA-SVM with 35 measurements achieved 68.97% accuracy for clothing size prediction."
+      },
+      "https://fashinnovation.nyc/how-ai-powered-sizing-is-transforming-fashion-e-commerce/": {
+        "id": 19,
+        "publisher": "Fashinnovation",
+        "url": "https://fashinnovation.nyc/how-ai-powered-sizing-is-transforming-fashion-e-commerce/",
+        "title": "How AI-Powered Sizing is Transforming Fashion E-Commerce",
+        "info": "Analysis of three AI-powered sizing approaches: Pure ML (3-9x conversion increase), Computer Vision (immediate accuracy but low adoption), and Digital Inches/Cms (best balance with 25-40% return reduction)."
+      },
+      "https://www.hockerty.com/en-us/blog/how-to-measure-for-a-suit": {
+        "id": 20,
+        "publisher": "Hockerty",
+        "url": "https://www.hockerty.com/en-us/blog/how-to-measure-for-a-suit",
+        "title": "How to Measure for a Suit [Take Men Body Measurements]",
+        "info": "Detailed measurement guide covering 14 key measurements from upper body length to waist coat length, emphasizing best practices including using cloth tape, friend assistance, and double-checking measurements."
+      },
+      "https://coresight.com/research/the-true-cost-of-apparel-returns-alarming-return-rates-require-loss-minimization-solutions/": {
+        "id": 21,
+        "publisher": "Coresight Research",
+        "url": "https://coresight.com/research/the-true-cost-of-apparel-returns-alarming-return-rates-require-loss-minimization-solutions/",
+        "title": "The True Cost of Apparel Returns: Alarming Return Rates Require Loss Minimization Solutions",
+        "info": "Industry study revealing 24.4% online apparel return rate ($38B value) with sizing/fit issues as primary cause (53% of respondents), and 85% of brands implementing virtual try-on tools to address this."
+      },
+      "https://link.springer.com/article/10.1007/s43621-025-01269-8": {
+        "id": 22,
+        "publisher": "Cleaner Logistics and Supply Chain",
+        "url": "https://link.springer.com/article/10.1007/s43621-025-01269-8",
+        "title": "Towards a sustainable on-demand fashion industry: the impact of digital body measurement technologies",
+        "info": "Comparative study showing smartphone apps (5.1-6.1% error) outperform traditional tape measurements (5.7-13.2% error) and portable 3D scanners (6.7% error) for body measurements, though apps may miss crucial garment dimensions."
+      }
+    },
+    "Body Measurement Prediction and Sizing Algorithms": {
+      "https://link.springer.com/content/pdf/10.1186/s40691-023-00357-5.pdf": {
+        "id": 23,
+        "publisher": "Springer",
+        "url": "https://link.springer.com/content/pdf/10.1186/s40691-023-00357-5.pdf",
+        "title": "Missing body measurements prediction in fashion industry: a comparative approach",
+        "info": "Comprehensive comparison of 4 ML models (LR, RF, GB, SVR) for predicting 30 body measurements from 6 easy-to-measure dimensions using French population data. LR and SVR performed best with <1.4% MAE."
+      },
+      "http://www.eonyoushin.com/uploads/4/4/8/9/44890499/shin___saeidi_2022b.pdf": {
+        "id": 24,
+        "publisher": "Journal of Fashion Marketing and Management",
+        "url": "http://www.eonyoushin.com/uploads/4/4/8/9/44890499/shin___saeidi_2022b.pdf",
+        "title": "Body shapes and apparel fit for overweight and obese women in the US: the implications of current sizing system",
+        "info": "Identified 5 distinct body shapes among OWOB women using 3D body scanning. Current ASTM sizing systems provide perfect fit for <19% of OWOB women, highlighting need for improved sizing approaches."
+      },
+      "https://arxiv.org/pdf/1709.09844": {
+        "id": 25,
+        "publisher": "arXiv",
+        "url": "https://arxiv.org/pdf/1709.09844",
+        "title": "Distance-based confidence score for neural network classifiers",
+        "info": "Novel prediction confidence score based on local density estimation in neural network embedding space. Outperformed traditional methods (max margin, entropy) in classification error prediction, ensemble weighting, and novelty detection."
+      },
+      "https://arxiv.org/pdf/2007.11610": {
+        "id": 26,
+        "publisher": "arXiv",
+        "url": "https://arxiv.org/pdf/2007.11610",
+        "title": "SIZER: A dataset and model for parsing 3d clothing and learning size sensitive 3d clothing",
+        "info": "Introduced SIZER dataset with 2000+ 3D scans of people in different garment sizes. Developed SizerNet for predicting clothing deformation as function of body shape and garment size, and ParserNet for automatic garment parsing."
+      },
+      "https://www.sciencedirect.com/science/article/pii/S1568494621004725": {
+        "id": 27,
+        "publisher": "Elsevier",
+        "url": "https://www.sciencedirect.com/science/article/pii/S1568494621004725",
+        "title": "A data-driven approach towards the full anthropometric measurements prediction via Generalized Regression Neural Networks",
+        "info": "Novel GRNN architecture predicting 76 anthropometric measurements from 7 easy-to-measure features using ANSUR II dataset. Significantly outperformed MLR, SVR, BP-ANN, and RBFN approaches."
+      },
+      "https://www.sciencedirect.com/science/article/pii/S1877050919321416": {
+        "id": 28,
+        "publisher": "Elsevier",
+        "url": "https://www.sciencedirect.com/science/article/pii/S1877050919321416",
+        "title": "Fitme: Body measurement estimations using machine learning method",
+        "info": "FITME system using Haar Cascade classifier and Support Vector Machines for estimating body measurements from real-time pictures to address online clothing size selection issues."
+      },
+      "https://www.sciencedirect.com/science/article/pii/S000368702100082X": {
+        "id": 29,
+        "publisher": "Elsevier",
+        "url": "https://www.sciencedirect.com/science/article/pii/S000368702100082X",
+        "title": "Prediction of military combat clothing size using decision trees and 3D body scan data",
+        "info": "Decision tree models achieving 40-65% accuracy for military uniform size prediction. Automated 3D scanner measurements outperformed physical measurements, with body weight and waist girth as key predictors."
+      },
+      "https://www.diva-portal.org/smash/get/diva2:1180843/FULLTEXT01.pdf": {
+        "id": 30,
+        "publisher": "Diva Portal",
+        "url": "https://www.diva-portal.org/smash/get/diva2:1180843/FULLTEXT01.pdf",
+        "title": "The development and analysis of a computationally efficient data driven suit jacket fit recommendation system",
+        "info": "Data-driven approach to suit jacket fit recommendation system using statistical methods to optimize design patterns while maintaining minimal number of patterns needed."
+      },
+      "https://www.tandfonline.com/doi/abs/10.1080/00405167.2015.1023512": {
+        "id": 31,
+        "publisher": "Taylor & Francis",
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/00405167.2015.1023512",
+        "title": "A review of research and innovation in garment sizing, prototyping and fitting",
+        "info": "Comprehensive review of statistical methods used in creating size charts, pattern construction approaches, and historical evolution of sizing systems in fashion industry."
+      }
+    }
+  }
+}

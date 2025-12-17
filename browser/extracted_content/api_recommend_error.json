@@ -1,0 +1,19 @@
+📄 Extracted from page: 405 Method Not Allowed
+URL: https://suitsize-ai-production.up.railway.app/api/recommend
+
+Extracted content:
+```json
+{
+  "title": "405 Method Not Allowed",
+  "url": "https://suitsize-ai-production.up.railway.app/api/recommend",
+  "summary": "The provided page displays a '405 Method Not Allowed' error, indicating that the HTTP method used to access the URL is not permitted. Consequently, the page content does not contain any information regarding the API interface, documentation, example requests, available endpoints, fit type options, or expected input formats. It is an error page rather than an API documentation page.",
+  "key_points": [
+    "The page returns an HTTP 405 Method Not Allowed error.",
+    "No API interface documentation or details are present on this page.",
+    "No example requests or available endpoints are provided.",
+    "Information about fit type options or expected input formats is not available on this error page."
+  ],
+  "relevant_links": [],
+  "file_name": "api_recommend_error.json"
+}
+```

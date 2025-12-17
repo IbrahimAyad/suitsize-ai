@@ -1,0 +1,45 @@
+=== Concurrent Requests Test ===
+Starting: 2025-12-17 14:36:14.240355
+URL: https://suitsize-ai-production.up.railway.app/api/recommend
+Simulating 3 browser tabs making requests simultaneously...
+
+All requests completed in: 0.180 seconds
+
+=== Individual Results ===
+Tab_1_Slim: ✅ SUCCESS
+  Status Code: 500
+  Response Time: 0.165s
+  Response Length: 60 chars
+  Response: {"error":"An error occurred while processing your request"}
+...
+  ⚠️  Non-200 status code
+
+Tab_2_Regular: ✅ SUCCESS
+  Status Code: 500
+  Response Time: 0.172s
+  Response Length: 60 chars
+  Response: {"error":"An error occurred while processing your request"}
+...
+  ⚠️  Non-200 status code
+
+Tab_3_Relaxed: ✅ SUCCESS
+  Status Code: 500
+  Response Time: 0.178s
+  Response Length: 60 chars
+  Response: {"error":"An error occurred while processing your request"}
+...
+  ⚠️  Non-200 status code
+
+=== Concurrent Behavior Analysis ===
+Success Rate: 3/3 (100.0%)
+Response Time Analysis:
+  Average: 0.172s
+  Range: 0.165s - 0.178s
+  Times: ['0.165s', '0.172s', '0.178s']
+Status Code Consistency:
+  ✅ All requests returned same status code: 500
+Response Consistency:
+  ✅ All responses identical
+  ⚠️  Service errors detected - possible concurrent load issue
+
+Concurrent handling: ✅ Good

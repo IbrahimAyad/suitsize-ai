@@ -1,0 +1,16 @@
+=== Fit Type Test Results ===
+
+fit_type='slim': 500 - {"error":"An error occurred while processing your request"}
+
+fit_type='classic': 500 - {"error":"An error occurred while processing your request"}
+
+fit_type='loose': 500 - {"error":"An error occurred while processing your request"}
+
+fit_type='tailored': 500 - {"error":"An error occurred while processing your request"}
+
+fit_type='modern': 500 - {"error":"An error occurred while processing your request"}
+
+fit_type='regular': 500 - {"error":"An error occurred while processing your request"}
+
+fit_type='relaxed': 500 - {"error":"An error occurred while processing your request"}
+
