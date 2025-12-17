@@ -11,9 +11,23 @@
       "2": {
         "id": "2",
         "content": "Add bodyType field to UI components",
-        "details": "Add body type dropdown with options: Athletic (Muscular & defined), Regular (Balanced proportions), Broad (Wider shoulders) - this completes the 4-field minimal approach that matches KCT's current implementation",
+        "details": "Add body type dropdown with options: Athletic (💪Muscular & defined), Regular (👔Balanced proportions), Broad (🏋️Wider shoulders) - this completes the 4-field minimal approach that matches KCT's current implementation",
         "status": "pending",
         "priority": "high"
+      },
+      "6": {
+        "id": "6",
+        "content": "Enhance UI with visual circular sliders",
+        "details": "Replace text inputs for height/weight with visual circular sliders similar to KCT's design - signature engaging feature that makes the interface more intuitive",
+        "status": "pending",
+        "priority": "high"
+      },
+      "7": {
+        "id": "7",
+        "content": "Add advanced measurements section",
+        "details": "Create optional advanced measurements section for 95%+ accuracy - chest, waist, sleeve, inseam, outseam measurements with educational guides",
+        "status": "pending",
+        "priority": "medium"
       },
       "3": {
         "id": "3",

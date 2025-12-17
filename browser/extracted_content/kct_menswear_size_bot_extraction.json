@@ -1,0 +1,124 @@
+📄 Extracted from page: KCT Menswear - Premium Suits & Tailoring
+URL: https://kctmenswear.com/size-bot
+
+Extracted content:
+```json
+{
+    "title": "KCT Menswear - Premium Suits & Tailoring",
+    "url": "https://kctmenswear.com/size-bot",
+    "summary": "This page features KCT Menswear's AI-powered Size Calculator, designed to help customers find their ideal fit with high accuracy. It includes various input fields for personal measurements and body type, along with detailed, interactive guides on how to take accurate measurements. The tool aims to provide a personalized sizing experience for suits and tailoring.",
+    "key_points": [
+        {
+            "category": "Input fields and form elements",
+            "elements": [
+                "Height input field (feet/inches, with an example value of 5'10\")",
+                "Weight input field (pounds, with an example value of 170)",
+                "Fit Style selection (radio buttons): 'slim', 'regular', 'relaxed', with 'Standard, comfortable fit' as a description",
+                "Body Type selection (radio buttons): '💪Athletic (Muscular & defined)', '👔Regular (Balanced proportions)', '🏋️Broad (Wider shoulders)'",
+                "Measurement unit toggle: 'Imperial' and 'Metric'",
+                "Call to action button: 'Calculate My Size'"
+            ]
+        },
+        {
+            "category": "Step-by-step process description",
+            "description": "The 'How to Measure Like a Pro' section offers interactive guides for various measurements. A detailed step-by-step guide is provided for 'Chest Measurement':",
+            "steps": [
+                "1. Stand straight with arms relaxed at your sides",
+                "2. Wrap the measuring tape around the fullest part of your chest",
+                "3. Keep the tape parallel to the floor",
+                "4. Take a deep breath and let it out",
+                "5. Record the measurement at normal breathing"
+            ],
+            "pro_tips": [
+                "Keep the measuring tape parallel to the floor",
+                "Don't pull the tape too tight",
+                "Measure over a thin shirt for accuracy",
+                "Have someone help you for best results"
+            ]
+        },
+        {
+            "category": "Advanced measurement options",
+            "option": "Show Advanced Measurements",
+            "description": "This option promises to achieve 95%+ accuracy with detailed measurements."
+        },
+        {
+            "category": "Educational content",
+            "content": [
+                "Interactive measurement guides for: chest, waist, sleeve, inseam, outseam.",
+                "Detailed 'Step-by-Step Guide' and 'Pro Tips' for accurate chest measurement (and presumably similar for other measurements).",
+                "Link to a comprehensive style blog: 'Learn More About Perfect Fit' / 'Explore Style Articles' (at /blog)."
+            ]
+        },
+        {
+            "category": "Product recommendations",
+            "description": "The page itself does not provide direct product recommendations based on the size calculation. However, the footer links to various product categories that users can browse:",
+            "product_categories": [
+                "Weddings",
+                "Prom",
+                "Suits",
+                "Tuxedos",
+                "Vests",
+                "Dress Shirts",
+                "Ties & Bow Ties",
+                "Accessories",
+                "All Products"
+            ]
+        },
+        {
+            "category": "Unique features or tools",
+            "features": [
+                "AI Size Calculator / Size Finder: Advertised with 91% accuracy for sizing.",
+                "AI Enhanced Body Type selection for personalized fit.",
+                "Interactive measurement guides (e.g., 'Click on each measurement type to see an interactive guide', 'Watch How to Measure')."
+            ]
+        },
+        {
+            "category": "FAQ or help sections",
+            "description": "No explicit FAQ section is present on the page content. However, the footer provides links under 'Customer Service' and 'Contact' that serve as help resources:",
+            "help_resources": [
+                "Shipping Info (/shipping)",
+                "Returns & Exchanges (/returns)",
+                "Size Guide (general, /size-guide)",
+                "Care Instructions (/care-guide)",
+                "Tailoring Services (/tailoring)",
+                "Contact Us (/contact)",
+                "Store Locations (/locations)",
+                "Phone: (269) 532-4852",
+                "Email: KCTMenswear@gmail.com",
+                "Book Appointment (/tailoring)"
+            ]
+        }
+    ],
+    "relevant_links": [
+        "/",
+        "/contact",
+        "/wedding",
+        "/prom",
+        "/suits",
+        "/tuxedos",
+        "/vests",
+        "/dress-shirts",
+        "/ties",
+        "/accessories",
+        "/products",
+        "/shipping",
+        "/returns",
+        "/size-guide",
+        "/care-guide",
+        "/tailoring",
+        "/locations",
+        "/blog",
+        "/trends",
+        "/size-bot",
+        "/wedding-services",
+        "/coordinator-dashboard",
+        "/account",
+        "/privacy-policy",
+        "/terms-of-service",
+        "/accessibility",
+        "tel:+12695324852",
+        "mailto:KCTMenswear@gmail.com"
+    ],
+    "file_name": "kct_menswear_size_bot_extraction.json"
+}
+```
