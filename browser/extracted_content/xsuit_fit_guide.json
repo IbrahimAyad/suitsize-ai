@@ -1,0 +1,27 @@
+📄 Extracted from page: Fit Guide
+URL: https://xsuit.com/pages/fit-guide
+
+Extracted content:
+```json
+{
+  "title": "Fit Guide",
+  "url": "https://xsuit.com/pages/fit-guide",
+  "summary": "X Suit offers two primary methods for customers to determine their suit size: an AI Fit Finder and traditional size charts, both designed to provide a convenient at-home sizing experience without the need for in-person fittings. The AI Fit Finder eliminates the need for physical measurements, instead utilizing simple inputs like height, weight, and age to recommend a size quickly. For those who prefer to use measurements, detailed size charts are available, which allow customers to compare their key body measurements against product sizes. While the page mentions instructions for taking measurements are provided, the specific details of these instructions or the technical specifications of the AI algorithm are not included on this page.",
+  "key_points": [
+    "X Suit provides two main methods for sizing: an AI Fit Finder and traditional Size Charts.",
+    "The AI Fit Finder requires no physical measurements from the user.",
+    "To use the AI Fit Finder, customers answer simple questions about their height, weight, and age.",
+    "The AI Fit Finder process takes less than 1 minute.",
+    "The AI Fit Finder displays the recommended size directly on each product page.",
+    "Size charts are available for customers who prefer to use key body measurements.",
+    "Size charts allow for easy comparison of measurements against available sizes.",
+    "Instructions for taking measurements are provided alongside the size charts (though the instructions themselves are not on this specific page).",
+    "The overall goal is to offer an easy, quick, and convenient way to find a suit size from home, eliminating the need for fitting appointments.",
+    "No detailed technical specifications about the sizing algorithm or specific data collection methods beyond height, weight, and age inputs for the AI Fit Finder are provided on this page."
+  ],
+  "relevant_links": [
+    "https://xsuit.com/products/xsuit-5-0-black"
+  ],
+  "file_name": "xsuit_fit_guide.json"
+}
+```

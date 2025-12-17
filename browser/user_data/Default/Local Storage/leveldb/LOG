@@ -1,2 +1,6 @@
-2025/12/17-06:13:33.234 850 Creating DB /workspace/browser/user_data/Default/Local Storage/leveldb since it was missing.
-2025/12/17-06:13:33.308 850 Reusing MANIFEST /workspace/browser/user_data/Default/Local Storage/leveldb/MANIFEST-000001
+2025/12/17-14:43:49.725 694 Reusing MANIFEST /workspace/browser/user_data/Default/Local Storage/leveldb/MANIFEST-000001
+2025/12/17-14:43:49.732 694 Recovering log #3
+2025/12/17-14:43:49.734 694 Reusing old log /workspace/browser/user_data/Default/Local Storage/leveldb/000003.log 
+2025/12/17-15:00:10.660 695 Level-0 table #5: started
+2025/12/17-15:00:10.666 695 Level-0 table #5: 20763 bytes OK
+2025/12/17-15:00:10.671 695 Delete type=0 #3

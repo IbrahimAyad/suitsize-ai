@@ -1,0 +1,154 @@
+📄 Extracted from page: xSuit 5.0 - Black
+URL: https://xsuit.com/products/xsuit-5-0-black
+
+Extracted content:
+```json
+{
+  "title": "xSuit 5.0 - Black",
+  "url": "https://xsuit.com/products/xsuit-5-0-black",
+  "summary": "This page provides comprehensive size charts and measurement details for the xSuit 5.0 - Black jacket and pants. It includes specific measurements (in inches) for different jacket sizes (34-54) across Short, Regular, and Long lengths, and for pants waist sizes (28-46) across 28, 30, 32, and 34 inseam lengths. General sizing advice, model's fit, and alteration recommendations are also included.",
+  "key_points": [
+    "Jacket sizes are available from 34 (XS) to 54 (6XL) in Short, Regular, and Long lengths.",
+    "Jacket length is determined by height: Short (< 5'6\"), Regular (5'6\" - 6'1\"), Long (> 6'1\").",
+    "Pants waist sizes range from 28 (XS) to 46 (5XL) with inseam lengths of 28, 30, 32, and 34.",
+    "Measurements provided for jackets include Shoulder width, Chest width, Waist width, Hip width, Center back length, Sleeve length, Sleeve bicep width, and Sleeve opening width (all in inches).",
+    "Measurements provided for pants include Waist width, Hip width, Thigh width, Knee width, Leg opening width, Front rise, Back rise, and Inseam length (all in inches).",
+    "Altering the xSuit 5.0 is not recommended (except for hemming pants) due to its fused construction, and altered garments are not eligible for refunds/exchanges or warranty.",
+    "The product offers a 'Perfect Fit Guarantee' for replacements or full refunds within 45 days if unsatisfied with the fit."
+  ],
+  "size_chart_information": {
+    "units": "inches",
+    "jacket_sizing": {
+      "available_jacket_sizes": "34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54",
+      "available_jacket_lengths": ["Short", "Regular", "Long"],
+      "jacket_length_height_guide": {
+        "Short": "< 5' 6\"",
+        "Regular": "5' 6\" - 6' 1\"",
+        "Long": "> 6' 1\""
+      },
+      "measurements_taken": [
+        "Shoulder width",
+        "Chest width",
+        "Waist width",
+        "Hip width",
+        "Center back length",
+        "Sleeve length",
+        "Sleeve bicep width",
+        "Sleeve opening width"
+      ],
+      "regular_length_jacket_measurements": {
+        "sizes": ["34 XS", "36 S", "38 M", "40 M/L", "42 L", "44 XL", "46 XXL", "48 3XL", "50 4XL", "52 5XL", "54 6XL"],
+        "Shoulder width": ["17.1", "17.5", "17.9", "18.3", "18.7", "19.1", "19.5", "19.9", "20.3", "20.7", "21.1"],
+        "Chest width": ["19.3", "20.1", "20.9", "21.7", "22.4", "23.2", "24.0", "24.8", "25.6", "26.4", "27.2"],
+        "Waist width": ["17.3", "18.1", "18.9", "19.7", "20.5", "21.3", "22.0", "22.8", "23.6", "24.4", "25.2"],
+        "Hip width": ["18.7", "19.5", "20.3", "21.1", "21.9", "22.6", "23.4", "24.2", "25.0", "25.8", "26.6"],
+        "Center back length": ["29.0", "29.2", "29.4", "29.6", "29.8", "29.9", "30.1", "30.3", "30.5", "30.7", "30.9"],
+        "Sleeve length": ["24.4", "24.6", "24.8", "25.1", "25.4", "25.6", "25.7", "25.8", "25.9", "26.0", "26.1"],
+        "Sleeve bicep width": ["7.0", "7.2", "7.5", "7.7", "8.0", "8.2", "8.4", "8.7", "8.9", "9.1", "9.4"],
+        "Sleeve opening width": ["5.1", "5.1", "5.3", "5.5", "5.5", "5.7", "5.7", "5.9", "6.1", "6.3", "6.5"]
+      },
+      "short_length_jacket_measurements": {
+        "sizes": ["36 S", "38 M", "40 M/L", "42 L", "44 XL", "46 XXL", "48 3XL", "50 4XL"],
+        "Shoulder width": ["17.5", "17.9", "18.3", "18.7", "19.1", "19.5", "19.9", "20.3"],
+        "Chest width": ["20.1", "20.9", "21.7", "22.4", "23.2", "24.0", "24.8", "25.6"],
+        "Waist width": ["18.1", "18.9", "19.7", "20.5", "21.3", "22.0", "22.8", "23.6"],
+        "Hip width": ["19.5", "20.3", "21.1", "21.9", "22.6", "23.4", "24.2", "25.0"],
+        "Center back length": ["27.8", "28.0", "28.2", "28.4", "28.6", "28.8", "29.0", "29.1"],
+        "Sleeve length": ["23.3", "23.4", "23.8", "24.1", "24.2", "24.3", "24.4", "24.5"],
+        "Sleeve bicep width": ["7.2", "7.5", "7.7", "8.0", "8.2", "8.4", "8.7", "9.0"],
+        "Sleeve opening width": ["5.1", "5.3", "5.5", "5.5", "5.7", "5.7", "5.9", "6.1"]
+      },
+      "long_length_jacket_measurements": {
+        "sizes": ["36 S", "38 M", "40 M/L", "42 L", "44 XL", "46 XXL", "48 3XL", "50 4XL", "52 5XL"],
+        "Shoulder width": ["17.5", "17.9", "18.3", "18.7", "19.1", "19.5", "19.9", "20.3", "20.7"],
+        "Chest width": ["19.9", "20.7", "21.5", "22.2", "23.0", "23.8", "24.6", "25.4", "26.2"],
+        "Waist width": ["17.7", "18.5", "19.3", "20.1", "20.9", "21.7", "22.4", "23.2", "24.0"],
+        "Hip width": ["19.1", "19.9", "20.7", "21.5", "22.2", "23.0", "23.8", "24.6", "25.4"],
+        "Center back length": ["30.3", "30.6", "30.9", "31.1", "31.3", "31.5", "31.7", "31.9", "32.1"],
+        "Sleeve length": ["25.4", "25.8", "26.2", "26.5", "26.7", "26.8", "26.9", "27.0", "27.1"],
+        "Sleeve bicep width": ["7.2", "7.5", "7.7", "8.0", "8.2", "8.4", "8.7", "9.0", "9.1"],
+        "Sleeve opening width": ["5.1", "5.3", "5.5", "5.5", "5.7", "5.7", "5.9", "6.1", "6.3"]
+      }
+    },
+    "pants_sizing": {
+      "available_waist_sizes": "28, 30, 32, 34, 36, 38, 40, 42, 44, 46",
+      "available_inseam_lengths": ["28", "30", "32", "34"],
+      "measurements_taken": [
+        "Waist width",
+        "Hip width",
+        "Thigh width",
+        "Knee width",
+        "Leg opening width",
+        "Front rise",
+        "Back rise",
+        "Inseam length"
+      ],
+      "inseam_28_pants_measurements": {
+        "sizes": ["30 S", "32 M", "34 M/L", "36 L", "38 XL", "40 XXL", "42 3XL"],
+        "Waist width": ["16.1", "16.9", "17.7", "18.5", "19.3", "20.1", "20.9"],
+        "Hip width": ["19.9", "20.7", "21.7", "22.6", "23.6", "24.6", "25.6"],
+        "Thigh width": ["10.6", "11.0", "11.4", "11.6", "12.0", "12.4", "12.8"],
+        "Knee width": ["8.3", "8.5", "8.7", "8.9", "9.3", "9.4", "9.6"],
+        "Leg opening width": ["7.3", "7.5", "7.7", "7.9", "8.1", "8.3", "8.5"],
+        "Front rise": ["8.9", "8.9", "9.1", "9.1", "9.3", "9.4", "9.4"],
+        "Back rise": ["14.6", "14.8", "15.2", "15.6", "15.7", "16.1", "16.3"],
+        "Inseam length": ["28.1", "28.1", "28.1", "28.1", "28.1", "28.1", "28.1"]
+      },
+      "inseam_30_pants_measurements": {
+        "sizes": ["30 S", "32 M", "34 M/L", "36 L", "38 XL", "40 XXL", "42 3XL"],
+        "Waist width": ["16.1", "16.9", "17.7", "18.5", "19.3", "20.1", "20.9"],
+        "Hip width": ["19.9", "20.7", "21.7", "22.6", "23.6", "24.6", "25.6"],
+        "Thigh width": ["10.6", "11.0", "11.4", "11.6", "12.0", "12.4", "12.8"],
+        "Knee width": ["8.3", "8.5", "8.7", "8.9", "9.3", "9.4", "9.6"],
+        "Leg opening width": ["7.3", "7.5", "7.7", "7.9", "8.1", "8.3", "8.5"],
+        "Front rise": ["8.9", "8.9", "9.1", "9.1", "9.3", "9.4", "9.4"],
+        "Back rise": ["14.6", "14.8", "15.2", "15.6", "15.7", "16.1", "16.3"],
+        "Inseam length": ["30.1", "30.1", "30.1", "30.1", "30.1", "30.1", "30.1"]
+      },
+      "inseam_32_pants_measurements": {
+        "sizes": ["28 XS", "30 S", "32 M", "34 M/L", "36 L", "38 XL", "40 XXL", "42 3XL", "44 4XL", "46 5XL"],
+        "Waist width": ["15.4", "16.1", "16.9", "17.7", "18.5", "19.3", "20.1", "20.9", "21.7", "22.4"],
+        "Hip width": ["19.1", "19.9", "20.7", "21.7", "22.6", "23.6", "24.6", "25.6", "26.6", "27.4"],
+        "Thigh width": ["10.2", "10.6", "11.0", "11.4", "11.6", "12.0", "12.4", "12.8", "13.2", "13.6"],
+        "Knee width": ["7.9", "8.3", "8.5", "8.7", "8.9", "9.3", "9.4", "9.6", "9.8", "9.8"],
+        "Leg opening width": ["7.1", "7.3", "7.5", "7.7", "7.9", "8.1", "8.3", "8.5", "8.7", "8.9"],
+        "Front rise": ["8.7", "8.9", "8.9", "9.1", "9.1", "9.3", "9.4", "9.4", "9.6", "9.8"],
+        "Back rise": ["14.2", "14.6", "14.8", "15.2", "15.6", "15.7", "16.1", "16.3", "16.7", "16.9"],
+        "Inseam length": ["32.1", "32.1", "32.1", "32.1", "32.1", "32.1", "32.1", "32.1", "32.1", "32.1"]
+      },
+      "inseam_34_pants_measurements": {
+        "sizes": ["30 S", "32 M", "34 M/L", "36 L", "38 XL", "40 XXL", "42 3XL"],
+        "Waist width": ["15.7", "16.5", "17.3", "18.1", "18.9", "19.7", "20.5"],
+        "Hip width": ["19.9", "20.7", "21.7", "22.6", "23.6", "24.6", "25.6"],
+        "Thigh width": ["10.6", "11.0", "11.2", "11.6", "12.0", "12.4", "12.8"],
+        "Knee width": ["8.3", "8.5", "8.7", "8.9", "9.3", "9.4", "9.6"],
+        "Leg opening width": ["7.3", "7.5", "7.7", "7.9", "8.1", "8.3", "8.5"],
+        "Front rise": ["9.1", "9.1", "9.3", "9.3", "9.4", "9.6", "9.6"],
+        "Back rise": ["14.8", "15.0", "15.4", "15.7", "15.9", "16.3", "16.5"],
+        "Inseam length": ["34.1", "34.1", "34.1", "34.1", "34.1", "34.1", "34.1"]
+      }
+    },
+    "general_sizing_details": {
+      "model_details": "Model is 6' and 174 lbs wearing size 38R jacket and 30/30 pants.",
+      "optimized_height_range": "Sizes are optimized for most people from 5'6\" to 6'4\".",
+      "sizing_recommendation": "Recommend using the 'What's my size?' button (not directly linked but mentioned as a feature on the page).",
+      "alteration_policy": "Altering the xSuit 5.0 (apart from hemming the pants) is not recommended due to the fused construction. Altered garments will not be eligible for refunds or exchanges or covered by warranty."
+    }
+  },
+  "relevant_links": [
+    {
+      "text": "Fit Guide",
+      "url": "/pages/fit-guide"
+    },
+    {
+      "text": "Perfect Fit Guide",
+      "url": "https://xsuit.com/pages/fit-guide"
+    },
+    {
+      "text": "Check Your Fit",
+      "url": "/pages/check-your-fit"
+    }
+  ],
+  "file_name": "xsuit_5_0_black_size_chart.json"
+}
+```

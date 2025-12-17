@@ -1,0 +1,26 @@
+📄 Extracted from page: Our Technology
+URL: https://xsuit.com/pages/our-technology
+
+Extracted content:
+```json
+{
+  "title": "Our Technology",
+  "url": "https://xsuit.com/pages/our-technology",
+  "summary": "The 'Our Technology' page details xSuit's approach to fabric innovation, specialized coatings, and rigorous product testing. It highlights the use of knit fabrics like Ponte Warp Knit, Pique Knit, and Jersey Knit for comfort, stretch, and structure. Key materials include Rayon for temperature regulation, Spandex for elasticity, and Modal for strength and shrinkage resistance. The page also describes nanotechnology applications for liquid repellency, wrinkle resistance, and moisture-wicking. Extensive testing methods cover aspects like color fastness, shrinkage, repellency, abrasion, tensile strength, pilling, tear strength, breathability, and crease recovery, all aimed at ensuring product durability and performance.",
+  "key_points": [
+    "Focuses on knit fabric innovations for comfort, stretch, softness, and structure.",
+    "Utilizes proprietary Infinite Stretch fabric made from specialized yarns (Rayon, Spandex, Modal).",
+    "Applies nanotechnology for advanced garment properties: liquid repellency, wrinkle resistance, and moisture-wicking.",
+    "Details a comprehensive testing regimen for durability and performance, including tests for color fastness, shrinkage, repellency, abrasion, tensile strength, pilling, tear strength, breathability, and crease recovery.",
+    "Does not contain information regarding X Suit's sizing technology, AI algorithms, data collection methods, measurement processes, or how their sizing system determines fit."
+  ],
+  "relevant_links": [
+    "/collections/suits",
+    "/collections/xshirt",
+    "/collections/xtee",
+    "/pages/fit-guide",
+    "https://xsuit.customerdesk.io/#rp-customer-widget-home"
+  ],
+  "file_name": "xsuit_our_technology.json"
+}
+```
