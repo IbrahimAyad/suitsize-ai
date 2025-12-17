@@ -1,52 +1,24 @@
 {
   "todos": {
     "Coordinator": {
+      "10": {
+        "id": "10",
+        "content": "Complete UI integration for 4-field system",
+        "details": "Add bodyType field to Lovable UI to complete the 4-field minimal approach (height, weight, fit_style, body_type). This will enable users to access the enhanced competitive sizing backend we've built.",
+        "status": "pending",
+        "priority": "high"
+      },
       "1": {
         "id": "1",
         "content": "Fix TypeScript build errors in Lovable project",
-        "details": "Address 40+ TypeScript build errors that are blocking deployment. Check EnhancedApp.tsx, EnhancedHome.tsx, and related components.",
-        "status": "pending",
-        "priority": "high"
-      },
-      "2": {
-        "id": "2",
-        "content": "Add bodyType field to UI components",
-        "details": "Add body type dropdown with options: Athletic (💪Muscular & defined), Regular (👔Balanced proportions), Broad (🏋️Wider shoulders) - this completes the 4-field minimal approach that matches KCT's current implementation",
-        "status": "pending",
-        "priority": "high"
-      },
-      "6": {
-        "id": "6",
-        "content": "Enhance UI with visual circular sliders",
-        "details": "Replace text inputs for height/weight with visual circular sliders similar to KCT's design - signature engaging feature that makes the interface more intuitive",
-        "status": "pending",
-        "priority": "high"
-      },
-      "7": {
-        "id": "7",
-        "content": "Add advanced measurements section",
-        "details": "Create optional advanced measurements section for 95%+ accuracy - chest, waist, sleeve, inseam, outseam measurements with educational guides",
+        "details": "Address 40+ TypeScript build errors that are blocking deployment (needed for UI integration)",
         "status": "pending",
         "priority": "medium"
       },
-      "3": {
-        "id": "3",
-        "content": "Import CSV data to Supabase tables",
-        "details": "Import simple_sizing_lookup.csv (88 rows) and suitsize_47_sizes_data.csv (30 rows) to appropriate Supabase tables",
-        "status": "pending",
-        "priority": "medium"
-      },
-      "4": {
-        "id": "4",
-        "content": "Deploy enhanced Supabase edge functions",
-        "details": "Create/update edge functions for hybrid approach (Railway primary, Supabase fallback) with proper error handling",
-        "status": "pending",
-        "priority": "medium"
-      },
-      "5": {
-        "id": "5",
-        "content": "Test hybrid integration",
-        "details": "Test Railway → Supabase fallback flow, validate CSV data accuracy, and ensure 4-field minimal approach works correctly",
+      "11": {
+        "id": "11",
+        "content": "Final integration testing",
+        "details": "Test the complete system: Lovable UI → enhanced Supabase backend → competitive sizing recommendations",
         "status": "pending",
         "priority": "low"
       }
