@@ -3,31 +3,38 @@
     "Coordinator": {
       "1": {
         "id": "1",
-        "content": "Wedding Integration - Core Algorithm Development",
-        "details": "1. Design wedding party sizing architecture\n2. Implement role-based sizing logic (groom/groomsmen/fathers)\n3. Create group consistency scoring algorithm\n4. Build wedding-specific size recommendations\n5. Test wedding sizing accuracy",
-        "status": "in_progress",
+        "content": "Fix TypeScript build errors in Lovable project",
+        "details": "Address 40+ TypeScript build errors that are blocking deployment. Check EnhancedApp.tsx, EnhancedHome.tsx, and related components.",
+        "status": "pending",
         "priority": "high"
       },
       "2": {
         "id": "2",
-        "content": "Wedding Integration - Group Management System",
-        "details": "1. Design group coordination algorithms\n2. Implement bulk order processing\n3. Create group consistency validation\n4. Build wedding timeline integration\n5. Test group sizing scenarios",
+        "content": "Add bodyType field to UI components",
+        "details": "Update CompactSizeGuide.tsx to include body type dropdown (regular, athletic, slim, heavy) instead of hardcoding to 'regular'",
         "status": "pending",
         "priority": "high"
       },
       "3": {
         "id": "3",
-        "content": "Wedding Integration - KCTmenswear Integration",
-        "details": "1. Create KCTmenswear API integration layer\n2. Implement wedding party data sync\n3. Build order management for groups\n4. Create wedding-specific UI components\n5. Deploy and test KCT integration",
+        "content": "Import CSV data to Supabase tables",
+        "details": "Import simple_sizing_lookup.csv (88 rows) and suitsize_47_sizes_data.csv (30 rows) to appropriate Supabase tables",
         "status": "pending",
-        "priority": "high"
+        "priority": "medium"
       },
       "4": {
         "id": "4",
-        "content": "Wedding Integration - Testing & Deployment",
-        "details": "1. Comprehensive wedding party testing\n2. Group consistency validation\n3. KCTmenswear integration testing\n4. Performance testing for bulk orders\n5. Production deployment",
+        "content": "Deploy enhanced Supabase edge functions",
+        "details": "Create/update edge functions for hybrid approach (Railway primary, Supabase fallback) with proper error handling",
         "status": "pending",
-        "priority": "high"
+        "priority": "medium"
+      },
+      "5": {
+        "id": "5",
+        "content": "Test hybrid integration",
+        "details": "Test Railway → Supabase fallback flow, validate CSV data accuracy, and ensure 4-field minimal approach works correctly",
+        "status": "pending",
+        "priority": "low"
       }
     }
   }
