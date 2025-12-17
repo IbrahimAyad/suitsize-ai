@@ -1,0 +1,44 @@
+{
+  "long_suits_data": {
+    "sizes_covered": "38L-54L",
+    "sleeve_range": "35-36 inches",
+    "height_range": "6'0\"-6'6\"",
+    "weight_range": "150-310 lbs",
+    "key_finding": "Sleeve lengths consistently 35-36 inches across all sizes"
+  },
+  "anthropometric_insights": {
+    "stature_75th_percentile": "73.79 inches",
+    "key_proportions": {
+      "shoulder_elbow_75th": "15.00 inches",
+      "shoulder_waist_75th": "15.76 inches",
+      "sleeve_inseam_75th": "24.33 inches"
+    },
+    "implications": "Tall men require proportional adjustments in sleeve and torso lengths"
+  },
+  "mathematical_models": {
+    "approach": "Linear regression with height/weight inputs",
+    "accuracy_levels": {
+      "height_weight_only": "52%",
+      "with_measurements": "90%",
+      "with_frame_data": "95%+"
+    },
+    "key_equation": "Chest = 0.5 \u00d7 Weight + 0.3 \u00d7 Height - 35 inches"
+  },
+  "body_type_adjustments": {
+    "slim": "Shoulder -0.5\", Chest -1.0\", Waist -1.5\", Drop 7\"",
+    "regular": "Standard measurements, Drop 6\"",
+    "broad": "Shoulder +0.5\", Chest +1.0\", Waist +1.5\", Drop 5\"",
+    "athletic": "Shoulder +1.0\", Chest +1.5\", Waist -0.5\", Drop 4\""
+  },
+  "implementation_recommendations": {
+    "primary_factors": [
+      "Height",
+      "Weight",
+      "Frame Size",
+      "Body Type"
+    ],
+    "confidence_scoring": "Medium-High with body measurements",
+    "alteration_likelihood": "15-25% for Long suits",
+    "brand_variation": "Significant - requires calibration"
+  }
+}

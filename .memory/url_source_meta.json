@@ -1,5 +1,5 @@
 {
-  "_source_id": 107,
+  "_source_id": 150,
   "sources": {
     "Menswear Brands Sizing Technology Competitive Analysis": {
       "https://www.indochino.com/how-it-works": {
@@ -739,6 +739,301 @@
         "url": "https://www.hockerty.com/en-us/blog/suit-size-chart",
         "title": "Men's Suit Size Chart",
         "info": "International sizing standards and anthropometric correlations. EU size 52 corresponds to US 42, chest 42-43\", waist 36-37\", height 5'10\"-6'0\", weight 180-195 lbs. EU size 54 corresponds to US 44, chest 44-45\", waist 38-39\", height 6'0\"-6'1\", weight 190-205 lbs."
+      }
+    },
+    "Long Suits 38L, 40L, 42L Research": {
+      "https://d3gqasl9vmjfd8.cloudfront.net/b71054dc-4c26-4afc-bbb1-6c4681318852.pdf": {
+        "id": 108,
+        "publisher": "Cloudfront/Industry Standard",
+        "url": "https://d3gqasl9vmjfd8.cloudfront.net/b71054dc-4c26-4afc-bbb1-6c4681318852.pdf",
+        "title": "Men's Suits Size Chart - Industry Standard",
+        "info": "Comprehensive sizing data for Long suits 38L, 40L, 42L including chest (36-38, 39-41, 41-43), waist (31-32, 34-35, 36-37), shoulder (18.75, 19.5, 20), sleeve length (33, 34, 34), jacket length (30.5, 31, 31), height ranges (5'8-5'11, 5'10-6'1, 5'10-6'1), and weight ranges (145-155, 170-180, 190-200 lbs)"
+      },
+      "https://suitsoutlets.com/pages/size-chart": {
+        "id": 109,
+        "publisher": "Suits Outlets",
+        "url": "https://suitsoutlets.com/pages/size-chart",
+        "title": "Big & Tall Suit Size Chart",
+        "info": "Detailed anthropometric data for Long suits including chest (36-38, 38-40, 40-42), over arm (44-46, 46-48, 48-50), waist (29-32, 30-34, 32-36), hip (35-38, 36-40, 38-42), neck (14.5-15.5, 15-16.5, 15.5-16.5), sleeve (35-36, 35-36, 35-36), height (6'-6'4'), weight ranges (150-160, 160-170, 180-190 lbs)"
+      },
+      "https://www.oliverwicks.com/article/suit-size": {
+        "id": 110,
+        "publisher": "Oliver Wicks",
+        "url": "https://www.oliverwicks.com/article/suit-size",
+        "title": "Professional Suit Sizing Guide",
+        "info": "Comprehensive guide on Long suits for heights 6'0\" and taller, 6-drop system explanation (jacket size - 6 = pants waist), professional tailoring standards for slim-cut suits including shoulder alignment, sleeve length (¼-½ inch shirt cuff visibility), jacket length (cover seat), and measurement protocols"
+      },
+      "https://www.suits99.com/blogs/news/suit-size-based-on-height-and-weight": {
+        "id": 150,
+        "publisher": "Suits99",
+        "url": "https://www.suits99.com/blogs/news/suit-size-based-on-height-and-weight",
+        "title": "Suit Size Based on Height and Weight",
+        "info": "Height/weight correlation data for tall men: 40L for 6'1\"-6'2\" (170-190 lbs), 42L for 6'1\"-6'2\" (170-190 lbs) and 6'2\"-6'4\" (190-220 lbs), provides specific anthropometric correlations for Long suit sizing"
+      },
+      "https://kingandallen.co.uk/journal/tips-advice/11-tailoring-tips-for-the-tall-slim-man/": {
+        "id": 112,
+        "publisher": "King & Allen",
+        "url": "https://kingandallen.co.uk/journal/tips-advice/11-tailoring-tips-for-the-tall-slim-man/",
+        "title": "11 Tailoring Tips for the Tall, Slim Man",
+        "info": "Professional tailoring standards for tall slim men: 10-14oz fabric weight (flannel, tweed, heavy worsted), double-breasted jackets for extra cloth, two-button jackets positioned correctly, slim trousers without pleats, turn-ups for leg length illusion, tailored casual jackets for shape enhancement"
+      },
+      "https://www.hugoboss.com/us/all-brands/men/features/inspiration/how-to-find-the-right-suit-size/": {
+        "id": 149,
+        "publisher": "Hugo Boss",
+        "url": "https://www.hugoboss.com/us/all-brands/men/features/inspiration/how-to-find-the-right-suit-size/",
+        "title": "How to Find the Right Suit Size",
+        "info": "Hugo Boss sizing for Long suits: Slim fit (36L-50L) for men 175-200cm (5.7-6.5ft) with narrow waist, Normal fit (34R-52R) for 166-191cm (5.4-6.2ft), detailed measurement protocols including chest, sleeve length from middle neck to shoulder to elbow to wrist, jacket length covering bottom with finger reach test"
+      },
+      "https://ergocenter.ncsu.edu/wp-content/uploads/sites/18/2020/07/Anthropometry-Summary-Table-2020.pdf": {
+        "id": 147,
+        "publisher": "NCSU Ergonomics Center",
+        "url": "https://ergocenter.ncsu.edu/wp-content/uploads/sites/18/2020/07/Anthropometry-Summary-Table-2020.pdf",
+        "title": "Anthropometric Summary Data Tables 2020",
+        "info": "Comprehensive anthropometric data for tall men (95th percentile): Stature 73.62\", shoulder height 60.87\", upper arm length 15.70\", sitting height 38.46\", hip breadth 15.24\", shoulder breadth (biacromial) 17.60\", detailed torso and arm measurements for men approximately 6'1.6\" height"
+      },
+      "https://multisite.eos.ncsu.edu/www-ergocenter-ncsu-edu/wp-content/uploads/sites/18/2016/06/Anthropometric-Detailed-Data-Tables.pdf": {
+        "id": 148,
+        "publisher": "NCSU Ergonomics Center",
+        "url": "https://multisite.eos.ncsu.edu/www-ergocenter-ncsu-edu/wp-content/uploads/sites/18/2016/06/Anthropometric-Detailed-Data-Tables.pdf",
+        "title": "Anthropometric Detailed Data Tables",
+        "info": "Detailed anthropometric measurements for U.S. Adult Males (N=1774) with percentile data: Stature mean 69.20\" (max 79.21\"), upper arm length mean 14.80\" (95th percentile 16.25\"), shoulder-elbow length mean 14.53\" (95th percentile 15.70\"), torso measurements including sitting height, shoulder height, and proportions relevant to tall men"
+      }
+    },
+    "Long Suits (44L, 46L, 48L) with 6-Drop System Research": {
+      "https://d3gqasl9vmjfd8.cloudfront.net/b71054dc-4c26-4afc-bbb1-6c4681318852.pdf": {
+        "id": 114,
+        "publisher": "Cloudfront.net",
+        "url": "https://d3gqasl9vmjfd8.cloudfront.net/b71054dc-4c26-4afc-bbb1-6c4681318852.pdf",
+        "title": "Men's Suits Size Chart",
+        "info": "Comprehensive Long suit measurements including chest, overarm, shoulder, waist, neck, sleeve, length, height and weight ranges for sizes 44L-50L. Key data: 44L chest 44-46\", overarm 52-54\", sleeve 35\", height 6'-6'3\", weight 210-220lbs."
+      },
+      "https://www.illanificio.com/pages/mens-suit-size-guide-drop-6": {
+        "id": 115,
+        "publisher": "Il Lanificio",
+        "url": "https://www.illanificio.com/pages/mens-suit-size-guide-drop-6",
+        "title": "Size Guide - Men's Drop 6 Suits",
+        "info": "Detailed size guide for drop 6 suits with measurements in cm including shoulders, chest, waist, jacket length, pant waist, hips, and inseam for sizes 44-60. Jacket length for size 44 is 68cm, size 46 is 70cm, size 48 is 72cm."
+      },
+      "https://suitsoutlets.com/pages/size-chart": {
+        "id": 116,
+        "publisher": "Suits Outlets",
+        "url": "https://suitsoutlets.com/pages/size-chart",
+        "title": "Big & Tall Suit Size Chart",
+        "info": "Big & Tall suit size chart with Long sizes including detailed measurements for 44L, 46L, 48L with chest ranges, overarm, waist, hip, neck, sleeve lengths, and height/weight correlations."
+      },
+      "https://www.tom-murphy.ie/suit-hire/sizing-guide/": {
+        "id": 117,
+        "publisher": "Tom Murphy Formalwear",
+        "url": "https://www.tom-murphy.ie/suit-hire/sizing-guide/",
+        "title": "Suit Sizing Guide",
+        "info": "Professional sizing guide for Long suits including specific details for 44L size with body shape correlations (broad shoulders, very tall), height range 6'1\"-6'4\", and measurement methodologies."
+      },
+      "https://www.oliverwicks.com/article/suit-size": {
+        "id": 118,
+        "publisher": "Oliver Wicks",
+        "url": "https://www.oliverwicks.com/article/suit-size",
+        "title": "How to Measure and Understand Men's Suit Sizes Like a Pro",
+        "info": "Comprehensive suit sizing guide including Long suits for tall men (6'0\"+), measurement procedures, 6-drop system explanation, and fit considerations for non-average proportions."
+      },
+      "https://www.menswearhouse.com/shop/big-tall-fit-guide": {
+        "id": 119,
+        "publisher": "Men's Wearhouse",
+        "url": "https://www.menswearhouse.com/shop/big-tall-fit-guide",
+        "title": "Big & Tall Fit Guide - Slim Fit vs Modern Fit",
+        "info": "Big & Tall fit guide with measurement instructions, size ranges up to 70\" Long suits, and specific guidance for large upper body builds with chest/overarm differential considerations."
+      },
+      "https://www.paulfredrick.com/blogs/news/mens-big-and-tall-clothing-guide": {
+        "id": 120,
+        "publisher": "Paul Fredrick",
+        "url": "https://www.paulfredrick.com/blogs/news/mens-big-and-tall-clothing-guide",
+        "title": "Men's Big and Tall Clothing Guide",
+        "info": "Comprehensive big and tall clothing guide including Long suit sizing (44-56L), Extra-Long sizing (44-48XL), and proportions for men 6'1\" and taller."
+      },
+      "https://forthefit.com/pages/tall-men-s-clothing-size-chart": {
+        "id": 121,
+        "publisher": "ForTheFit.com",
+        "url": "https://forthefit.com/pages/tall-men-s-clothing-size-chart",
+        "title": "Tall Men's Clothing Size Chart",
+        "info": "Tall men's clothing size charts and measurement guides including specific information about tall proportions, inseam lengths up to 40\", and fit considerations for tall men."
+      },
+      "https://www.gavinjparker.com/blogs/style-tips-for-tall-slim-men/jacket-length-tall-men": {
+        "id": 122,
+        "publisher": "Gavin J Parker",
+        "url": "https://www.gavinjparker.com/blogs/style-tips-for-tall-slim-men/jacket-length-tall-men",
+        "title": "Mastering Jacket Length for Tall Men",
+        "info": "Professional guidance for jacket length proportions for tall men over 6-foot, including the rule of extending to second thumb knuckle and avoiding common fit mistakes."
+      },
+      "https://westwoodhart.com/blogs/westwood-hart/how-suit-jacket-should-fit-proper-menswear-proportions-guide": {
+        "id": 123,
+        "publisher": "Westwood Hart",
+        "url": "https://westwoodhart.com/blogs/westwood-hart/how-suit-jacket-should-fit-proper-menswear-proportions-guide",
+        "title": "How Suit Jacket Should Fit: Proper Menswear Proportions Guide",
+        "info": "Professional tailoring standards for suit jacket fit including proportions, measurements, sleeve length (0.25-0.5 inch shirt cuff exposure), and body type considerations."
+      },
+      "https://multisite.eos.ncsu.edu/www-ergocenter-ncsu-edu/wp-content/uploads/sites/18/2016/06/Anthropometric-Detailed-Data-Tables.pdf": {
+        "id": 124,
+        "publisher": "NCSU Ergonomics Center",
+        "url": "https://multisite.eos.ncsu.edu/www-ergocenter-ncsu-edu/wp-content/uploads/sites/18/2016/06/Anthropometric-Detailed-Data-Tables.pdf",
+        "title": "Anthropometric Detailed Data Tables",
+        "info": "Anthropometric data for males (N=1774) including hip breadth, arm length components, and torso height proxies with percentile distributions relevant to tall body proportions."
+      }
+    },
+    "Long Suits 50L-54L Research": {
+      "https://suitsoutlets.com/pages/size-chart": {
+        "id": 125,
+        "publisher": "Suits Outlets",
+        "url": "https://suitsoutlets.com/pages/size-chart",
+        "title": "Big & Tall Suit Size Chart",
+        "info": "Comprehensive suit sizing data including Big & Tall measurements for sizes 50L, 52L, 54L with chest, waist, sleeve, and height specifications"
+      },
+      "https://www.brooksbrothers.com/sizeguide?cid=men-big-tall-general-v2": {
+        "id": 126,
+        "publisher": "Brooks Brothers",
+        "url": "https://www.brooksbrothers.com/sizeguide?cid=men-big-tall-general-v2",
+        "title": "Men's Big & Tall Sizing Guide",
+        "info": "Tall suit jacket sizing specifications for sizes 50L, 52L, 54L including chest, waist, sleeve length adjustments, and body length specifications"
+      },
+      "https://www.tom-murphy.ie/suit-hire/sizing-guide/": {
+        "id": 127,
+        "publisher": "Tom Murphy's Formal and Menswear",
+        "url": "https://www.tom-murphy.ie/suit-hire/sizing-guide/",
+        "title": "Suit Sizing Guide",
+        "info": "Professional suit sizing guidelines including measurements for Long fits, suit jacket sizing based on height and body shape, and coat measurement methods"
+      },
+      "https://www.suits99.com/blogs/news/suit-size-based-on-height-and-weight": {
+        "id": 128,
+        "publisher": "Suits99",
+        "url": "https://www.suits99.com/blogs/news/suit-size-based-on-height-and-weight",
+        "title": "Suit Size Based on Height and Weight",
+        "info": "Height and weight correlation data for suit sizing, specifically including ranges for tall men 6'0\"-6'4\" with corresponding Long suit sizes 40L-44L"
+      },
+      "https://www.illanificio.com/pages/mens-suit-size-guide-drop-6": {
+        "id": 129,
+        "publisher": "Il Lanificio",
+        "url": "https://www.illanificio.com/pages/mens-suit-size-guide-drop-6",
+        "title": "Men's Drop 6 Suit Size Guide",
+        "info": "Detailed 6-drop system sizing chart with measurements for various jacket sizes, including conversion tables for pant waists"
+      },
+      "https://kingandallen.co.uk/journal/tips-advice/11-tailoring-tips-for-the-tall-slim-man/": {
+        "id": 130,
+        "publisher": "King & Allen",
+        "url": "https://kingandallen.co.uk/journal/tips-advice/11-tailoring-tips-for-the-tall-slim-man/",
+        "title": "11 Tailoring Tips for the Tall, Slim Man",
+        "info": "Professional tailoring advice for tall, slim men including fabric weight recommendations (10-14oz), fit guidelines, and proportion tips"
+      },
+      "https://americantall.com/blogs/we-the-tall/styling-tips-tall-mens-suits": {
+        "id": 131,
+        "publisher": "American Tall",
+        "url": "https://americantall.com/blogs/we-the-tall/styling-tips-tall-mens-suits",
+        "title": "7 Ways to Style Suits for Tall Men",
+        "info": "Comprehensive suit fit principles for tall men including jacket length guidelines (mid-crotch), sleeve length standards, and proportion rules"
+      },
+      "https://www.dxl.com/static/size-charts": {
+        "id": 132,
+        "publisher": "DXL Big & Tall",
+        "url": "https://www.dxl.com/static/size-charts",
+        "title": "DXL Size Charts",
+        "info": "DXL Big & Tall size chart with specific measurements for sizes 50L, 52L, 54L including sleeve length and chest specifications"
+      },
+      "https://chubstr.com/resources/indochino-big-tall-suit-guide/": {
+        "id": 133,
+        "publisher": "Chubstr",
+        "url": "https://chubstr.com/resources/indochino-big-tall-suit-guide/",
+        "title": "The Ultimate Guide to the Perfect Indochino Big & Tall Suit",
+        "info": "Custom suit sizing for big and tall men including measurement processes, size ranges up to US 72, and professional measurement services"
+      },
+      "https://www.oliverwicks.com/article/the-ideal-fit": {
+        "id": 134,
+        "publisher": "Oliver Wicks",
+        "url": "https://www.oliverwicks.com/article/the-ideal-fit",
+        "title": "The Ideal Suit Fit - Understanding Your Measurements",
+        "info": "Comprehensive suit fit standards including jacket length calculations, sleeve length guidelines, collar fit standards, and professional tailoring measurements"
+      },
+      "https://multisite.eos.ncsu.edu/www-ergocenter-ncsu-edu/wp-content/uploads/sites/18/2016/06/Anthropometric-Detailed-Data-Tables.pdf": {
+        "id": 135,
+        "publisher": "NCSU Ergonomics Center",
+        "url": "https://multisite.eos.ncsu.edu/www-ergocenter-ncsu-edu/wp-content/uploads/sites/18/2016/06/Anthropometric-Detailed-Data-Tables.pdf",
+        "title": "Anthropometric Detailed Data Tables",
+        "info": "Anthropometric data for male population including stature measurements, arm measurements, and percentile data relevant for tall men (6'1\"-6'4\")"
+      }
+    },
+    "Long Suits Height/Weight Measurement Mapping": {
+      "https://suitsoutlets.com/pages/size-chart": {
+        "id": 136,
+        "publisher": "Suits Outlets",
+        "url": "https://suitsoutlets.com/pages/size-chart",
+        "title": "Big & Tall Suit Size Chart - Long Suits",
+        "info": "Comprehensive size chart for Long suits (38L-54L) with chest measurements, sleeve lengths (35-36 inches), and height/weight guidance for men 6'-6'4\" tall"
+      },
+      "https://talltogs.com/blogs/news/clothing-size-guide-for-tall-men-us-edition": {
+        "id": 137,
+        "publisher": "TALLTOGS",
+        "url": "https://talltogs.com/blogs/news/clothing-size-guide-for-tall-men-us-edition",
+        "title": "Clothing Size Guide for Tall Men: US Edition",
+        "info": "Guidance on tall men's clothing sizing, including specific requirements for suits with longer sleeves and torso lengths, and brands offering tall sizes"
+      },
+      "https://www.hockerty.com/en-us/blog/male-body-types": {
+        "id": 138,
+        "publisher": "Hockerty",
+        "url": "https://www.hockerty.com/en-us/blog/male-body-types",
+        "title": "Male Body Types: Get to Know Them and Dress for Your Best Look",
+        "info": "Detailed analysis of five male body types (Rectangle, Triangle, Inverted Triangle, Oval, Trapezoid) with specific suit fit recommendations and styling approaches"
+      },
+      "https://www.hstockton.com/blogs/news/h-stocktons-guide-to-finding-the-right-fit-suits-f/": {
+        "id": 139,
+        "publisher": "H. Stockton",
+        "url": "https://www.hstockton.com/blogs/news/h-stocktons-guide-to-finding-the-right-fit-suits-f/",
+        "title": "H. Stockton's Guide to Finding the Right Fit: Suits for Every Body Type",
+        "info": "Comprehensive body type analysis for suits including athletic, slim, broad, tall-lean, and short body types with specific measurement and fit recommendations"
+      },
+      "https://multisite.eos.ncsu.edu/www-ergocenter-ncsu-edu/wp-content/uploads/sites/18/2016/06/Anthropometric-Detailed-Data-Tables.pdf": {
+        "id": 140,
+        "publisher": "NCSU Ergonomics Center",
+        "url": "https://multisite.eos.ncsu.edu/www-ergocenter-ncsu-edu/wp-content/uploads/sites/18/2016/06/Anthropometric-Detailed-Data-Tables.pdf",
+        "title": "Anthropometric Detailed Data Tables",
+        "info": "Detailed anthropometric data for tall men (75th percentile and above) including stature, shoulder-elbow length, shoulder-waist length, and other body proportions relevant for Long suit sizing"
+      },
+      "https://www.nature.com/articles/s41598-025-24584-6": {
+        "id": 141,
+        "publisher": "Nature Scientific Reports",
+        "url": "https://www.nature.com/articles/s41598-025-24584-6",
+        "title": "Evaluating machine learning models for clothing size prediction using anthropometric measurements",
+        "info": "Scientific study on mathematical models for clothing size prediction, showing height/weight only models achieve ~52% accuracy while measurement-based models achieve ~90% accuracy"
+      },
+      "https://tylerburleigh.com/blog/2019/09/27/": {
+        "id": 142,
+        "publisher": "Tyler Burleigh",
+        "url": "https://tylerburleigh.com/blog/2019/09/27/",
+        "title": "Predicting t-shirt size from height and weight",
+        "info": "Mathematical approach to clothing size prediction using linear regression models with height, weight, and BMI as predictors for chest measurements and clothing sizes"
+      },
+      "https://koreascience.kr/article/JAKO202231558155699.page": {
+        "id": 143,
+        "publisher": "Korean Science",
+        "url": "https://koreascience.kr/article/JAKO202231558155699.page",
+        "title": "Study on torso body types of adult males over 178cm tall",
+        "info": "Research on torso body types of tall men (178cm+) identifying three distinct body types: normal with oval shape, cylindrical thick, and broad shoulders with developed chest"
+      },
+      "https://www.hockerty.com/en-us/blog/what-is-big-and-tall-sizing": {
+        "id": 144,
+        "publisher": "Hockerty",
+        "url": "https://www.hockerty.com/en-us/blog/what-is-big-and-tall-sizing",
+        "title": "Big and Tall Sizing Explained: A Guide To Being Confident In Every Situation",
+        "info": "Comprehensive guide to big and tall sizing for men, including specific measurements, body proportions, and styling advice for suits and formal wear"
+      },
+      "https://www.disabled-world.com/calculators-charts/body-frame.php": {
+        "id": 145,
+        "publisher": "Disabled World",
+        "url": "https://www.disabled-world.com/calculators-charts/body-frame.php",
+        "title": "Body Frame Size Charts: Wrist, Elbow, and Finger Measurement",
+        "info": "Methods for measuring body frame size using wrist circumference, elbow breadth, and finger measurements with charts for men of different heights"
+      },
+      "https://www.brooksbrothers.com/sizeguide?cid=men-big-tall-general-v2": {
+        "id": 146,
+        "publisher": "Brooks Brothers",
+        "url": "https://www.brooksbrothers.com/sizeguide?cid=men-big-tall-general-v2",
+        "title": "Men's Big & Tall Sizing Information",
+        "info": "Professional sizing guide for Big & Tall men including Long and Extra Long suits with specific measurements for men 6'1\"-6'4\" and 6'4\"+ with corresponding length and sleeve adjustments"
       }
     }
   }
